@@ -1,0 +1,278 @@
+{
+  "equation_count": 12,
+  "manuscript_id": "PUB-MANUSCRIPT-2026-07-26-007",
+  "record_type": "SELECTIVE_EQUATION_LABEL_LEDGER",
+  "records": [
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_001",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_001.md",
+          "authority_card_sha256": "f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 213,
+          "line_start": 171,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "79cebdd593e45acb69e74026fdaf2abc016288c1e0456273270946c51484eb0a"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "35c919de7495a1053e3b829cff1ead1377d44e20c3d3cfcaeb6ef0684a2d6189",
+      "label": "eq:action-phase",
+      "publication_line_start": 79,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC12_INTRINSIC_THREE_RANK_SPECTRUM.paper_ready.md",
+      "title": "rooted action phase"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_001",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_001.md",
+          "authority_card_sha256": "f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 110,
+          "line_start": 78,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "e7acb3cef21a785b3f2f934627086512f25a2533a34cdf2888d1715454b2ff4b"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "a6ecac40a9c4b59b7de6b3a25ceec8cc85b804da07c8e6ba8bee5a026b4ec878",
+      "label": "eq:rooted-radius",
+      "publication_line_start": 146,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC12_INTRINSIC_THREE_RANK_SPECTRUM.paper_ready.md",
+      "title": "rooted-radius identity"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_001",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_001.md",
+          "authority_card_sha256": "f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 310,
+          "line_start": 264,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_ALIAS",
+          "source_range_sha256": "a4ec312558956d7878a7e8fd90c5b454a6b1ec5111e7c83c1cc3cdb79074ab54"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_ALIAS",
+      "equation_sha256": "df0931b95d4442325ff84c1b6376fb02429fc1f8df6e80f4a7ef37fd7676cac4",
+      "label": "eq:intrinsic-spectrum",
+      "publication_line_start": 215,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC12_INTRINSIC_THREE_RANK_SPECTRUM.paper_ready.md",
+      "title": "intrinsic spectral amplitudes"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_003",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+          "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 252,
+          "line_start": 220,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "ddb02a7d8953e55cb2d8c6692ca8f5f0cb7fb7b93a4c5bc9de123153487565c2"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "53ed83e655946e013c5fc56f2c8aefb94b18e54bdac5f551a3a90ddd3f973c45",
+      "label": "eq:quadratic-support",
+      "publication_line_start": 332,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC12_INTRINSIC_THREE_RANK_SPECTRUM.paper_ready.md",
+      "title": "quadratic-support law"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_003",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+          "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 421,
+          "line_start": 376,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "a068dd1117ddfb4119006221a5e3bb837c90624d735623a2a95b3fc9f3323c3d"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "09b90c4b7803b8ab70659aececeb30d1079f9402b083cf80d58c782080414b30",
+      "label": "eq:206-interval",
+      "publication_line_start": 77,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC13_ROOT_AMALGAMATED_409_READOUT.paper_ready.md",
+      "title": "exact 206 interval"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "BRIDGE_016_007",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/BRIDGE_016_007.md",
+          "authority_card_sha256": "b786d14e597275e66675587a0bf88a24d5e25f7c64e108ef234d269f2955345e",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 341,
+          "line_start": 270,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "27fb31d25f039dc21051f4529e2dceccad04385034e9a76b29596aeedd249832"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "5ccff5f2aa162e960f6c75efe1f7d916190e2c512e604a6c4bca75b54a4fd47f",
+      "label": "eq:pushout-409",
+      "publication_line_start": 165,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC13_ROOT_AMALGAMATED_409_READOUT.paper_ready.md",
+      "title": "409 free pushout"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "BRIDGE_016_007",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/BRIDGE_016_007.md",
+          "authority_card_sha256": "b786d14e597275e66675587a0bf88a24d5e25f7c64e108ef234d269f2955345e",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 415,
+          "line_start": 394,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "646c9c7df41676dc6ed091ec885041b69d995562e83b46db85bc5d94e9d8646c"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "2bf271d0372ff2ea28f5cf4ee63302b6c6ae9f548728e42b1ce152aaaaf35a10",
+      "label": "eq:screen-factor",
+      "publication_line_start": 192,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC13_ROOT_AMALGAMATED_409_READOUT.paper_ready.md",
+      "title": "finite-screen factor"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_005",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_005.md",
+          "authority_card_sha256": "575c50dfe98a99ef2e38c08cf3351e43677ca3c3096d50184a047452ee091fa4",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 97,
+          "line_start": 67,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+          "source_range_sha256": "6333e4d3202e617827d7e14bc66a2edbdd9e384543b5903923acab8f76ed55ca"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_RESTATEMENT",
+      "equation_sha256": "039e51c43f416e1dde959d1758ea9e980430b941bcbd0384cd75f15416145be8",
+      "label": "eq:observer-middle",
+      "publication_line_start": 243,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC13_ROOT_AMALGAMATED_409_READOUT.paper_ready.md",
+      "title": "observer-middle placement"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_009",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_009.md",
+          "authority_card_sha256": "7e9567fa863515f1d99925c54b9ba85fc11b3aaf02a72a3d131d71c4f6350a0f",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 173,
+          "line_start": 14,
+          "relation": "PROMOTED_IDENTITY_PUBLICATION_ALIAS",
+          "source_range_sha256": "923cca389296a8a9b25e100edd997a350d69fc90c7328d4d9f7cac204d4f7eb5"
+        }
+      ],
+      "classification": "PROMOTED_IDENTITY_PUBLICATION_ALIAS",
+      "equation_sha256": "f72ecf3261191c3ac9bbbc9a6951a70d2cb2f622e1ee44fb79ac3f2a2c7f5bf6",
+      "label": "eq:mass-ratio-report",
+      "publication_line_start": 106,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC14_CHARGED_LEPTON_MASS_RATIO_DERIVATION.paper_ready.md",
+      "title": "final mass-ratio report"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_009",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_009.md",
+          "authority_card_sha256": "7e9567fa863515f1d99925c54b9ba85fc11b3aaf02a72a3d131d71c4f6350a0f",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 173,
+          "line_start": 143,
+          "relation": "POST_DERIVATION_EXTERNAL_COMPARISON",
+          "source_range_sha256": "c7f28d2583880629ea4a71f2240fe14ff11680db33a97e380d87cebee9e4ee8d"
+        }
+      ],
+      "classification": "POST_DERIVATION_EXTERNAL_COMPARISON",
+      "equation_sha256": "5dab9644f1a7895fa32bf3ff8c85fa4a1782b3337e5c491ae6cfaa7c90356d2d",
+      "label": "eq:muon-post-exposure",
+      "publication_line_start": 262,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC14_CHARGED_LEPTON_MASS_RATIO_DERIVATION.paper_ready.md",
+      "title": "post-exposure CODATA muon consistency comparison"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_001",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_001.md",
+          "authority_card_sha256": "f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 110,
+          "line_start": 78,
+          "relation": "EXACT_MANUSCRIPT_COMPOSITE",
+          "source_range_sha256": "e7acb3cef21a785b3f2f934627086512f25a2533a34cdf2888d1715454b2ff4b"
+        },
+        {
+          "authority_card_id": "THM_016_001",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_001.md",
+          "authority_card_sha256": "f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 310,
+          "line_start": 264,
+          "relation": "EXACT_MANUSCRIPT_COMPOSITE",
+          "source_range_sha256": "a4ec312558956d7878a7e8fd90c5b454a6b1ec5111e7c83c1cc3cdb79074ab54"
+        },
+        {
+          "authority_card_id": "THM_016_003",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+          "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 252,
+          "line_start": 220,
+          "relation": "EXACT_MANUSCRIPT_COMPOSITE",
+          "source_range_sha256": "ddb02a7d8953e55cb2d8c6692ca8f5f0cb7fb7b93a4c5bc9de123153487565c2"
+        }
+      ],
+      "classification": "EXACT_MANUSCRIPT_COMPOSITE",
+      "equation_sha256": "5cbc634f9c143228fad1a837a0c6180333026bb387339c13318f88629b56bbfc",
+      "label": "eq:koide-unscreened",
+      "publication_line_start": 71,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC15_INDEPENDENT_KOIDE_VALIDATION.paper_ready.md",
+      "title": "exact unscreened Koide composite"
+    },
+    {
+      "authority_locators": [
+        {
+          "authority_card_id": "THM_016_003",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+          "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 421,
+          "line_start": 376,
+          "relation": "POST_DERIVATION_EXACT_COMPOSITE",
+          "source_range_sha256": "a068dd1117ddfb4119006221a5e3bb837c90624d735623a2a95b3fc9f3323c3d"
+        },
+        {
+          "authority_card_id": "BRIDGE_016_007",
+          "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/BRIDGE_016_007.md",
+          "authority_card_sha256": "b786d14e597275e66675587a0bf88a24d5e25f7c64e108ef234d269f2955345e",
+          "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+          "line_end": 469,
+          "line_start": 394,
+          "relation": "POST_DERIVATION_EXACT_COMPOSITE",
+          "source_range_sha256": "c48b3d4b0ec8df86ce0f8d70155677e9ad0628ed02297760832fce08d9449da6"
+        }
+      ],
+      "classification": "POST_DERIVATION_EXACT_COMPOSITE",
+      "equation_sha256": "199e195b04d5f9704998c04432c8e14972d6bc97ed9c7f6daeef8fd5ba73c253",
+      "label": "eq:koide-screened",
+      "publication_line_start": 95,
+      "publication_path": "publication/manuscript/2026-07-26-journal-ready-successor/sections/SEC15_INDEPENDENT_KOIDE_VALIDATION.paper_ready.md",
+      "title": "screened Koide quotient"
+    }
+  ],
+  "scientific_authority_effect": "NONE"
+}

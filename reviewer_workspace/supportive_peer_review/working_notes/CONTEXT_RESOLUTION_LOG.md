@@ -26,3 +26,25 @@ Every candidate concern raised during the review, with its final classification 
 | CI-20 | Abstract omissions (problem statement; outcome statement) | abstract | 1–6 | PERSUASIVENESS_RISK | 2–3 | Covered within ISSUE-002's structural repair set + ABSTRACT_REVIEW patch; not separately recorded | see ISSUE-002 |
 
 **No candidate reached Level 5 (significant scientific concern).** No direct inconsistency, visible non-sequitur, type break, circular definition, empirical leak into a prediction, dimensional fault, or manuscript↔card conflict survived the protocol. Reopened items: none.
+
+## Round 2 outcomes (revision re-evaluation, 2026-07-26)
+
+| ID | R2 outcome |
+|---|---|
+| CI-1/ISSUE-003 | **RESOLVED** (rooted-radius subsection; Π_sym; θ_o unification; σ licensing) |
+| CI-2 | unchanged (still recommended, Level 2) |
+| CI-4 | **RESOLVED** (Π_sym) |
+| CI-5/ISSUE-001 | **substantially resolved** (§13.5 betweenness argument + figure); residuals R2-a…d at Level 2 |
+| CI-6/ISSUE-004 | **RESOLVED** (bold definition in introduction; §13.5 operative statement) — R2-c wording alignment pending |
+| CI-7/ISSUE-005 | **mostly resolved** (S02/T₃/P0/lens-calibration/checklist removed; §8 rewritten); residual: "promoted" ×7, "closure office", "carrier assignments", §4 theorem names |
+| CI-8/ISSUE-006 | **not addressed** (recommendation stands) |
+| CI-9/ISSUE-007 | **muon comparison resolved exemplarily** (0.0069683σ, propagated uncertainties); **tau comparison still absent** |
+| CI-10/ISSUE-008 | **RESOLVED** (eq:koide-unscreened; exact saturation + screened fingerprint) |
+| CI-11/ISSUE-002 | **largely resolved** (introduction, figures, author block, declarations, key-equation labels); **references still 3 items — largest residual desk risk** |
+| CI-12 | **RESOLVED** (x := θ_o) |
+| CI-13/ISSUE-009 | **addressed by scope decision** (authority archive declared non-journal-facing; clean supplement projections shipped) |
+| CI-14 | still open pending tau comparison (fold into that repair) |
+| CI-15 | **RESOLVED** (§6 licensing sentence) |
+| New R2-a…d | ancestry-chain grounding; tied-pair restriction clause; introduction/figure wording tension; the 4m = 2/π aside — all Level 2, recorded in REEVALUATION_ROUND_2_REPORT.md |
+
+**Round 2 verdict: READY_AFTER_MINOR_REVISION.**

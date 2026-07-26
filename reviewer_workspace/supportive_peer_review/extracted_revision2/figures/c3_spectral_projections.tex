@@ -1,0 +1,73 @@
+% ALT TEXT: One selected coefficient point lies on the circle u squared plus v squared equals one half at the exact angle theta sub o equals two ninths radians. Three axes separated by two pi over three are generated from the C3 step. Dashed perpendiculars run from the one point to its three orthogonal projection feet. The resulting scalar projections produce the three cyclic amplitudes; they are not three independent points or triangle sides.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  scale=1.02,
+  every node/.style={font=\small},
+  heading/.style={-{Latex[length=2mm]}, thick, blue!65!black},
+  projection/.style={dashed, gray!75, thick}
+]
+\coordinate (O) at (0,0);
+\pgfmathsetmacro{\thetaDeg}{(2/9)*180/pi}
+\pgfmathsetmacro{\stepDeg}{360/3}
+\def\radius{1.75}
+\draw[thick] (O) circle (\radius);
+\draw[->] (-2.15,0)--(2.25,0) node[right] {\(u\)};
+\draw[->] (0,-2.15)--(0,2.25) node[above] {\(v\)};
+\coordinate (P) at ({\radius*cos(\thetaDeg)},{\radius*sin(\thetaDeg)});
+\fill[red!70!black] (P) circle (2pt);
+\draw[thick, red!70!black] (O)--(P);
+\node[above right=1mm of P, align=left]
+  {one point \((u,v)\)\\
+   \(u^2+v^2=\frac12\)\\
+   \(\arg(u+iv)=\theta_o=\frac29\ {\rm rad}\)};
+\foreach \idx in {0,1,2}{
+  \pgfmathsetmacro{\headingAngle}{-\idx*\stepDeg}
+  \pgfmathsetmacro{\projectionLength}
+    {\radius*cos(\thetaDeg-\headingAngle)}
+  \coordinate (F\idx) at
+    ({\projectionLength*cos(\headingAngle)},
+     {\projectionLength*sin(\headingAngle)});
+  \draw[heading]
+    ({-2.15*cos(\headingAngle)},{-2.15*sin(\headingAngle)})
+    --({2.25*cos(\headingAngle)},{2.25*sin(\headingAngle)})
+    node[pos=1.08] {\(e_{\idx}\)};
+  \draw[projection] (P)--(F\idx)
+    node[midway,fill=white,inner sep=1pt,font=\scriptsize] {\(\perp\)};
+  \fill[blue!65!black] (F\idx) circle (1.5pt);
+}
+\draw[->,gray] (1.05,0) arc[start angle=0,end angle=-120,radius=1.05];
+\node[gray] at (.52,-1.15) {\(\frac{2\pi}{3}\)};
+\draw[->,gray] (-.52,-.91) arc[start angle=-120,end angle=-240,radius=1.05];
+\node[gray] at (-1.28,.05) {\(\frac{2\pi}{3}\)};
+\node[draw,rounded corners,align=left,anchor=west] at (3.05,.92)
+  {\(\displaystyle
+    p=\frac1{\sqrt2}(\cos\theta_o,\sin\theta_o)\)\\[3pt]
+   \(\displaystyle
+    e_k=\left(\cos\frac{-2\pi k}{3},
+              \sin\frac{-2\pi k}{3}\right)\)\\[3pt]
+   \(\displaystyle
+    p\!\cdot\!e_k
+    =\frac1{\sqrt2}\cos\left(
+      \theta_o+\frac{2\pi k}{3}\right)\)};
+\node[draw,rounded corners,align=center,anchor=west] at (3.05,-.62)
+  {\(\displaystyle
+    \lambda_k=1+\sqrt2\cos\!\left(
+      \theta_o+\frac{2\pi k}{3}\right)\)\\[3pt]
+   \(\displaystyle\theta_o=\frac29\)};
+\node[align=left,anchor=west,font=\scriptsize] at (3.05,-1.42)
+  {one coefficient point;\\
+   three orthogonal scalar projections;\\
+   not three points or triangle sides;\\
+   presentation changes permute readings\\
+   but preserve the unordered spectrum.};
+\end{tikzpicture}
+\caption{Three \(C_3\) scalar projections of one selected coefficient point.
+The point angle is calculated directly from \(\theta_o=2/9\) radians.  The
+three axes are generated at \(2\pi/3\) separation, and each dashed segment is
+the perpendicular from the same point to its corresponding projection axis.
+These are three cyclic scalar readings, not three independent coefficient
+points and not a spatial triangle.  A presentation change may permute the
+ordered readings but preserves the unordered spectrum.}
+\label{fig:c3-spectral-projections}
+\end{figure}

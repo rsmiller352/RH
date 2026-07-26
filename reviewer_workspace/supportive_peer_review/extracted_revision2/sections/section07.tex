@@ -1,0 +1,157 @@
+\Needspace{7\baselineskip}
+\section{Closure and Junction Contracts}
+\label{sec:07}
+Section 6 supplied the retained internal aperture layer: histories, internal action, the resolution unit, the action gap, the completed-crossing count, and the oriented relative-phase record. It ended at a seam. The gap has a discrete side, carried as a side or facing of a completed posting, while its generic phase reading keeps the non-arithmetic orientation tag separate from the phase magnitude.
+
+Section 7 closes that seam at the internal level. The task is not yet physical time, physical energy, a calibrated observer report, or a prediction. The task is narrower: say how completed unit-accounts are counted, how completed closures are paired with those counts, how service cost is typed, and when the closure account is silent.
+
+\Needspace{5\baselineskip}
+\subsection{The Internal Completion Rate}
+The runtime account already has a completed-unit counter:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+N_{\mathrm{tick}}(x)=\lfloor x\Omega\rfloor .
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:INTERNAL_COMPLETION_RATE
+\Needspace{12\baselineskip}
+The name must be read with the Section 5 discipline intact. This is not the number of base ticks. It is the number of completed unit-account postings by cycle \(x\), each posting being a completed unit \(I=1\). For a window \([x_1,x_2]\) of the discrete update index, with \(x_1<x_2\), the internal completion-rate object is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+r_{\mathrm{int}}(x_1,x_2)
+=
+\frac{N_{\mathrm{tick}}(x_2)\ominus N_{\mathrm{tick}}(x_1)}
+{x_2\ominus x_1}.
+$
+\end{adjustbox}
+\end{equation*}
+The numerator is the completed-count increment in the window. It is not signed subtraction. It is the positive count of completed postings when completed postings are present, and the open-account predicate when no completed posting is present. The denominator is the positive cycle count of the window. Thus \(r_{\mathrm{int}}\) is a discrete completion density per update cycle, not a derivative and not a rate in physical time.
+
+The long-run readout of this object is inherited from the runtime account:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lim_{x\to\infty}\frac{N_{\mathrm{tick}}(x)}{x}=\Omega .
+$
+\end{adjustbox}
+\end{equation*}
+This limit is not re-proved here, and it is not used as a bridge calibration. It says only that the internal completed-unit density has the already established bounded long-run value \(\Omega\). Since each completed unit-account is also one completed \(2\pi\) closure, the same count can be read from the closure side. That still does not identify the internal count density with a physical phase rate.
+
+\Needspace{5\baselineskip}
+\subsection{The Junction Contract}
+Before an identity can be claimed, the section has to separate the obligations. There are four internal obligations and one bridge boundary.
+
+First, each forced completed-unit posting must correspond to the \(2\pi\) closure of that same completion. Second, the tick-side and closure-side counts must agree over the same window. Third, the completed closure must carry one service burden, not two. Fourth, the orientation carried by the gap must be the orientation carried by the posting; it cannot be recovered afterward from a continuous phase reading.
+
+The bridge boundary is different. It concerns physical time, physical energy, calibration, prediction, and the later readout layer. None of those are built by the internal junction. The internal section may prove a count identity and a completion identity. It may not turn those into a physical-time law.
+
+\Needspace{5\baselineskip}
+\subsection{Orientation Before Continuous Readout}
+The posting order is discrete. The internal structure first has oriented closures, then completed postings, and then the count or rate read from those postings. A continuous phase representation may later read that structure, but it is not an input to the posting order.
+
+The orientation label \(\sigma\) therefore has a fixed role. It tells which side or facing of the paired posting is being read. It is not a signed internal quantity, not a negative amount, and not a scalar recovered from cost or phase. Two completions with the same magnitude but opposite facing can have the same continuous phase reading; the phase reading alone therefore cannot recover \(\sigma\).
+
+This is why the bridge-facing phase account is constrained before it is used. Any later continuous representation must consume the discrete postings, counts, and carried orientation. It cannot replace them.
+
+\Needspace{5\baselineskip}
+\subsection{Ticks and Closures}
+The first internal obligation is the tick-closure correspondence. A completed unit-account produces a forced posting; that same completed unit is read as a completed \(2\pi\) closure. The map is one-to-one because it is indexed by the same completed unit. A tick-side completion without a closure, or a closure without the corresponding completion, would break the account.
+
+The second obligation follows by restricting that correspondence to a window. Over \([x_1,x_2]\),
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Delta N_{\mathrm{tick}}(x_1,x_2)
+=
+\Delta I_{\mathrm{closure}}(x_1,x_2).
+$
+\end{adjustbox}
+\end{equation*}
+Dividing both sides by the same positive cycle-window count gives the internal equality
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+r_{\mathrm{int}}(x_1,x_2)=r_{\mathrm{closure}}(x_1,x_2).
+$
+\end{adjustbox}
+\end{equation*}
+The equality is exact at the internal count level. It is not obtained from the long-run value \(\Omega\), not from a physical-time calibration, and not from an external phase-rate law. The count equality comes first; any calibrated bridge reading must come later and preserve that dependency order.
+
+\Needspace{5\baselineskip}
+\subsection{Service Cost}
+The third obligation is service. A completed closure carries one service/completion burden. For a distinction \(\gamma\),
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{cost}[\gamma]\in \mathcal{D}_{+},
+\qquad
+\operatorname{cost}[\gamma]
+=
+\text{one per-unit service burden per completed closure of }\gamma .
+$
+\end{adjustbox}
+\end{equation*}
+The cost is indexed by the completed closure count \(I(\gamma)\) and measured against the internal unit \(u_\Phi\). It types the burden of completion. It is not merely the count itself, and it is not physical energy.
+
+The cost is strictly positive when a completion has occurred. If no completion has occurred, no service has been posted; that is the open-account predicate, not a stored value \(0\). The carried orientation remains separate. The value of the service burden is blind to \(\sigma\), but \(\sigma\) is not erased and not recovered from the service value.
+
+\Needspace{5\baselineskip}
+\subsection{From Narrowing to Identity}
+The forced posting and the \(2\pi\) closure are already tied to the same completed unit. That establishes a narrowing: the completion is not two independently completing processes, and not two independently serviced processes. There is one forced completed unit, one count increment, one service burden, and the orientation is carried through both readings.
+
+That narrowing is not yet the identity. It still permits a weaker rival description: two relations that always co-complete, always share one count, and always share one service. Section 7 has to rule out that rival description without assuming the answer.
+
+The identity proof has two steps.
+
+% LAYOUT_ONLY_GUARD:CLOSURE_STATE_UPDATE_PARAGRAPH
+\Needspace{14\baselineskip}
+First, the completion has two statement positions. On the result side, the residual is resolved into the forced completed-unit output. On the state side, the accumulated completion state is updated. The tick-closure correspondence articulates these two positions: the forced result is carried into the closure-side state update. The result is singular, the state update is singular, and the service burden is singular. Therefore any account that tries to make a second process by adding a second result, a second state update, a second service burden, or a third statement position has no licensed role left to occupy.
+
+Second, the only remaining rival is weaker still. It claims two relations while sharing all roles and registering no second result, no second state update, no second service, no different orientation facing, no different paired record, no different licensed operation, and no later formal consequence. In this framework, that is not a hidden second relation. Existence is admitted only as relational distinguishability. A second admitted token must have an admitted relational difference. If every admitted mark is the same, the supposed second token is duplicate naming of one relation.
+
+Thus the update-side completion and the closure-side completion are one internal completion relation-token read two ways. The theorem proves only this internal, pre-readout identity. It does not prove physical time, physical energy, prediction, or any calibrated bridge claim.
+
+The resulting status is correspondingly narrow. The internal identity is established; the bridge-facing layer remains deferred. Physical time, physical energy, calibration, prediction, and the later observer-system reading remain outside this section.
+
+\Needspace{5\baselineskip}
+\subsection{The G-Operation and Complete Closure}
+The section can now state the closure operation. The symbol \(G\) is used here by role, not by value. It is the system-level bookkeeping operation that reconciles what remains unpaired in the system account. The residual register is consumed here only as a typed category. The rule for its quantitative content is not derived here.
+
+The \(G\)-operation pairs the unpaired records under the balance discipline. Complete system closure, or \(G\)-silence, is the condition in which no unpaired system-level residue remains:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+G\vert_{\mathrm{self\text{-}coupled}}=0.
+$
+\end{adjustbox}
+\end{equation*}
+The displayed \(0\) is an absence marker: nothing is left for \(G\) to book. It is not the value \(I=0\), not a stored zero residual, and not annihilation. The existents persist paired and balanced. Complete closure removes the unpaired residue, not the admitted existents.
+
+This definition also fences the section. It gives an operation and a closure condition. It assigns no value to \(G\), derives no dynamics of reaching closure, defines no \(\Omega\), and makes no physical-gravity claim.
+
+\Needspace{5\baselineskip}
+\subsection{Driven Dynamics Do Not Reach Complete Closure}
+The final result is a no-go theorem for the driven regime. When a residual register is present, it is a strictly positive typed holding. When a discharge empties the register, the register leaves the book; it is not cleared to a stored zero value. Under driven cycling, a strictly positive feed is produced each cycle. A completion can discharge the current register, but the next cycle re-populates it.
+
+Therefore register-absence is at most transient under continued driving. Complete system closure requires sustained register-absence, so driven dynamics do not reach complete closure. Complete closure requires forcing-cessation: the strictly positive feed must cease. It is not achieved by reducing a residual to \(S_{\mathrm{res}}=0\), since that zero state is not a licensed internal object.
+
+The proof is not a geometry-value proof. The values \(D\), \(\Omega\), and \(\omega_{\mathrm{cell}}\) belong to the transitive runtime foundation, but the no-go uses only the strict-positivity type and non-erasure. The driver is persistence of admitted existence, not a pressure variable and not a physical force. The theorem also does not supply the positive mechanism by which forcing ceases. It proves the no-go and the necessary condition only.
+
+\Needspace{5\baselineskip}
+\subsection{Boundary of the Section}
+Section 7 establishes the internal closure and junction account. It defines the internal completion-rate object, records the junction obligations, fixes orientation before continuous readout, proves the tick-closure and internal rate equalities, types service cost, proves the internal update-closure identity, defines the \(G\)-operation and complete-closure condition, and proves that driven dynamics do not reach complete closure without forcing-cessation.
+
+It does not build physical time, physical energy, calibrated mass, gravity, empirical prediction, or observer-system measurement. It also does not assign a value to \(G\), derive the residual-register rule, or derive the positive dynamics by which forcing ceases.
+
+This section can lose in specific ways. Exhibit a stored zero rate, zero service, or zero residual inside the internal account, and the typing fails. Exhibit a tick-side completion without the corresponding closure, or a closure without the corresponding completed unit, and the tick-closure map fails. Exhibit an internal rate equality that depends on physical-time calibration rather than count equality, and the dependency order fails. Exhibit a service burden that is physical energy rather than pre-physical completion burden, and the cost typing fails. Exhibit a second admitted relational mark that survives the identity proof, and the internal identity fails. Exhibit complete closure by erasing existents or by setting a residual to zero, and the non-erasure discipline fails. Exhibit sustained complete closure under continued strictly positive driving, and the no-go theorem fails.
+

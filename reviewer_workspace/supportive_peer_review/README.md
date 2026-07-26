@@ -46,7 +46,9 @@ If a required source is not present inside this folder, it is reported as unavai
 
 ## Review outcome
 
-**Final verdict: READY_AFTER_TARGETED_REVISION** (`reports/JOURNAL_READINESS_VERDICT.md`).
+**Round 2 (revision re-evaluation, 2026-07-26): READY_AFTER_MINOR_REVISION** — see `reports/REEVALUATION_ROUND_2_REPORT.md`. The revised Overleaf source (`intake/ObserverRootedAsymmetryOverleaf_R2.zip`, extracted to `extracted_revision2/`) resolved both Level 4 blockers and six of the nine recorded issues; remaining items are local edits (reference list, abstract refresh, tau comparison, constitutive sentence, small placement residuals).
+
+**Round 1 verdict: READY_AFTER_TARGETED_REVISION** (`reports/JOURNAL_READINESS_VERDICT.md`).
 Principal report: `reports/SUPPORTIVE_PEER_REVIEW_REPORT.md`. One-page author summary: `reports/EXECUTIVE_AUTHOR_BRIEF.md`. Revision plan: `reports/PRIORITIZED_REVISION_PLAN.md`. Self-containment certification: **SELF-CONTAINED AFTER MINOR REVISION**. No Level 5 scientific concern survived the context-completion protocol.
 
 ## Scope amendments

@@ -1,0 +1,198 @@
+{
+  "dependency_closure_count": 162,
+  "external_repository_dependency": false,
+  "figure_count": 5,
+  "files": [
+    {
+      "bytes": 60977,
+      "path": "DEPENDENCY_CHAIN.dot",
+      "sha256": "8625cf7440a29e709c601d125f79fedb6315a9778bda673fecc1566f2f9aa106"
+    },
+    {
+      "bytes": 252369,
+      "path": "DEPENDENCY_CHAIN.json",
+      "sha256": "ad3d50f99b3f4b8cfc143baebebf9e13baf0aaec5abc3556ada554105eef0c1c"
+    },
+    {
+      "bytes": 71920,
+      "path": "DEPENDENCY_CHAIN.md",
+      "sha256": "27cee3ef4aa584e0462529fa8a2ad642eca5e176489f9288e6913fe0d3fa1ba6"
+    },
+    {
+      "bytes": 14528,
+      "path": "EQUATION_LABEL_LEDGER.json",
+      "sha256": "b504871a93ba79354f8f1addc96b02089b82ac86bb6242506651cdd7964a4fc8"
+    },
+    {
+      "bytes": 3258,
+      "path": "EQUATION_LABEL_LEDGER.md",
+      "sha256": "ab7593e2f3fd93c6ea38295943f27a1e2c99c325a328352f35d98b1c60ce3723"
+    },
+    {
+      "bytes": 6111,
+      "path": "MATHEMATICAL_AUTHORITY_DIGEST.md",
+      "sha256": "b315b8fce1458b6057aa0e68a758f7cf0945f685b6e15581f3350bc94afd30bb"
+    },
+    {
+      "bytes": 6349,
+      "path": "MATHEMATICAL_AUTHORITY_DIGEST.tex",
+      "sha256": "21558d60325929c7fb6ab607fb487236cec713ad35ea0e6db1b821998d1d81b4"
+    },
+    {
+      "bytes": 18893,
+      "path": "NOTATION_AND_TYPE_LEDGER.json",
+      "sha256": "dfffb8af7ba6e46f1b39b6a5c7e0597e6056572bec5dfdce7e0e41f505bcbeac"
+    },
+    {
+      "bytes": 960,
+      "path": "NOTATION_AND_TYPE_LEDGER.md",
+      "sha256": "fa9d072f5198dff18de87a48072c1484365f846b98da41972fc19b7e416fc95c"
+    },
+    {
+      "bytes": 507,
+      "path": "README_OVERLEAF.md",
+      "sha256": "2630408510ee816e128bae9a6e8b8bea796f8e6dd73036e3cf72b38c833e571e"
+    },
+    {
+      "bytes": 1945,
+      "path": "figures/ACCESSIBILITY.md",
+      "sha256": "efc40af2f2e89f0b719845882902b99c9bbaf6a5411d2fe2fd28d233da823325"
+    },
+    {
+      "bytes": 3448,
+      "path": "figures/c3_spectral_projections.tex",
+      "sha256": "1ffbf275f824fdda792141d63d294386b5ecdc20fe4fcedc5a8ee85eb80d755a"
+    },
+    {
+      "bytes": 2549,
+      "path": "figures/derivation_architecture.tex",
+      "sha256": "329008a5600c55eaabe6abc0ba1cf64f8334377c8d8a469d5716722526b1ea7a"
+    },
+    {
+      "bytes": 2671,
+      "path": "figures/fcc_rd_cell_geometry.tex",
+      "sha256": "e1696f9462ad03145b1fb658d5d5ca2209531f9cb2904dbee7217019861dea5c"
+    },
+    {
+      "bytes": 3286,
+      "path": "figures/observer_rooted_betweenness.tex",
+      "sha256": "57bee5036fe84d61338d96b32d51c7524b2ae8f427291290487d909e4a1105e3"
+    },
+    {
+      "bytes": 2123,
+      "path": "figures/two_face_409_amalgamation.tex",
+      "sha256": "2942e7e4e99d260024167c2f212b90c19f97a2b04f6f3c92f9fa10973a7ce547"
+    },
+    {
+      "bytes": 4773,
+      "path": "main.tex",
+      "sha256": "0c4ebdabed44ad8495932c57d9bf25ca7142bc2cda53454dc11323559d921792"
+    },
+    {
+      "bytes": 1080,
+      "path": "references.bib",
+      "sha256": "e5c1f3c2b085c2f3cb16be1ceec074faa0ecc52cd3c154f20bcb7f0cdc6dc6e3"
+    },
+    {
+      "bytes": 4242,
+      "path": "sections/conclusion.tex",
+      "sha256": "23ab20897bf1b49b1eba650d8ec41a919dc32f02591e29cc735d994d1345e55d"
+    },
+    {
+      "bytes": 333,
+      "path": "sections/declarations.tex",
+      "sha256": "d34a968692efe0862c8e3f1a4c64b3193d4857577de28593a9064232a7f85243"
+    },
+    {
+      "bytes": 5232,
+      "path": "sections/introduction.tex",
+      "sha256": "77457de74ea4e70ae74b258f5258f0d80ed1aeb931d6f6a4cfd9bbbd7f6686ca"
+    },
+    {
+      "bytes": 16338,
+      "path": "sections/section01.tex",
+      "sha256": "a0fbaa3d40c5a723cef9a51220a6bb2a4764ea6d9c3d3765f9ba5b9c9629813d"
+    },
+    {
+      "bytes": 23875,
+      "path": "sections/section02.tex",
+      "sha256": "6ff563e0858ca763ccd77e6f9320e77bd8d2b1148178ff01da92914f7df03f32"
+    },
+    {
+      "bytes": 9415,
+      "path": "sections/section03.tex",
+      "sha256": "0c9f84727beb1107185ea6ff342f0f3e1ef0335d87010a8d61dceee360b654bf"
+    },
+    {
+      "bytes": 17346,
+      "path": "sections/section04.tex",
+      "sha256": "d37d3d9cfa2fd3471682fba266559efdc7c25ba07d01850a7081b9e16111aeab"
+    },
+    {
+      "bytes": 15845,
+      "path": "sections/section05.tex",
+      "sha256": "46eb1c643aa2ddd8b65003b23cb0987847296a08b9dea5d285cee2d17b0872e4"
+    },
+    {
+      "bytes": 10232,
+      "path": "sections/section06.tex",
+      "sha256": "7950452a755e65ecb693b170007c53c52223509b83d078c71295a86a2e806bee"
+    },
+    {
+      "bytes": 13797,
+      "path": "sections/section07.tex",
+      "sha256": "3e252a67d8f25d9056d1f76dc0884c8c3c5ab2b4328a2e82fb26dbe30700113c"
+    },
+    {
+      "bytes": 10011,
+      "path": "sections/section08.tex",
+      "sha256": "ad2b648602ef916c124977f94848418e2714f5d5d61523e98a98bb1363f02ecd"
+    },
+    {
+      "bytes": 8215,
+      "path": "sections/section09.tex",
+      "sha256": "df66f581450878d55608875a69d0cd581cbba926eea5c877f3f5a7c11c5eb53d"
+    },
+    {
+      "bytes": 6136,
+      "path": "sections/section10.tex",
+      "sha256": "730649bed70ebfa579526107deda8bf47ee7f946783e87ac986849e06194e6a4"
+    },
+    {
+      "bytes": 5391,
+      "path": "sections/section11.tex",
+      "sha256": "360bcb603511ce46b47791f0a7b3380269e84cbd466d75bd23d3cf998df56344"
+    },
+    {
+      "bytes": 11946,
+      "path": "sections/section12.tex",
+      "sha256": "b3e1e50495b82cf11ae39d2a780301b4ea4e404d14f6e8ec12962881b92770d2"
+    },
+    {
+      "bytes": 10558,
+      "path": "sections/section13.tex",
+      "sha256": "425b42a035d40d7b946ecae39260f509639c8debc6709b3b58e56a7a708163af"
+    },
+    {
+      "bytes": 9291,
+      "path": "sections/section14.tex",
+      "sha256": "689a9a4c7cfa635ccb6bad46f9a4e63731b14a4ade80172251d885a78b68fe9b"
+    },
+    {
+      "bytes": 4953,
+      "path": "sections/section15.tex",
+      "sha256": "83a02de2a9254c90adc16d9fe2ae982e3e09ad9e74874ca668a3d162d89c2748"
+    }
+  ],
+  "latex_engine": "pdfLaTeX",
+  "main_tex": "main.tex",
+  "manuscript_id": "PUB-MANUSCRIPT-2026-07-26-007",
+  "payload_file_count": 36,
+  "payload_tree_sha256": "0f393d553648b7b0f3fa181d5d699f7383c2d7d7657a50e2d681ba0f8813e46d",
+  "record_type": "OVERLEAF_READY_PUBLICATION_BUNDLE",
+  "scientific_authority_effect": "NONE",
+  "selectively_numbered_equation_count": 12,
+  "shell_escape_required": false,
+  "subtitle": "A Closure-First Derivation of Charged-Lepton Mass Ratios with Independent Koide Validation",
+  "title": "Observer-Rooted Asymmetry"
+}

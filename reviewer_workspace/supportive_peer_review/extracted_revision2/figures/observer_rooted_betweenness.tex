@@ -1,0 +1,54 @@
+% ALT TEXT: Four cells are shown inside one dashed relational-system boundary. A is the origin, with arrows A to B, A to C, and B to D; C and D are co-present at the same depth, giving A greater than B greater than the tied pair C equals D. A note says that one system cell carries the separately established observer/reference role but that this theorem does not identify that cell with B. Below, the strict restriction A before B before D maps to minimum before middle before maximum, forcing R of B to equal middle. Another note records 4m equals 2 over pi and warns that ancestry D is not the geometric filled share D.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  node distance=8mm and 16mm,
+  cell/.style={regular polygon,regular polygon sides=6,draw=blue!65!black,
+    fill=blue!5,minimum size=11mm,inner sep=1pt,font=\small},
+  interior/.style={regular polygon,regular polygon sides=6,
+    draw=orange!80!black,fill=orange!16,very thick,
+    minimum size=13mm,inner sep=1pt,font=\small,align=center},
+  rank/.style={draw,rounded corners,minimum width=16mm,inner sep=3pt},
+  arrow/.style={-{Latex[length=2mm]},thick}
+]
+\node[cell] (A) {\(A\)};
+\node[interior, below left=10mm and 15mm of A] (B)
+  {\(B\)\\[-1pt]\scriptsize interior};
+\node[cell, below right=10mm and 15mm of A] (C) {\(C\)};
+\node[cell, below right=10mm and 15mm of B] (D) {\(D\)};
+\draw[arrow] (A)--(B);
+\draw[arrow] (A)--(C);
+\draw[arrow] (B)--(D);
+\draw[densely dashed] (C)--node[below,font=\scriptsize]{co-present}(D);
+\node[draw=blue!45,densely dashed,rounded corners,
+  fit=(A)(B)(C)(D),inner sep=5mm] (system) {};
+\node[font=\scriptsize,fill=white,inner sep=1pt] at (system.north east)
+  {four-cell relational system};
+\node[above=2mm of A] {\(A>B>\{C=D\}\)};
+\node[rank, below=18mm of B] (amin) {\(A\mapsto\min\)};
+\node[rank, right=of amin,draw=orange!80!black,very thick]
+  (bmid) {\(B\mapsto\operatorname{mid}\)};
+\node[rank, right=of bmid] (dmax) {\(D\mapsto\max\)};
+\draw[arrow] (amin)--node[above]{\(\prec\)}(bmid);
+\draw[arrow] (bmid)--node[above]{\(\prec\)}(dmax);
+\node[draw,rounded corners,below=6mm of bmid,inner sep=4pt]
+  {\(\boxed{\mathcal R(B)=\operatorname{mid}}\)};
+\node[align=left,font=\scriptsize,anchor=west] at (5.4,1.72)
+  {One designated system cell carries the separately\\
+   established observer/reference role.  This placement\\
+   theorem does not identify that cell with \(B\).\\[3pt]
+   \(4m=\dfrac2\pi\) at the completed four-cell location.\\
+   Here ancestry \(D\) is a cell label.\\
+   It is not the geometric \(D=\dfrac{\pi}{3\sqrt2}\).};
+\end{tikzpicture}
+\caption{Observer-rooted ancestry and middle placement.  The observer is the
+separately established role of one cell within the relational system, not an
+external eye or frame; this diagram does not assign that role to \(B\).  The
+invariant lineage arrows are \(A\to B\), \(A\to C\), and \(B\to D\), with
+\(C\) and \(D\) co-present.  Betweenness on the restricted chain
+\(A\prec B\prec D\) forces the ancestry-interior element \(B\) to the middle
+rank under the lawful observer readout.  The ancestry label \(D\) and the
+geometric filled-share symbol \(D\) are distinguished by type; the displayed
+four-cell composite does not identify their numerical values.}
+\label{fig:observer-betweenness}
+\end{figure}

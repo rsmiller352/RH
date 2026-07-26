@@ -1,0 +1,370 @@
+\Needspace{7\baselineskip}
+\section{Charged-Lepton Mass Ratios and the Electron Standard}
+\label{sec:14}
+The preceding sections produced a strictly ordered internal support triple and one finite correction on its middle member. This section attaches downstream charged-lepton reporting names and introduces one conventional scale. The mathematics fixes the ratios before the external electron record enters.
+
+% LAYOUT_ONLY_HEADING_GUARD:DOWNSTREAM_REPORTING_ROLES
+\Needspace{10\baselineskip}
+\subsection{Downstream Reporting Roles}
+% LAYOUT_ONLY_GUARD:REPORTING_ROLE_MAP
+\Needspace{10\baselineskip}
+For reporting, define the bijective role map
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\min\longmapsto e,
+\qquad
+\mathrm{mid}\longmapsto\mu,
+\qquad
+\max\longmapsto\tau.
+$
+\end{adjustbox}
+\end{equation*}
+This is a downstream naming convention over already derived ranks. It does not claim that laboratory masses selected the ordering, and it does not make a displayed sector intrinsically electron, muon, or tau.
+
+The screened support triple is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+Q_{\mathrm{scr}}
+=
+(q_e,q_\mu,q_\tau)
+=
+\left(
+q_{\min},
+s_{409}q_{\mathrm{mid}},
+q_{\max}
+\right).
+$
+\end{adjustbox}
+\end{equation*}
+Its two ratios are already fixed:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\frac{q_\mu}{q_e}
+=
+s_{409}
+\left(
+\frac{\lambda_{\mathrm{mid}}}{\lambda_{\min}}
+\right)^2,
+\qquad
+\frac{q_\tau}{q_e}
+=
+\left(
+\frac{\lambda_{\max}}{\lambda_{\min}}
+\right)^2.
+$
+\end{adjustbox}
+\end{equation*}
+No dimensional datum is needed for these results.
+
+\Needspace{5\baselineskip}
+\subsection{One External Comparison Standard}
+The recorded 2022 CODATA electron mass-energy equivalent \cite{CODATA2022} is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+M_e^{\mathrm{std}}c_{\mathrm{SI}}^2
+=
+0.51099895069(16)\ {\rm MeV}.
+$
+\end{adjustbox}
+\end{equation*}
+MeV is an energy unit used to report the mass-energy equivalent. It is not treated as a mass unit or as theory-native structure.
+
+% LAYOUT_ONLY_GUARD:ELECTRON_STANDARD_MAP
+\Needspace{10\baselineskip}
+Let \(\mathcal B\) be a positive reporting map that preserves every support ratio and sends \(q_e=q_{\min}\) to the admitted electron standard:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\mathcal B(q_e)=M_e^{\mathrm{std}},
+\qquad
+\frac{\mathcal B(q)}{\mathcal B(q_e)}
+=
+\frac{q}{q_e}.
+$
+\end{adjustbox}
+\end{equation*}
+These requirements determine the map pointwise:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\mathcal B(q)
+=
+\frac{M_e^{\mathrm{std}}}{q_e}\,q
+=
+\frac{M_e^{\mathrm{std}}}{m\lambda_{\min}^2}\,q.
+}
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:ELECTRON_SCALE_RECOVERY_SEQUENCE
+\Needspace{18\baselineskip}
+The one positive scale
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\mathcal S_e
+:=
+\frac{M_e^{\mathrm{std}}}{m\lambda_{\min}^2}
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:SUPPORT_RECOVERY_LEADIN
+\Needspace{8\baselineskip}
+gives \(\mathcal B(q)=\mathcal S_e q\), and the internal support is recovered by
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+q=\frac{\mathcal B(q)}{\mathcal S_e}.
+$
+\end{adjustbox}
+\end{equation*}
+A change of reporting unit rescales the electron standard, \(\mathcal S_e\), and all three dimensional outputs together. It leaves the dimensionless ratios, rank ordering, \(206\), \(409\), and \(s_{409}\) unchanged.
+
+\Needspace{5\baselineskip}
+\subsection{Exact Relative Report}
+The complete relative charged-lepton report is
+
+\begin{equation}
+\label{eq:mass-ratio-report}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\left(
+M_e,M_\mu,M_\tau
+\right)_{\mathrm{report}}
+=
+M_e^{\mathrm{std}}
+\left(
+1,\;
+s_{409}
+\left(
+\frac{\lambda_{\mathrm{mid}}}{\lambda_{\min}}
+\right)^2,\;
+\left(
+\frac{\lambda_{\max}}{\lambda_{\min}}
+\right)^2
+\right).
+}
+$
+\end{adjustbox}
+\end{equation}
+Equation \(\eqref{eq:mass-ratio-report}\) is the complete exact relative report.
+
+Equivalently,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+M_e^{\mathrm{report}}
+=
+M_e^{\mathrm{std}},
+}
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+M_\mu^{\mathrm{out}}
+=
+M_e^{\mathrm{std}}
+\frac{409\sin(\pi/409)}{\pi}
+\left(
+\frac{
+1-\frac{\cos(2/9)}{\sqrt2}
++\frac{\sqrt6}{2}\sin(2/9)
+}{
+1-\frac{\cos(2/9)}{\sqrt2}
+-\frac{\sqrt6}{2}\sin(2/9)
+}
+\right)^2,
+}
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+M_\tau^{\mathrm{out}}
+=
+M_e^{\mathrm{std}}
+\left(
+\frac{
+1+\sqrt2\cos(2/9)
+}{
+1-\frac{\cos(2/9)}{\sqrt2}
+-\frac{\sqrt6}{2}\sin(2/9)
+}
+\right)^2.
+}
+$
+\end{adjustbox}
+\end{equation*}
+These exact symbolic expressions are the primary result.
+
+For numerical diagnosis,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+s_{409}
+\left(
+\frac{\lambda_{\mathrm{mid}}}{\lambda_{\min}}
+\right)^2
+=
+206.768282732054172011291935636779\ldots,
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\left(
+\frac{\lambda_{\max}}{\lambda_{\min}}
+\right)^2
+=
+3477.472837104598532313001225522648\ldots.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:STANDALONE_THUS
+\Needspace{7\baselineskip}
+Thus
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\left(
+M_e,M_\mu,M_\tau
+\right)_{\mathrm{report}}
+=
+M_e^{\mathrm{std}}
+\left(
+1,\;
+206.768282732054172011291935636779\ldots,\;
+3477.472837104598532313001225522648\ldots
+\right).
+$
+\end{adjustbox}
+\end{equation*}
+Using the central electron standard gives the diagnostic mass-energy equivalents
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+M_e c_{\mathrm{SI}}^2
+=
+0.51099895069(16)\ {\rm MeV},
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+M_\mu^{\mathrm{out}}c_{\mathrm{SI}}^2
+=
+105.658375512052928326006945941653\ldots\ {\rm MeV},
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+M_\tau^{\mathrm{out}}c_{\mathrm{SI}}^2
+=
+1776.984970813427147785657684886757\ldots\ {\rm MeV}.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:PROPAGATED_UNCERTAINTIES
+\Needspace{13\baselineskip}
+Propagating only the parenthetical uncertainty of the admitted electron standard through the two fixed ratios gives
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+M_\mu^{\mathrm{out}}c_{\mathrm{SI}}^2
+=
+105.658375512(33)\ {\rm MeV}.
+}
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+M_\tau^{\mathrm{out}}c_{\mathrm{SI}}^2
+=
+1776.98497081(56)\ {\rm MeV}.
+}
+$
+\end{adjustbox}
+\end{equation*}
+These parenthetical uncertainties contain only the propagated electron-standard uncertainty. They include neither theoretical uncertainty nor finite-screen-model uncertainty. The longer values above remain computational diagnostics.
+
+Only the electron standard is an experimental derivation input. No measured muon or tau value determines the intrinsic spectrum, rank ordering, \(206\), \(409\), \(s_{409}\), or either ratio.
+
+\Needspace{5\baselineskip}
+\subsection{Post-Exposure Muon Consistency Comparison}
+Only after the complete mass-ratio derivation is fixed do we compare its middle ratio with the 2022 CODATA recommended adjusted value \cite{CODATA2022},
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+R_{\mu/e}^{\mathrm{CODATA}}
+=
+206.7682827(46).
+$
+\end{adjustbox}
+\end{equation*}
+The difference is
+
+\begin{equation}
+\label{eq:muon-post-exposure}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+R_{\mu/e}^{\mathrm{out}}
+-
+R_{\mu/e}^{\mathrm{CODATA}}
+=
+3.2054172011\ldots\times10^{-8},
+}
+$
+\end{adjustbox}
+\end{equation}
+which is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+0.0069683\ldots
+}
+$
+\end{adjustbox}
+\end{equation*}
+of CODATA's quoted standard uncertainty. The quoted uncertainty is CODATA's uncertainty only; no theoretical or finite-screen-model uncertainty has been assigned.
+
+Equation \(\eqref{eq:muon-post-exposure}\) is a downstream comparison, not a construction equation. This comparison is not a blind held-out prediction. The \(409\) construction was developed after exposure to the muon result. No muon or tau datum is an algebraic operand, and no continuous numerical parameter is fitted. The electron supplies the reporting scale, while the post-muon-exposure development of the \(409\) construction is disclosed explicitly. The comparison has no backward role in the spectrum, the integer counts, or the finite-screen factor.
+
+The result is a relative three-entry report anchored by one admitted electron scale. It is not an absolute prediction of the electron mass. These limitations do not alter the exact derivation of the ratios.
+

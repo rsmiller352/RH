@@ -1,0 +1,447 @@
+{
+  "authority_effect": "NONE",
+  "auxiliary_aliases": [
+    {
+      "authority_card_id": "DEF_004_001",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_004_018",
+        "authority_card_path": "publication/eq_cards/2026-07-20-phase4/cards/SEC004/THM_004_018.md",
+        "authority_card_sha256": "6b8e73d4d582fcade83fc1710606cb896d9d3239ebc8723baea818a3ba27fe50",
+        "equation_block_id": "THM_004_018::INLINE-L35-L37",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 37,
+        "line_start": 35,
+        "locator_kind": "INLINE_MATH_RANGE",
+        "relation": "REPRESENTATIVE_AUTHORITY_EQUATION",
+        "source_range_sha256": "c9fbe142ea9cc6a2528ac590f2c1c5f4894107f88f44b443eca1ee7b0ba63c1c"
+      },
+      "authority_symbol": "\\lambda\\ \\text{(lattice site)}",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0060"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\xi\\ \\text{(lattice site)}",
+      "mapping_id": "NOTATION-LATTICE-SITE-001",
+      "reason": "avoid collision with lowercase intrinsic spectral amplitudes",
+      "scientific_transformation": false,
+      "scope": "SECTIONS_4_AND_5_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    }
+  ],
+  "equation_locator_contract": {
+    "alias_equation_count": 25,
+    "authority_binding": "CURRENT_ACTIVE_PROMOTED_PUBLICATION_EQ_CARD_PATH_CARD_HASH_AND_EXACT_SOURCE_LINE_RANGE",
+    "coverage": "COMPLETE",
+    "display_locator_basis": "ONE_BASED_DISPLAY_BLOCK_ORDINAL_WITH_EXACT_PARENT_BLOCK_HASH",
+    "inline_locator_exception_count": 1,
+    "line_hash": "SHA256_OF_LF_NORMALIZED_INCLUSIVE_SOURCE_LINES",
+    "line_number_basis": "ONE_BASED_CURRENT_CARD_LINES",
+    "manuscript_mathematics_changed": false,
+    "notation_mappings_changed": false
+  },
+  "equation_locator_exceptions": [
+    {
+      "equation_id": "EQ-0060",
+      "explanation": "The preserved alias typing card is DEF_004_001; the exact REF equation is owned by THM_004_018 and occurs inline.",
+      "status": "NONBLOCKING_EXACT_OWNER_DISTINCTION"
+    },
+    {
+      "equation_ids": [
+        "EQ-0213",
+        "EQ-0214"
+      ],
+      "explanation": "The publication context suppresses the explicit reporting-unit parameter U_M in addition to applying the preserved spectral alias.",
+      "status": "NONBLOCKING_TYPED_PUBLICATION_ABBREVIATION"
+    }
+  ],
+  "intentional_type_overloads": [
+    {
+      "co_convergence_composite": {
+        "authority_locators": [
+          {
+            "authority_card_id": "THM_005_023",
+            "authority_card_path": "publication/eq_cards/2026-07-20-phase4/cards/SEC005/THM_005_023.md",
+            "authority_card_sha256": "b576e45c15a36e1fd4b3174c0fdfcf75fdde1271efe7f00baba2e005e583237c",
+            "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+            "line_end": 34,
+            "line_start": 24,
+            "relation": "FOUR_CELL_COUNT_CONTEXT",
+            "source_range_sha256": "fabd82001c8b602de7122ccae5c7d00e19695b1b6e79cb8d86e5693780131d04"
+          },
+          {
+            "authority_card_id": "DEF_003_003",
+            "authority_card_path": "publication/eq_cards/2026-07-20-phase4/cards/SEC003/DEF_003_003.md",
+            "authority_card_sha256": "2561fa57e458584f5f5e4e0abb2116e8b5458d9c8545b703cd7bcd967a839cfb",
+            "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+            "line_end": 47,
+            "line_start": 30,
+            "relation": "ACTIVE_COEFFICIENT_VALUE",
+            "source_range_sha256": "b3352f5bba6a7171dfd9f13ca3fb77794b2849c4c5185f5cf240c42a8150e43a"
+          }
+        ],
+        "classification": "TYPED_EXACT_PUBLICATION_COMPOSITE",
+        "equation": "4m=4(1/(2\\pi))=2/\\pi"
+      },
+      "false_identity_prohibited": "\\pi/(3\\sqrt2)=2/\\pi",
+      "symbol": "D",
+      "uses": [
+        {
+          "authority_card_id": "DEF_004_012",
+          "authority_locator": {
+            "authority_card_id": "DEF_004_012",
+            "authority_card_path": "publication/eq_cards/2026-07-20-phase4/cards/SEC004/DEF_004_012.md",
+            "authority_card_sha256": "8917362f5a8c5c9c388f58fe5d091d91266d2e7277e71c4e420f3f0eb9481d78",
+            "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+            "line_end": 50,
+            "line_start": 20,
+            "relation": "GEOMETRIC_D_TYPE",
+            "source_range_sha256": "82b72259f495409be7670185de8071de474d0b880db3ce74e12f1aaee73bb9d3"
+          },
+          "meaning": "D=\\pi/(3\\sqrt2)",
+          "type": "GEOMETRIC_FILLED_SHARE"
+        },
+        {
+          "authority_card_id": "THM_016_005",
+          "authority_locator": {
+            "authority_card_id": "THM_016_005",
+            "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_005.md",
+            "authority_card_sha256": "575c50dfe98a99ef2e38c08cf3351e43677ca3c3096d50184a047452ee091fa4",
+            "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+            "line_end": 48,
+            "line_start": 20,
+            "relation": "ANCESTRY_D_TYPE",
+            "source_range_sha256": "4df9979ca1d69ddccda5d9b145c35405a461296376bc366709c46aab0d1c5864"
+          },
+          "meaning": "A\\prec B\\prec D",
+          "type": "ANCESTRY_ENDPOINT_LABEL"
+        }
+      ]
+    }
+  ],
+  "journal_ready_aliases": [
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+        "line_end": 198,
+        "line_start": 178,
+        "relation": "EXACT_PUBLICATION_ALIAS",
+        "source_range_sha256": "8c84ae9605873e8d13de3968904042f676cfde6217180ce1a145e750d8e27a83"
+      },
+      "authority_symbol": "\\Pi_0",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_symbol": "\\Pi_{\\mathrm{sym}}",
+      "mapping_id": "NOTATION-SYMMETRIC-PROJECTOR-001",
+      "reason": "avoid collision with the rooted occurrence projector Pi_o",
+      "scientific_transformation": false,
+      "scope": "SECTION_12_ONLY"
+    },
+    {
+      "authority_card_id": "THM_016_001",
+      "authority_locator": {
+        "authority_card_id": "THM_016_001",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_001.md",
+        "authority_card_sha256": "f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923",
+        "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+        "line_end": 213,
+        "line_start": 171,
+        "relation": "EXACT_PUBLICATION_PHASE_NAME",
+        "source_range_sha256": "79cebdd593e45acb69e74026fdaf2abc016288c1e0456273270946c51484eb0a"
+      },
+      "authority_symbol": "\\Phi_o/3=2/9",
+      "bijective": true,
+      "direction": "PROMOTED_VALUE_TO_PUBLICATION_NAME",
+      "manuscript_symbol": "\\theta_o:=2/9",
+      "mapping_id": "NOTATION-PRINCIPAL-SPECTRAL-PHASE-001",
+      "reason": "one principal spectral phase with no competing alpha",
+      "scientific_transformation": false,
+      "scope": "SECTIONS_12_TO_15"
+    },
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "line_basis": "ONE_BASED_CURRENT_ACTIVE_CARD_LINES",
+        "line_end": 421,
+        "line_start": 376,
+        "relation": "LOCAL_PUBLICATION_ABBREVIATION",
+        "source_range_sha256": "a068dd1117ddfb4119006221a5e3bb837c90624d735623a2a95b3fc9f3323c3d"
+      },
+      "authority_symbol": "2/9",
+      "bijective": true,
+      "direction": "PUBLICATION_LOCAL_ALIAS",
+      "manuscript_symbol": "x:=\\theta_o=2/9",
+      "mapping_id": "NOTATION-TAYLOR-LOCAL-001",
+      "reason": "local Taylor variable only",
+      "scientific_transformation": false,
+      "scope": "SECTION_13_TAYLOR_BOUNDS_ONLY"
+    }
+  ],
+  "manuscript_id": "PUB-MANUSCRIPT-2026-07-26-007",
+  "mapping_sets": [
+    {
+      "mapping_set_id": "NOTATION-SPECTRAL-SET-001",
+      "member_mapping_ids": [
+        "NOTATION-SPECTRAL-001",
+        "NOTATION-SPECTRAL-002",
+        "NOTATION-SPECTRAL-003",
+        "NOTATION-SPECTRAL-004",
+        "NOTATION-SPECTRAL-005",
+        "NOTATION-SPECTRAL-006"
+      ],
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY"
+    }
+  ],
+  "mappings": [
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "display_block_line_end": 57,
+        "display_block_line_start": 47,
+        "display_block_ordinal": 3,
+        "display_block_sha256": "6a5266adf083ec419a2c93632be99025219cef3d0425fdf854f698b18b79cd2e",
+        "equation_block_id": "THM_016_003::DISPLAY-003",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 57,
+        "line_start": 47,
+        "locator_kind": "DISPLAY_BLOCK",
+        "relation": "AUTHORITY_SYMBOL_DEFINITION",
+        "source_range_sha256": "6a5266adf083ec419a2c93632be99025219cef3d0425fdf854f698b18b79cd2e"
+      },
+      "authority_symbol": "\\Lambda_0",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0172",
+        "EQ-0176",
+        "EQ-0179"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\lambda_0",
+      "mapping_id": "NOTATION-SPECTRAL-001",
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    },
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "display_block_line_end": 57,
+        "display_block_line_start": 47,
+        "display_block_ordinal": 3,
+        "display_block_sha256": "6a5266adf083ec419a2c93632be99025219cef3d0425fdf854f698b18b79cd2e",
+        "equation_block_id": "THM_016_003::DISPLAY-003",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 57,
+        "line_start": 47,
+        "locator_kind": "DISPLAY_BLOCK",
+        "relation": "AUTHORITY_SYMBOL_DEFINITION",
+        "source_range_sha256": "6a5266adf083ec419a2c93632be99025219cef3d0425fdf854f698b18b79cd2e"
+      },
+      "authority_symbol": "\\Lambda_1",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0173",
+        "EQ-0175",
+        "EQ-0177",
+        "EQ-0179"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\lambda_1",
+      "mapping_id": "NOTATION-SPECTRAL-002",
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    },
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "display_block_line_end": 57,
+        "display_block_line_start": 47,
+        "display_block_ordinal": 3,
+        "display_block_sha256": "6a5266adf083ec419a2c93632be99025219cef3d0425fdf854f698b18b79cd2e",
+        "equation_block_id": "THM_016_003::DISPLAY-003",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 57,
+        "line_start": 47,
+        "locator_kind": "DISPLAY_BLOCK",
+        "relation": "AUTHORITY_SYMBOL_DEFINITION",
+        "source_range_sha256": "6a5266adf083ec419a2c93632be99025219cef3d0425fdf854f698b18b79cd2e"
+      },
+      "authority_symbol": "\\Lambda_2",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0174",
+        "EQ-0175",
+        "EQ-0176",
+        "EQ-0179"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\lambda_2",
+      "mapping_id": "NOTATION-SPECTRAL-003",
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    },
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "display_block_line_end": 64,
+        "display_block_line_start": 62,
+        "display_block_ordinal": 4,
+        "display_block_sha256": "1fb6ea7ae5b60cc1bd8ca7a6c86a81a4439ec7eb37e9520cc59d676f8a051578",
+        "equation_block_id": "THM_016_003::DISPLAY-004",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 64,
+        "line_start": 62,
+        "locator_kind": "DISPLAY_BLOCK",
+        "relation": "AUTHORITY_SYMBOL_DEFINITION",
+        "source_range_sha256": "1fb6ea7ae5b60cc1bd8ca7a6c86a81a4439ec7eb37e9520cc59d676f8a051578"
+      },
+      "authority_symbol": "\\Lambda_{\\min}",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0178",
+        "EQ-0179",
+        "EQ-0187",
+        "EQ-0188",
+        "EQ-0189",
+        "EQ-0195",
+        "EQ-0196",
+        "EQ-0210",
+        "EQ-0213",
+        "EQ-0214",
+        "EQ-0216",
+        "EQ-0220",
+        "EQ-0221",
+        "EQ-0228",
+        "EQ-0230",
+        "EQ-0237",
+        "EQ-0240"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\lambda_{\\min}",
+      "mapping_id": "NOTATION-SPECTRAL-004",
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    },
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "display_block_line_end": 69,
+        "display_block_line_start": 66,
+        "display_block_ordinal": 5,
+        "display_block_sha256": "f3a4d5e265e123de4487cff118e19fe98e223125f3627acead60b695ea414da8",
+        "equation_block_id": "THM_016_003::DISPLAY-005",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 69,
+        "line_start": 66,
+        "locator_kind": "DISPLAY_BLOCK",
+        "relation": "AUTHORITY_SYMBOL_DEFINITION",
+        "source_range_sha256": "f3a4d5e265e123de4487cff118e19fe98e223125f3627acead60b695ea414da8"
+      },
+      "authority_symbol": "\\Lambda_{\\rm mid}",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0178",
+        "EQ-0179",
+        "EQ-0187",
+        "EQ-0188",
+        "EQ-0190",
+        "EQ-0195",
+        "EQ-0196",
+        "EQ-0210",
+        "EQ-0216",
+        "EQ-0220",
+        "EQ-0228",
+        "EQ-0230",
+        "EQ-0237",
+        "EQ-0240"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\lambda_{\\mathrm{mid}}",
+      "mapping_id": "NOTATION-SPECTRAL-005",
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    },
+    {
+      "authority_card_id": "THM_016_003",
+      "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+      "authority_equation_locator": {
+        "authority_card_id": "THM_016_003",
+        "authority_card_path": "publication/eq_cards/2026-07-25-phase1743-authority-successor/cards/SEC016/THM_016_003.md",
+        "authority_card_sha256": "e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde",
+        "display_block_line_end": 73,
+        "display_block_line_start": 71,
+        "display_block_ordinal": 6,
+        "display_block_sha256": "ecba4b476632ae5c3c4918a3b1ec1fe6da5f8146de14300b07e9a1294898bd0b",
+        "equation_block_id": "THM_016_003::DISPLAY-006",
+        "line_basis": "ONE_BASED_CURRENT_CARD_LINES",
+        "line_end": 73,
+        "line_start": 71,
+        "locator_kind": "DISPLAY_BLOCK",
+        "relation": "AUTHORITY_SYMBOL_DEFINITION",
+        "source_range_sha256": "ecba4b476632ae5c3c4918a3b1ec1fe6da5f8146de14300b07e9a1294898bd0b"
+      },
+      "authority_symbol": "\\Lambda_{\\max}",
+      "bijective": true,
+      "direction": "AUTHORITY_TO_PUBLICATION",
+      "manuscript_equation_ids": [
+        "EQ-0178",
+        "EQ-0179",
+        "EQ-0187",
+        "EQ-0188",
+        "EQ-0210",
+        "EQ-0216",
+        "EQ-0221",
+        "EQ-0228",
+        "EQ-0230",
+        "EQ-0240"
+      ],
+      "manuscript_equation_locator_coverage": "COMPLETE",
+      "manuscript_symbol": "\\lambda_{\\max}",
+      "mapping_id": "NOTATION-SPECTRAL-006",
+      "scientific_transformation": false,
+      "scope": "PUBLICATION_MANUSCRIPT_ONLY",
+      "transformation": "EXACT_SYMBOL_RENAMING"
+    }
+  ],
+  "record_type": "JOURNAL_READY_PUBLICATION_NOTATION_TRACEABILITY",
+  "schema_version": "1.1.0",
+  "scientific_transformation_performed": false
+}

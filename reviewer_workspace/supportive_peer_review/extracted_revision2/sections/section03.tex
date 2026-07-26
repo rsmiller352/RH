@@ -1,0 +1,161 @@
+\Needspace{7\baselineskip}
+\section{The Base Book and Base Matrix}
+\label{sec:03}
+Section 2 supplied the internal ledger arithmetic: structural absence rather than held zero, transfer without subtraction, exact accounting under transfer, pairwise balance under the Law of Symmetry Conservation, and the three-register threshold for persistent closure. Section 3 now asks what has to be booked once persistent closure is available. The answer is not yet a metric space and not yet an observer-scale measurement table. It is a source-local book: a small exact ledger whose entries record unit distinction, closure traversal, closure service, the connectivity-channel count, channel distribution, and closure bookkeeping.
+
+The first bookkeeping object is the existence column. One completed closure traversal carries the forced closure extent
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\tau = 2\pi .
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:BASE_SERVICE_ENTRY
+\Needspace{11\baselineskip}
+Here \(\tau\) is the base-book label for a full closure traversal and its cycle-quantity class. It is not measured time, not a clock reading, and not a temporal coordinate. Section 1 has already fixed the unit distinction as \(I=1\), so the corresponding service entry \(m\) is fixed by the requirement that one traversal services that unit:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+m\tau = I,\qquad I=1,\qquad
+m=\frac{I}{\tau}=\frac{1}{2\pi}.
+$
+\end{adjustbox}
+\end{equation*}
+This is the first place where the paper uses a mass-like symbol, but the status is deliberately pre-calibration. In this section \(m\) is the book's closure-service support for the unit over one closure traversal. Later sections may ask how such support is rendered by an observer as mass; Section 3 only fixes the exact source-local entry and the identity it satisfies.
+
+The symbols \(2\pi\) and \(1/(2\pi)\) here are exact representations of these already established active quantities. They remain downstream typed values, not additional primitive relation-tokens. Their warrant comes from the closure derivation and the identity \(m\tau=I\), not from their number-theoretic class or their later placement in a display.
+
+The existence column is therefore
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+M_{\mathrm{exist}}
+=
+\begin{pmatrix}
+I\\[2pt]
+\tau\\[2pt]
+m
+\end{pmatrix}
+=
+\begin{pmatrix}
+1\\[2pt]
+2\pi\\[2pt]
+\dfrac{1}{2\pi}
+\end{pmatrix},
+\qquad
+m\tau=I .
+$
+\end{adjustbox}
+\end{equation*}
+The next datum is \(c\), the connectivity-channel count. This is where the Section 2 threshold is used, but the two readings must not be collapsed. Section 2 gives the minimal register-position count required for a persisting closure. The directed connections witness that closure; they are not the primitive being counted. At the base-book layer, that minimal register-position count is read as the number of connectivity channels:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+c=3 .
+$
+\end{adjustbox}
+\end{equation*}
+The theorem-level content gives \(c\) no speed semantics and does not make space already three-dimensional. It says that the minimal register-position count admitting a non-vacuous persisting closure is three: no persisting closure exists for \(|R|\leq 2\), while the three-cycle persists. Read in the single-cell bookkeeping account, those three required positions are the three connectivity channels. The symmetric channel realization is fair because the relabeling-and-orientation group acts transitively on the channel set:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+G_3 \cong S_3 \ltimes (\mathbb{Z}_2)^3,
+\qquad
+|G_3|=3!\,2^3=48 .
+$
+\end{adjustbox}
+\end{equation*}
+Any book-layer rule whose channel dependence is only through the channel count \(c\) and symmetric distribution across the whole channel set cannot distinguish one channel label from another. That is the fairness result. It is not a metric-axis result, and it is not a count of arrows or connections.
+
+Once \(c\) has this channel role, the base book's channel capacity is forced as the minimal fair closure account. The register-walk formalism already admits rooted closure records and licenses no cyclic-rotation or unrooted-triangle quotient; fairness forbids choosing one root as canonical, and non-erasure forbids collapsing the admitted rooted records after the fact. The capacity is therefore the rooted-position incidence count: the value of that incidence account, not an independent product posited as input.
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Cap}
+=\#\{(\text{root},\text{position})\}
+=c\,c
+=3\cdot 3
+=9 .
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:DISTRIBUTION_ENTRY
+\Needspace{7\baselineskip}
+The distribution entry is then
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+E:=m\,\operatorname{Cap}=3\cdot 3\,m
+=\frac{9}{2\pi}.
+$
+\end{adjustbox}
+\end{equation*}
+This is the book-level channel-distribution total: the support \(m\) distributed across the \(3\)-by-\(3\) channel capacity. It is the object that later readout language may compare with energy, but Section 3 does not identify it with SI energy, a laboratory measured quantity, or the familiar mass-energy formula.
+
+The only remaining base-book entry is the closure-bookkeeping role \(G\).
+
+Let \(C\) denote the three retained register positions in the capacity account and let \(J=C\times C\), so \(|J|=\operatorname{Cap}=9\). The established \(E=\operatorname{Cap}m\) account contains exactly one \(m\)-side posting for each \(j\in J\). Its total retains the independently established scalar accounting identity:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+E\tau=\operatorname{Cap}.
+$
+\end{adjustbox}
+\end{equation*}
+The promoted pointwise co-reading acts on \(J\times\{m\text{-side},\tau\text{-side}\}\). For every \(j\), it preserves \(j\) and exchanges the two typed sides with multiplicity one. The complete matched \(\tau\)-side family is the unique closure-side completion, and the already-defined value-free closure office identifies that family as \(G\). No row, column, adjacency, target value, or division by \(m\) supplies this identification. Its exact scalar consequence is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+Gm=\operatorname{Cap}=9 .
+$
+\end{adjustbox}
+\end{equation*}
+There is one closure account. The nine members of \(J\) are retained bookkeeping data inside it, not nine closure events, executed transfers, or runtime ticks. The construction establishes \(G=\operatorname{Cap}\tau\). Using \(m\tau=I\), the following equality chain remains exact; its quotient term is only a later algebraic rearrangement and neither defines \(G\) nor selects its partner:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+G=\frac{\operatorname{Cap}}{m}
+=\operatorname{Cap}\,\tau
+=9\cdot 2\pi
+=18\pi .
+$
+\end{adjustbox}
+\end{equation*}
+With every entry fixed, Section 3's base matrix is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+M_{\mathrm{base}}
+=
+\begin{pmatrix}
+I & c\\[2pt]
+\tau & E\\[2pt]
+m & G
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 3\\[2pt]
+2\pi & \dfrac{9}{2\pi}\\[2pt]
+\dfrac{1}{2\pi} & 18\pi
+\end{pmatrix}.
+$
+\end{adjustbox}
+\end{equation*}
+For readability, the display groups \(I\) and \(c\) above the active quantities and uses the familiar invariant, service, and support headings. That rectangular placement is organizational. It neither establishes a scientific role nor licenses matrix algebra. Any scientific role or relation used by the argument must stand on independent authority; placement supplies none. The display makes the account legible without serving as a proof premise.
+
+The value \(G=18\pi\) is the source-local gravity-role value in the paper's accounting sense: the count-indexed \(\tau\)-side aggregate of the retained capacity account. It is not Newton's constant, not SI gravity, not an empirical coupling, and not an input from a later geometric or observer-scale bridge. Its ground is the promoted pointwise pairing construction and the pre-existing value-free closure office, not its displayed position.
+
+This layer can also lose, and says how. Exhibit a completed closure traversal whose forced extent is not \(2\pi\), and the \(\tau\) entry falls. Exhibit a persisting closure candidate over one or two registers, or show the three-register cycle erasing, and the \(c=3\) count falls. Exhibit a licensed cyclic-rotation or unrooted-triangle quotient that collapses the rooted closure records, and \(\operatorname{Cap}=9\) falls. For the paired completion, exhibit a retained \(j\) with unequal \(m\)- and \(\tau\)-side multiplicities; a co-reading that changes \(j\), has a fixed point, or fails to exchange the two sides; or a complete matched \(\tau\)-family that is not the established \(G\) closure office. If a row, column, adjacency, division, or target value is needed as a proof premise, the presentation-independence fence fails. If a member of \(J\) is retyped as another event, transfer, or tick, the single-account interpretation fails. Each failure mode is specific and checkable.
+

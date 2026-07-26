@@ -1,0 +1,508 @@
+\Needspace{7\baselineskip}
+\section{The Intrinsic Three-Rank Spectrum}
+\label{sec:12}
+The construction has now reached the point at which a presentation-independent three-rank spectrum can be formed. Nothing in this section is selected by a charged-lepton measurement. The starting data are the rooted one-cell record, its two-active/one-idle coupling, the cyclic three-channel action, and the already established support coefficient
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+m=\frac{1}{2\pi}>0.
+$
+\end{adjustbox}
+\end{equation*}
+The lowercase symbol \(\lambda\) denotes the three intrinsic spectral amplitudes in this publication manuscript. Section 4 uses \(\xi\) for a lattice-site label. The labels attached to a particular displayed sector are not intrinsic; only the unordered spectrum and its minimum, middle, and maximum ranks survive a change of presentation.
+
+Figure \(\ref{fig:c3-spectral-projections}\) depicts the three cyclic projections of one coefficient point.  It does not depict three independent points or the sides of a spatial triangle.
+
+\Needspace{5\baselineskip}
+\subsection{Rooted Action and the Spectral Phase}
+Let
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+V=\mathbb C[\mathbb Z/3\mathbb Z]
+$
+\end{adjustbox}
+\end{equation*}
+with orthonormal basis \((e_0,e_1,e_2)\), and let \(P\) be the cyclic shift
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+Pe_r=e_{r+1\pmod 3},
+\qquad
+P^3=\mathbf1_V,
+\qquad
+P^\dagger=P^{-1}.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:ROOTED_PROJECTOR_LEADIN
+\Needspace{8\baselineskip}
+The rooted two-active/one-idle projector is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Pi_o
+=
+|0\rangle\langle0|
++
+|1\rangle\langle1|
+=
+\begin{pmatrix}
+1&0&0\\
+0&1&0\\
+0&0&0
+\end{pmatrix}.
+$
+\end{adjustbox}
+\end{equation*}
+It satisfies
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Pi_o^\dagger=\Pi_o,
+\qquad
+\Pi_o^2=\Pi_o,
+\qquad
+\operatorname{rank}\Pi_o=2,
+\qquad
+\operatorname{Tr}\Pi_o=2.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:CYCLIC_AVERAGING_PAIR
+\Needspace{36\baselineskip}
+Averaging its three cyclic presentations gives
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\frac13
+\sum_{r=0}^{2}
+P^r\Pi_oP^{-r}
+=
+\frac23\mathbf1_V.
+$
+\end{adjustbox}
+\end{equation*}
+The normalized cyclic valuation independently gives
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\nu(\Pi_o)=\frac23.
+$
+\end{adjustbox}
+\end{equation*}
+Trace preservation fixes the one-pass action aperture, and the completed unit read fixes the principal spectral phase:
+
+\begin{equation}
+\label{eq:action-phase}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+A_o^\#=\frac23,
+\qquad
+\Phi_o=A_o^\#I_{\mathrm{bulk},o}=\frac23,
+\qquad
+\theta_o:=\frac{\Phi_o}{3}=\frac29.
+$
+\end{adjustbox}
+\end{equation}
+Equation \(\eqref{eq:action-phase}\) is the phase source used below. As Section 10 established, this rooted projector/action derivation, not the separately displayed flow invariant, supplies that phase.
+
+With the carried orientation \(\sigma\in\{+1,-1\}\), the action character is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\rho_{o,\sigma}
+=
+\exp\left(i\sigma\frac23\right).
+$
+\end{adjustbox}
+\end{equation*}
+Its three cube roots are
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\zeta_{o,\sigma,j}
+=
+\exp\left[
+i\left(
+\frac{2\sigma}{9}
++
+\frac{2\pi j}{3}
+\right)
+\right],
+\qquad
+j\in\mathbb Z/3\mathbb Z.
+$
+\end{adjustbox}
+\end{equation*}
+The factor \(\theta_o=2/9\) is therefore not fitted. It is one third of the already derived action phase.
+
+\Needspace{5\baselineskip}
+\subsection{Rooted Radius and Operator Coefficient}
+The coefficient used in the spectral operator is fixed by the rooted two-active/one-idle coupling. For the escapement occurrence \(o\),
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+k_e(o)=Q_o(1,1,0)^{\mathsf T},
+\qquad
+Q_o^{\mathsf T}Q_o=\mathbf1_3,
+\qquad
+\|k_e(o)\|^2=2.
+$
+\end{adjustbox}
+\end{equation*}
+In the promoted response-chart notation, \(u,v\in\mathbb R\) are the response-plane coordinates and \(a\ne0\) is the chart-normalization scalar. Let \(T_o\) be the isometry from the active two-plane into the response plane. On that active plane,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+z_{A(o)}
+=
+T_ok_e(o)
+=
+\left(
+\frac{2u}{|a|},
+\frac{2v}{|a|}
+\right),
+\qquad
+T_o^{\mathsf T}T_o=\mathbf1_{\mathrm{active}},
+\qquad
+a\ne0.
+$
+\end{adjustbox}
+\end{equation*}
+Consequently,
+
+\begin{equation}
+\label{eq:rooted-radius}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+2
+=
+\|z_{A(o)}\|^2
+=
+\frac{4(u^2+v^2)}{|a|^2},
+\qquad
+\boxed{
+u^2+v^2=\frac{|a|^2}{2}.
+}
+$
+\end{adjustbox}
+\end{equation}
+This rooted-radius identity is recorded as Eq. \(\eqref{eq:rooted-radius}\).
+
+Writing the permitted unit direction as \(\zeta_{o,\sigma,j}\), with \(|\zeta_{o,\sigma,j}|=1\), gives the exact assembly
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+u+iv
+=
+\frac{|a|}{\sqrt2}\,
+\zeta_{o,\sigma,j}.
+$
+\end{adjustbox}
+\end{equation*}
+Only then is the positive ratio chart selected:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+a=1
+\quad\Longrightarrow\quad
+\boxed{
+u+iv=\frac{\zeta_{o,\sigma,j}}{\sqrt2}.
+}
+$
+\end{adjustbox}
+\end{equation*}
+The \(1/\sqrt2\) coefficient below is therefore the normalized rooted radius, not a fitted parameter.
+
+\Needspace{5\baselineskip}
+\subsection{Six Presentations of One Intrinsic Object}
+For each orientation and cubic-root branch, define the Hermitian operator
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+A_{\sigma,j}
+=
+\mathbf1_V
++
+\frac1{\sqrt2}\zeta_{o,\sigma,j}P
++
+\frac1{\sqrt2}\overline{\zeta_{o,\sigma,j}}P^{-1}.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:FOURIER_DIAGONALIZATION
+\Needspace{7\baselineskip}
+Fourier diagonalization gives
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda^{\rm scr}_{\sigma,j;k}
+=
+1+\sqrt2\cos\left(
+\sigma\theta_o
++
+\frac{2\pi j}{3}
++
+\frac{2\pi k}{3}
+\right),
+\qquad
+k\in\mathbb Z/3\mathbb Z.
+$
+\end{adjustbox}
+\end{equation*}
+Changing \((\sigma,j)\) permutes these three values. The six permitted frames form the six-element \(D_3\) action, so the displayed operators are unitarily conjugate presentations of one orbit. No labeled sector is intrinsic.
+
+The presentation-independent amplitude object is
+
+\begin{equation}
+\label{eq:intrinsic-spectrum}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Spec}_{\mathrm{unord}}\mathfrak A_{\mathrm{int}}(o)
+=
+\left\{
+1+\sqrt2\cos\left(
+\theta_o+\frac{2\pi k}{3}
+\right):
+k\in\mathbb Z/3\mathbb Z
+\right\}.
+$
+\end{adjustbox}
+\end{equation}
+Equation \(\eqref{eq:intrinsic-spectrum}\) is the intrinsic unordered spectrum; its displayed sector labels are not intrinsic.
+
+For the reference calculation use the already fixed principal phase \(\theta_o=2/9\) and write
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_0
+=
+1+\sqrt2\cos\theta_o,
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_1
+=
+1-\frac{\cos\theta_o}{\sqrt2}
+-\frac{\sqrt6}{2}\sin\theta_o,
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_2
+=
+1-\frac{\cos\theta_o}{\sqrt2}
++\frac{\sqrt6}{2}\sin\theta_o.
+$
+\end{adjustbox}
+\end{equation*}
+Since \(0<\theta_o<\pi/12\),
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_2-\lambda_1
+=
+\sqrt6\sin\theta_o
+>0,
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_0-\lambda_2
+=
+\sqrt{\frac32}
+\left(
+\sqrt3\cos\theta_o-\sin\theta_o
+\right)
+>0.
+$
+\end{adjustbox}
+\end{equation*}
+Moreover \(2\pi/3+\theta_o<3\pi/4\) implies
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_1
+>
+1+\sqrt2\cos\frac{3\pi}{4}
+=0.
+$
+\end{adjustbox}
+\end{equation*}
+The intrinsic rank values are consequently
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+0<
+\lambda_{\min}
+<
+\lambda_{\mathrm{mid}}
+<
+\lambda_{\max},
+}
+$
+\end{adjustbox}
+\end{equation*}
+with the reference-frame identification
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+(\lambda_{\min},\lambda_{\mathrm{mid}},\lambda_{\max})
+=
+(\lambda_1,\lambda_2,\lambda_0).
+$
+\end{adjustbox}
+\end{equation*}
+\Needspace{5\baselineskip}
+\subsection{The Quadratic-Support Law}
+Let
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+C=\{0,1,2\},
+\qquad
+J=C\times C,
+$
+\end{adjustbox}
+\end{equation*}
+and let \(E_{rp}=|r\rangle\langle p|\) be the canonical matrix units of the counting form. Their contraction law is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+E_{rp}^\dagger E_{sq}
+=
+\delta_{rs}E_{pq}.
+$
+\end{adjustbox}
+\end{equation*}
+For \(A=\sum_{r,p\in C}A_{rp}E_{rp}\), the construction-derived adjoint and same-root contraction give
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+A^\dagger A
+=
+\sum_{p,q}
+\left(
+\sum_r\overline{A_{rp}}A_{rq}
+\right)
+E_{pq}.
+$
+\end{adjustbox}
+\end{equation*}
+The repeated root leg is evaluated while both position legs remain. A cross-root kernel would insert new structure, whereas tracing and redistributing would erase retained position information. The resulting map is
+
+\begin{equation}
+\label{eq:quadratic-support}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+M_{\mathrm{read}}(A)=mA^\dagger A,
+\qquad
+m=\frac1{2\pi}.
+}
+$
+\end{adjustbox}
+\end{equation}
+The quadratic-support map in Eq. \(\eqref{eq:quadratic-support}\) is applied before any finite-screen rendering.
+
+The complete nine-incidence book fixes the response power. With
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+U_J=\sum_{r,p\in C}E_{rp}
+=\mathbf1_V+P+P^{-1}
+=3\Pi_{\mathrm{sym}},
+$
+\end{adjustbox}
+\end{equation*}
+where \(\Pi_{\mathrm{sym}}\) is the publication alias for the projector onto the symmetric Fourier mode. This symbol is distinct from the rooted occurrence projector \(\Pi_o\). One has
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Tr}(U_J^\dagger U_J)=9.
+$
+\end{adjustbox}
+\end{equation*}
+Within the positive-real family \(\mathcal F_s(B)=mB^s\), full-book closure requires
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+m9^s=9m.
+$
+\end{adjustbox}
+\end{equation*}
+Because \(m>0\), \(9>1\), and \(9^s\) is strictly increasing, this forces \(s=1\). No additional exponent is fitted.
+
+Define the intrinsic quadratic supports
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+q_{\min}=m\lambda_{\min}^2,
+\qquad
+q_{\mathrm{mid}}=m\lambda_{\mathrm{mid}}^2,
+\qquad
+q_{\max}=m\lambda_{\max}^2.
+}
+$
+\end{adjustbox}
+\end{equation*}
+Positivity preserves their strict rank. The common coefficient cancels from the exact ratios:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+R_{\mathrm{mid}/\min}^{\mathrm{int}}
+=
+\left(
+\frac{\lambda_{\mathrm{mid}}}{\lambda_{\min}}
+\right)^2,
+\qquad
+R_{\max/\min}^{\mathrm{int}}
+=
+\left(
+\frac{\lambda_{\max}}{\lambda_{\min}}
+\right)^2.
+}
+$
+\end{adjustbox}
+\end{equation*}
+These are exact, presentation-independent, dimensionless results. No particle name, measured mass, reporting unit, or finite-screen factor has entered their derivation.
+

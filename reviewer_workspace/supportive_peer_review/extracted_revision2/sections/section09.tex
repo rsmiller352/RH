@@ -1,0 +1,264 @@
+\Needspace{7\baselineskip}
+\section{Recovery and Presentation Discipline}
+\label{sec:09}
+Section 8 established the observer/reference role, clockhood, the closure-unit time readout, the internal book-energy record, and the boundary between theory-native structure and calibrated reports. Section 9 fixes the discipline that governs every later presentation. A derived expression may be displayed, rendered, or compared only without erasing the relational record from which it came.
+
+The direction remains one-way:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\text{admitted relational ground}
+\longrightarrow
+\text{typed readout}
+\longrightarrow
+\text{rendered presentation}.
+$
+\end{adjustbox}
+\end{equation*}
+A presentation may report an established object. It may not become the ground that establishes that object.
+
+% LAYOUT_ONLY_HEADING_GUARD:RECORDED_CONSTRUCTION_SEQUENCE
+\Needspace{20\baselineskip}
+\subsection{Recorded Construction Before Rendering}
+Let \(R\) be an already-established observer-local readout and let
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Rec}_O(R)
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:RENDERED_PRESENTATION_LEADIN
+\Needspace{9\baselineskip}
+be its governing construction record. The record identifies the upstream objects, counts, tags, and operations that make the readout what it is. A rendered presentation
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+Y=\operatorname{Render}_O(R;\mathcal A)
+$
+\end{adjustbox}
+\end{equation*}
+is therefore not admitted merely because \(Y\) is a well-formed scalar or exact symbolic expression. The originating record must remain available.
+
+This condition preserves the distinction between exact representation and primitive admission. A downstream expression may be rational, irrational, transcendental, signed, continuous, or complex when its owning result licenses that domain. Its number class neither supplies nor defeats its scientific authority. What matters is the upstream derivation, the declared type, the domain guards, and the retained construction record.
+
+\Needspace{5\baselineskip}
+\subsection{The Recoverable Count Index}
+For a promoted readout \(R\), let
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Idx}_O(R)
+:=
+\pi_{\mathrm{idx}}
+\!\left(
+\operatorname{Rec}_O(R)
+\right)
+$
+\end{adjustbox}
+\end{equation*}
+be the finite count-index data extracted from its construction record. The recoverable count-index package is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\operatorname{RCI}_O(R)
+:=
+\left(
+\operatorname{Idx}_O(R),
+\operatorname{Rec}_O(R)
+\right).
+}
+$
+\end{adjustbox}
+\end{equation*}
+This package is not a scalar and not a physical magnitude. It carries both the count data and the construction that types those data.
+
+A rendered presentation is count-index admissible only when
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\operatorname{Recover}_O
+\left(
+Y,
+\operatorname{Rec}_O(R)
+\right)
+=
+\operatorname{RCI}_O(R).
+}
+$
+\end{adjustbox}
+\end{equation*}
+Equivalently, recovery must preserve both projections:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\pi_1
+\operatorname{Recover}_O
+\left(
+Y,
+\operatorname{Rec}_O(R)
+\right)
+=
+\operatorname{Idx}_O(R),
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\pi_2
+\operatorname{Recover}_O
+\left(
+Y,
+\operatorname{Rec}_O(R)
+\right)
+=
+\operatorname{Rec}_O(R).
+$
+\end{adjustbox}
+\end{equation*}
+Recovering a numeral from \(Y\) alone is insufficient. The scalar may be many-to-one, convention-dependent, or incapable of distinguishing the construction that produced it. The admissible witness is recorded-construction recovery, not bare scalar inversion.
+
+This is a scoped rule for rendered observer-local readouts. It is not a new universal demand that every derived quantity possess one common inverse map. Definitions, exact identities, role witnesses, and representation witnesses retain the proof forms supplied by their owning results.
+
+\Needspace{5\baselineskip}
+\subsection{Recovery Before Later Operations}
+% LAYOUT_ONLY_GUARD:RECOVERY_OPERATION_SEQUENCE
+\Needspace{18\baselineskip}
+Suppose
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+Y_i
+=
+\operatorname{Render}_O(R_i;\mathcal A_i),
+\qquad
+i=1,\ldots,n,
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:LATER_OPERATION_SEQUENCE
+\Needspace{10\baselineskip}
+are rendered reports of promoted readouts. A later operation
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+Z=\Phi(Y_1,\ldots,Y_n)
+$
+\end{adjustbox}
+\end{equation*}
+may compare, ratio, normalize, rescale, or otherwise combine those reports only after each input has passed recovery.
+
+% LAYOUT_ONLY_GUARD:OPERATION_RECORD_LEADIN
+\Needspace{12\baselineskip}
+The operation must carry its own record,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{OpRec}_O
+\left(
+\Phi;Y_1,\ldots,Y_n
+\right),
+$
+\end{adjustbox}
+\end{equation*}
+including the operation, the source readouts, their construction records, and any admitted reporting standards. Admissibility requires
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Use}^{\Phi}_O
+(Y_1,\ldots,Y_n)
+\downarrow
+\Longrightarrow
+\bigwedge_{i=1}^{n}
+\operatorname{RCIAdm}_O(Y_i;R_i)
+\downarrow,
+$
+\end{adjustbox}
+\end{equation*}
+and an operation-level recovery map satisfying
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\operatorname{Recover}^{\Phi}_O
+\left(
+Z,
+\operatorname{OpRec}_O
+\left(
+\Phi;Y_1,\ldots,Y_n
+\right)
+\right)
+=
+\left(
+\operatorname{RCI}_O(R_1),
+\ldots,
+\operatorname{RCI}_O(R_n)
+\right).
+}
+$
+\end{adjustbox}
+\end{equation*}
+If one source package is not recoverable, the later operation is blocked. Smooth algebra may not erase the discrete account that licensed its inputs.
+
+\Needspace{5\baselineskip}
+\subsection{Reporting Standards Do Not Change Content}
+A reporting standard is admitted separately from the object being reported. Under a common positive change of unit,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+u'=\kappa u,
+\qquad
+q'=\kappa^{-1}q,
+\qquad
+\kappa>0,
+$
+\end{adjustbox}
+\end{equation*}
+so that
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+q'u'=qu.
+$
+\end{adjustbox}
+\end{equation*}
+The coefficient changes; the represented object and its recovery package do not. Unit choice is therefore presentation data, not ontological ground. A valid rescaling must preserve the source record and the comparison relation that licensed the report.
+
+\Needspace{5\baselineskip}
+\subsection{Organizational Displays}
+The same boundary governs the paper's bookkeeping arrays. Their entries are independently established before being grouped for readability. A row, column, adjacency, or vacant display position supplies no scientific premise. In particular, the arrays used here license no matrix multiplication, row operation, column operation, determinant, inverse, eigenvalue, tensor operation, or linear-operator interpretation.
+
+The logical direction is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\text{independent scientific ground}
+\longrightarrow
+\text{typed quantities and relations}
+\longrightarrow
+\text{organized display},
+$
+\end{adjustbox}
+\end{equation*}
+never the reverse. If a future result uses an algebraic matrix operation, the underlying algebraic object, domain, operation, and interpretation must first be established independently.
+
+Section 9 establishes recorded-construction recovery, recovery before later operations, the conventional status of reporting units, and the non-inferential role of organizational displays. It does not render a new physical quantity, assign a matrix position, derive a calibration constant, perform a measured comparison, or authorize matrix algebra.
+

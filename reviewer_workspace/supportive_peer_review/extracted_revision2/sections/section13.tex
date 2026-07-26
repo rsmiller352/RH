@@ -1,0 +1,372 @@
+\Needspace{7\baselineskip}
+\section{The Exact \texorpdfstring{\(206\)}
+\label{sec:13}{206}-to-\texorpdfstring{\(409\)}{409} Construction}
+The intrinsic middle-to-minimum ratio is greater than \(206\) and less than \(207\). This section first proves that interval without measured input. It then uses the one-event/two-preserved-face recovery record to construct the finite count \(409\). The spectrum supplies \(206\); the recovery record supplies the two-face structure needed to combine two \(206\)-element supports. Figure \(\ref{fig:observer-betweenness}\) summarizes observer-rooted middle placement, while Figure \(\ref{fig:two-face-409}\) separately summarizes free amalgamation over the common three-root carrier.
+
+\Needspace{5\baselineskip}
+\subsection{Exact Determination of \texorpdfstring{\(206\)}{206}}
+With the local Taylor variable
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+x:=\theta_o=\frac29,
+$
+\end{adjustbox}
+\end{equation*}
+one has
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_{\min}
+=
+1-\frac{\cos x}{\sqrt2}
+-\frac{\sqrt6}{2}\sin x,
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lambda_{\mathrm{mid}}
+=
+1-\frac{\cos x}{\sqrt2}
++\frac{\sqrt6}{2}\sin x.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:PELL_FIRST_CERTIFICATE_CHAIN
+\Needspace{18\baselineskip}
+Because \(0<x<1\), the alternating Taylor theorem gives finite rational upper and lower bounds for \(\sin x\) through degree nine and for \(\cos x\) through degree eight. The exact Pell certificates
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+2(470832)^2-(665857)^2=-1,
+\qquad
+2(1136689)^2-(1607521)^2=1
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:PELL_BOUND_GIVE
+\Needspace{7\baselineskip}
+give
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\frac{470832}{665857}
+<
+\frac1{\sqrt2}
+<
+\frac{1136689}{1607521},
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:PELL_SECOND_CERTIFICATE_CHAIN
+\Needspace{16\baselineskip}
+while
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+4(1046629)^2-6(854569)^2=-2,
+\qquad
+4(4656965)^2-6(3802396)^2=4
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:PELL_BOUND_GIVE
+\Needspace{7\baselineskip}
+give
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\frac{1046629}{854569}
+<
+\frac{\sqrt6}{2}
+<
+\frac{4656965}{3802396}.
+$
+\end{adjustbox}
+\end{equation*}
+Sign-aware rational interval propagation yields
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+206\lambda_{\min}^2
+<
+\lambda_{\mathrm{mid}}^2
+<
+207\lambda_{\min}^2.
+$
+\end{adjustbox}
+\end{equation*}
+Since \(\lambda_{\min}>0\),
+
+\begin{equation}
+\label{eq:206-interval}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+206
+<
+R_{\mathrm{mid}/\min}^{\mathrm{int}}
+=
+\left(
+\frac{\lambda_{\mathrm{mid}}}{\lambda_{\min}}
+\right)^2
+<
+207.
+}
+$
+\end{adjustbox}
+\end{equation}
+Consequently,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+n_{\mathrm{mid}}
+:=
+\left\lfloor
+R_{\mathrm{mid}/\min}^{\mathrm{int}}
+\right\rfloor
+=206,
+}
+$
+\end{adjustbox}
+\end{equation*}
+and \(\rho_{\mathrm{mid}}=R_{\mathrm{mid}/\min}^{\mathrm{int}}-206\in(0,1)\). No decimal and no measured muon value participates in this result.
+
+\Needspace{5\baselineskip}
+\subsection{Two Supports Attached to the Preserved Faces}
+The carried record supplies one event, its two preserved faces, and
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+(n_{\mathrm{post}},n_{\mathrm{route}})=(2,1).
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:ROOT_CARRIER_SEQUENCE
+\Needspace{18\baselineskip}
+Attach two \(206\)-element supports to the two preserved faces. Let
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+C=C_{\mathrm{root}}=\{r_0,r_1,r_2\},
+\qquad
+|C|=3,
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:ROOT_SUPPORT_DEFINITION
+\Needspace{13\baselineskip}
+be the common \(C_3\) root carrier. Let \(U_{\mathrm{dir}}\) and \(U_{\mathrm{route}}\) be disjoint \(203\)-element sets, each disjoint from \(C\), and define
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Gamma_{\mathrm{dir}}
+=
+C\sqcup U_{\mathrm{dir}},
+\qquad
+\Gamma_{\mathrm{route}}
+=
+C\sqcup U_{\mathrm{route}}.
+$
+\end{adjustbox}
+\end{equation*}
+Then
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+|\Gamma_{\mathrm{dir}}|
+=
+|\Gamma_{\mathrm{route}}|
+=
+3+203
+=206,
+\qquad
+\Gamma_{\mathrm{dir}}\cap\Gamma_{\mathrm{route}}=C.
+$
+\end{adjustbox}
+\end{equation*}
+In plain terms, two 206-element supports are attached to the two preserved faces. They are not \(206\) physical events.
+
+The subtraction term has independent provenance: \(3=|C|\) is the cardinality of the common \(C_3\) root carrier. It is not obtained from \(n_{\mathrm{post}}+n_{\mathrm{route}}=2+1\), despite the numerical equality. The face counts distinguish two aspects of one event; they do not supply the overlap removed in the amalgamation.
+
+\Needspace{5\baselineskip}
+\subsection{The Free Pushout}
+Form the free pushout
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Gamma_{\mathrm{scr}}
+=
+\Gamma_{\mathrm{dir}}
+\amalg_C
+\Gamma_{\mathrm{route}},
+$
+\end{adjustbox}
+\end{equation*}
+which identifies precisely the two copies of each element of \(C\) and introduces no other relation. At least three reductions are required because duplicated common roots would double-count the same-event carrier. At most three are permitted because freeness introduces no relation among the \(406\) non-root elements and non-erasure forbids deleting them. Therefore
+
+\begin{equation}
+\label{eq:pushout-409}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+|\Gamma_{\mathrm{scr}}|
+=
+206+206-|C|
+=
+206+206-3
+=409.
+}
+$
+\end{adjustbox}
+\end{equation}
+Equation \(\eqref{eq:pushout-409}\) is the complete count; the two face counts do not supply its subtraction term.
+
+The alternative \(412\) double-counts the common roots. The alternative \(406\) requires additional identifications or erasures. Only \(409\) preserves same-event identity, freeness, and non-erasure.
+
+\Needspace{5\baselineskip}
+\subsection{The Finite-Screen Factor}
+For a completed count \(N\ge3\), equal completed units and one-winding closure force the successor cycle to a regular \(N\)-gon on a unit-diameter circle, up to an overall rotation and carried orientation. Each side has length \(\sin(\pi/N)\), so
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\pi_L(N)=N\sin\frac{\pi}{N},
+\qquad
+s_N=\frac{N\sin(\pi/N)}{\pi}.
+$
+\end{adjustbox}
+\end{equation*}
+At \(N=409\),
+
+\begin{equation}
+\label{eq:screen-factor}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+s_{409}
+=
+\frac{409\sin(\pi/409)}{\pi},
+\qquad
+0<s_{409}<1.
+}
+$
+\end{adjustbox}
+\end{equation}
+The exact factor used below is Eq. \(\eqref{eq:screen-factor}\).
+
+\Needspace{5\baselineskip}
+\subsection{Observer-Rooted Middle Placement}
+The middle-only action is fixed before the finite factor is applied. The lawful ancestry chain and the intrinsic rank chain are
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+A\prec B\prec D,
+\qquad
+\min\prec\operatorname{mid}\prec\max.
+$
+\end{adjustbox}
+\end{equation*}
+Here \(D\) is the endpoint label in the ancestry chain; it is not the geometric filled-share invariant denoted by the same letter in Section 4. The geometric use has type
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+D_{\mathrm{geom}}=\frac{\pi}{3\sqrt2},
+$
+\end{adjustbox}
+\end{equation*}
+whereas the ancestry use is the terminal label in the ordered relational chain. The completed four-cell context and the independently established active coefficient also admit the typed count composite
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+4m
+=
+4\left(\frac1{2\pi}\right)
+=
+\frac2\pi.
+$
+\end{adjustbox}
+\end{equation*}
+This is neither an equality with \(D_{\mathrm{geom}}\) nor a redefinition of either use of \(D\). The two readings meet only at the typed completed four-cell relational location: one describes the geometric filled share, while the other names an ancestry endpoint inside the four-cell observer construction.
+
+The first chain has the unique interior vertex \(B\), and the second has the unique middle rank. A lawful observer readout is a bijective, betweenness-preserving map
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\mathcal R:
+\{A,B,D\}
+\longrightarrow
+\{\min,\operatorname{mid},\max\}.
+$
+\end{adjustbox}
+\end{equation*}
+It must therefore carry the unique interior source element to the unique middle target:
+
+\begin{equation}
+\label{eq:observer-middle}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\mathcal R(B)=\operatorname{mid}.
+}
+$
+\end{adjustbox}
+\end{equation}
+Equation \(\eqref{eq:observer-middle}\) fixes the unique middle placement without changing the intrinsic spectrum.
+
+Reversal may exchange the two endpoints, but it fixes the unique middle. This is observer-rooted asymmetry in its operative form: the intrinsic unordered spectrum is unchanged, while a lawful report depends on the observer's rooted ancestry and betweenness position. The finite-screen action below is therefore selected by observer-rooted betweenness, not by a particle label or by choosing a displayed spectral sector.
+
+The factor acts once, after quadratic-support formation, and only on the middle rank:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+(q_{\min},q_{\mathrm{mid}},q_{\max})
+\longmapsto
+(q_{\min},s_{409}q_{\mathrm{mid}},q_{\max}).
+}
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:STANDALONE_THUS
+\Needspace{7\baselineskip}
+Thus
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+R_{\mathrm{mid}/\min}^{\mathrm{scr}}
+=
+s_{409}R_{\mathrm{mid}/\min}^{\mathrm{int}},
+\qquad
+R_{\max/\min}^{\mathrm{scr}}
+=
+R_{\max/\min}^{\mathrm{int}}.
+}
+$
+\end{adjustbox}
+\end{equation*}
+Because \(s_{409}>0\), division by it recovers the intrinsic middle ratio. The construction has produced \(206\), \(409\), and \(s_{409}\) without using a measured muon or tau value.
+

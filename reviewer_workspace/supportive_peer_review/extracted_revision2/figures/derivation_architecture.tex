@@ -1,0 +1,47 @@
+% ALT TEXT: A forward-only roadmap runs from relational existence through closure, derived FCC/RD geometry, rooted radius and phase, the intrinsic spectrum, quadratic support, 206, 409, the electron reporting standard, charged-lepton mass ratios, and finally the downstream Koide check. Construction nodes, the reporting-standard node, and the validation node have distinct styles.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  node distance=5.5mm and 6mm,
+  native/.style={draw=blue!65!black, fill=blue!5, rounded corners,
+    align=center, inner sep=3.5pt, font=\scriptsize},
+  standard/.style={draw=orange!75!black, fill=orange!10, rounded corners,
+    align=center, inner sep=3.5pt, font=\scriptsize},
+  validation/.style={draw=green!50!black, fill=green!8, rounded corners,
+    align=center, inner sep=3.5pt, font=\scriptsize},
+  arrow/.style={-{Latex[length=2mm]}, thick}
+]
+\node[native] (existence) {relational\\existence};
+\node[native, right=of existence] (closure) {closure};
+\node[native, right=of closure] (geometry) {FCC/RD\\geometry};
+\node[native, right=of geometry] (radius) {rooted radius\\and phase};
+\node[native, right=of radius] (spectrum) {intrinsic\\spectrum};
+\node[native, right=of spectrum] (support) {\(A^\dagger A\)};
+\node[native, below=7mm of support] (n206) {\(206\)};
+\node[native, left=of n206] (n409) {\(409\)};
+\node[standard, left=of n409] (electron) {electron\\standard};
+\node[native, left=of electron] (ratios) {mass\\ratios};
+\node[validation, left=of ratios] (koide) {Koide\\check};
+\draw[arrow] (existence) -- (closure);
+\draw[arrow] (closure) -- (geometry);
+\draw[arrow] (geometry) -- (radius);
+\draw[arrow] (radius) -- (spectrum);
+\draw[arrow] (spectrum) -- (support);
+\draw[arrow] (support) -- (n206);
+\draw[arrow] (n206) -- (n409);
+\draw[arrow] (n409) -- (electron);
+\draw[arrow] (electron) -- (ratios);
+\draw[arrow] (ratios) -- (koide);
+\node[font=\scriptsize, below=2mm of geometry, text=blue!65!black]
+  {theory-native construction};
+\node[font=\scriptsize, below=2mm of electron, text=orange!75!black]
+  {reporting scale only};
+\node[font=\scriptsize, below=2mm of koide, text=green!45!black]
+  {downstream validation};
+\end{tikzpicture}
+\caption{Derivation architecture.  Blue nodes belong to the theory-native
+construction, the orange electron node supplies only the reporting scale, and
+the green Koide node is downstream validation.  Every arrow points forward;
+no empirical standard or validation result feeds back into the construction.}
+\label{fig:derivation-architecture}
+\end{figure}

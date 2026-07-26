@@ -1,0 +1,178 @@
+\Needspace{7\baselineskip}
+\section{One Event, Two Preserved Faces}
+\label{sec:11}
+The next input is not a matrix entry and not a new numerical magnitude. It is a carried construction record for one event with two distinguishable faces. The record is needed later because the finite-screen construction uses one support attached to each face while preserving their common event identity.
+
+The formal authority retains its internal identifier. The publication uses only the result required by the proof and refers to it descriptively as the one-event/two-preserved-face recovery record.
+
+% LAYOUT_ONLY_HEADING_GUARD:ONE_EVENT_TYPED_COUNTS
+\Needspace{12\baselineskip}
+\subsection{One Event and Two Typed Counts}
+% LAYOUT_ONLY_GUARD:ONE_EVENT_TYPED_COUNTS
+\Needspace{7\baselineskip}
+The construction contains exactly one event. It has a posting face and a routing face, with the distinct counts
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+n_{\mathrm{post}}=2,
+\qquad
+n_{\mathrm{route}}=1,
+\qquad
+n_{\mathrm{post}}\ne n_{\mathrm{route}}.
+$
+\end{adjustbox}
+\end{equation*}
+The counts describe different roles within that same event. They are not identified, multiplied, added, averaged, or otherwise combined.
+
+% LAYOUT_ONLY_HEADING_GUARD:TAGGED_FACE_PRESERVATION
+\Needspace{10\baselineskip}
+\subsection{Tagged Face Preservation}
+% LAYOUT_ONLY_GUARD:TAGGED_FACE_INJECTIONS
+\Needspace{13\baselineskip}
+Let the canonical tagged injections be
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\iota_{\mathrm{post}}:
+\{\text{posting face}\}
+\longrightarrow
+\{\mathrm{post}\}\times\{\text{posting face}\},
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\iota_{\mathrm{route}}:
+\{\text{routing face}\}
+\longrightarrow
+\{\mathrm{route}\}\times\{\text{routing face}\}.
+$
+\end{adjustbox}
+\end{equation*}
+The tags force
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\iota_{\mathrm{post}}(\text{posting face})
+\ne
+\iota_{\mathrm{route}}(\text{routing face}).
+$
+\end{adjustbox}
+\end{equation*}
+The carried record is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\operatorname{Rec}_{2f}
+:=
+\left(
+\text{one event},
+\iota_{\mathrm{post}}(\text{posting face}),
+\iota_{\mathrm{route}}(\text{routing face}),
+n_{\mathrm{post}},
+n_{\mathrm{route}}
+\right).
+}
+$
+\end{adjustbox}
+\end{equation*}
+This notation abbreviates the already-promoted record for manuscript use. It does not rename the event, create a second event, or introduce a new scientific object.
+
+\Needspace{5\baselineskip}
+\subsection{Exact Recovery}
+The record has exact projections:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Recover}_{\mathrm{event}}
+\left(
+\operatorname{Rec}_{2f}
+\right)
+=
+\text{one event},
+$
+\end{adjustbox}
+\end{equation*}
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Recover}_{\mathrm{faces}}
+\left(
+\operatorname{Rec}_{2f}
+\right)
+=
+\left(
+\text{posting face},
+\text{routing face}
+\right).
+$
+\end{adjustbox}
+\end{equation*}
+For the displayed count pair,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Render}_{2f}
+\left(
+n_{\mathrm{post}},n_{\mathrm{route}}
+\right)
+:=
+\left\langle
+n_{\mathrm{post}},n_{\mathrm{route}}
+\right\rangle,
+$
+\end{adjustbox}
+\end{equation*}
+recorded-construction recovery gives
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\boxed{
+\operatorname{Recover}_{\mathrm{counts}}
+\left(
+\operatorname{Render}_{2f}
+\left(
+n_{\mathrm{post}},n_{\mathrm{route}}
+\right),
+\operatorname{Rec}_{2f}
+\right)
+=
+\left(
+n_{\mathrm{post}},n_{\mathrm{route}}
+\right)
+=
+(2,1).
+}
+$
+\end{adjustbox}
+\end{equation*}
+These are tuple projections, not inversions of a bare scalar. The event identity, both face identities, and both typed counts remain present together.
+
+\Needspace{5\baselineskip}
+\subsection{The Independent Three-Root Carrier}
+The later finite-screen construction uses a common three-root carrier
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+C=C_{\mathrm{root}}=\{r_0,r_1,r_2\},
+\qquad
+|C|=3.
+$
+\end{adjustbox}
+\end{equation*}
+That cardinality comes from the rooted \(C_3\) structure. It does not come from the two face counts. The numerical statement \(n_{\mathrm{post}}+n_{\mathrm{route}}=2+1=3\) is not the derivation of \(|C|=3\). The face counts identify two roles within one event; the root cardinality identifies the common subobject used by the later amalgamation.
+
+After the intrinsic spectrum fixes the middle count at \(206\), the finite-screen construction uses two \(206\)-element supports attached to the two preserved faces. Their overlap is the independently established carrier \(C\). Thus the posting and routing counts do not supply \(206\), do not supply the common-root subtraction term, and do not by themselves produce the finite screen.
+
+Section 11 establishes one event, two tagged preserved faces, the distinct count pair \((2,1)\), and exact recovery of all five record fields. It also separates those face counts from the independently established three-root carrier used later. It assigns no carrier magnitude, matrix position, mass, or energy.
+

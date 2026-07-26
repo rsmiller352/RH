@@ -1,0 +1,43 @@
+% ALT TEXT: Two recoverably distinct preserved presentations of one event, Gamma sub dir and Gamma sub route, each have 206 elements and overlap in one common three-root carrier. Free amalgamation gives 206 plus 206 minus 3 equals 409. The resulting regular-screen factor is then shown acting exactly once, after quadratic-support formation, only on the observer-selected middle entry of the three-rank tuple.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  node distance=7mm and 14mm,
+  box/.style={draw,rounded corners,align=center,inner sep=4pt,font=\small},
+  arrow/.style={-{Latex[length=2mm]},thick}
+]
+\node[box,fill=blue!6] (event) {one event\\two preserved presentations};
+\node[box,below left=of event] (dir)
+  {\(\Gamma_{\rm dir}\)\\ \(|\Gamma_{\rm dir}|=206\)};
+\node[box,below right=of event] (route)
+  {\(\Gamma_{\rm route}\)\\ \(|\Gamma_{\rm route}|=206\)};
+\node[box,below=18mm of event,fill=orange!10] (root)
+  {common root carrier\\
+   \(|\Gamma_{\rm dir}\cap\Gamma_{\rm route}|=3\)};
+\draw[arrow] (event)--(dir);
+\draw[arrow] (event)--(route);
+\draw[arrow] (dir)--(root);
+\draw[arrow] (route)--(root);
+\node[box,below=of root,fill=blue!6] (screen)
+  {\(\displaystyle|\Gamma_{\rm scr}|=206+206-3=409\)};
+\draw[arrow] (root)--(screen);
+\node[box,right=18mm of screen] (factor)
+  {\(\displaystyle s_{409}
+    =\frac{409\sin(\pi/409)}{\pi}\)};
+\draw[arrow] (screen)--(factor);
+\node[box,below=of factor,fill=green!7] (action)
+  {\(\displaystyle
+   (q_{\min},q_{\rm mid},q_{\max})
+   \longmapsto
+   (q_{\min},s_{409}q_{\rm mid},q_{\max})\)};
+\draw[arrow] (factor)--(action);
+\node[font=\scriptsize,align=center,left=4mm of action]
+  {exactly once\\after \(A^\dagger A\)\\middle rank only};
+\end{tikzpicture}
+\caption{Two-face free amalgamation and the \(409\)-screen action.  The two
+\(206\)-element sets are recoverably distinct preserved presentations of the
+same event, not independent physical events.  They share one three-root
+subobject.  The resulting factor acts exactly once, after quadratic-support
+formation, and only on the observer-selected middle rank.}
+\label{fig:two-face-409}
+\end{figure}

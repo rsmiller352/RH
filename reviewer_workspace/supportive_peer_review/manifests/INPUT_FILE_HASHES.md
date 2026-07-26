@@ -8,6 +8,9 @@ SHA-256 hashes of every supplied input file, computed at intake and never recomp
 |---|---|---|---|
 | `intake/ObserverRootedAsymmetry.pdf` | `11f20aa4e3e47cfdf66748b0780b85a78920a45670c420e8b786584287db7692` | 904,244 | 2026-07-26 |
 | `intake/ObserverRootedAsymmetryreferencedEQcards.zip` | `b528c51b6ff2f6cb9d94bb96d5b7e1c6cd4d201b5a5d4129cda7415bafdafba5` | 890,668 | 2026-07-26 |
+| `intake/ObserverRootedAsymmetryOverleaf_R2.zip` (Revision 2, LaTeX source) | `aa45baf84e151ec98518960a7efaefc42cbef40cb46cafb400af3af36d906b97` | — | 2026-07-26 (R2) |
+
+**Revision 2 facts:** 38 files (main.tex; introduction + 15 sections + conclusion + declarations; 5 TikZ figures + accessibility alt-text; references.bib with 3 entries; equation-label, notation/type, and dependency-chain ledgers; mathematical-authority digest; manifest + FILE_HASHES). Package-internal hash ledger verified with zero mismatches. Extracted exclusively to `extracted_revision2/`. Compiles under pdfLaTeX + BibTeX: 62 pages, zero warnings, zero undefined references (reviewer compile check).
 
 ## Manuscript facts at intake
 

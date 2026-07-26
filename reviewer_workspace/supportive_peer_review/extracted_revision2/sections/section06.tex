@@ -1,0 +1,190 @@
+\Needspace{7\baselineskip}
+\section{Aperture and Resolution}
+\label{sec:06}
+Section 5 showed that the runtime account does not stop: the residual account is repeatedly serviced, ticks recur, and escapements post completed units when the standing account crosses the unit threshold. Section 6 asks a different question. Given two relational histories, when is their difference large enough to be read as a resolved distinction?
+
+Inside the theory, the issue is a floor: an action gap smaller than one resolution unit posts no resolved distinction. At and above one unit, completed units can be counted. This manuscript uses only that internal action/count structure. Possible translations into calibrated physical action or externally normalized resolution belong to later bridge work and are not part of the present derivation.
+
+The internal count remains a count of completed distinguishability units.
+
+\Needspace{5\baselineskip}
+\subsection{Relational Histories}
+The objects compared by the aperture layer are histories. A history is not a path through a pre-existing space. It is an admissible relational walk from one distinguishability event to another:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\mathcal{H}(A,B)
+:=
+\{\,w:\; w \text{ is an admissible relational walk from } A \text{ to } B\,\}.
+$
+\end{adjustbox}
+\end{equation*}
+If \(\gamma_1\in\mathcal{H}(A,B)\) and \(\gamma_2\in\mathcal{H}(B,C)\), the two histories may be chained,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\gamma_1\circ\gamma_2\in\mathcal{H}(A,C).
+$
+\end{adjustbox}
+\end{equation*}
+The empty history is the empty walk \(\varepsilon\). It is a walk identity for concatenation, not a zero object. That distinction matters because the aperture layer continues the same no-zero discipline used in Sections 1 and 2: absence, no increment, no difference, and no resolved distinction are typed predicates, never stored zero quantities.
+
+\Needspace{5\baselineskip}
+\subsection{Internal Action}
+Over these histories the theory defines an internal action functional:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\mathcal{S}_\Phi:\mathcal{H}(A,B)\longrightarrow \mathcal{D}^{+}_{\mathrm{act}} .
+$
+\end{adjustbox}
+\end{equation*}
+For a non-empty history, \(\mathcal{S}_\Phi[\gamma]\) is a strictly positive internal action holding. Its defining structural property is concatenation additivity:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\mathcal{S}_\Phi[\gamma_1\circ\gamma_2]
+=
+\mathcal{S}_\Phi[\gamma_1]\oplus \mathcal{S}_\Phi[\gamma_2].
+$
+\end{adjustbox}
+\end{equation*}
+The operation \(\oplus\) is the positive composition already licensed for the quantity domain. Nothing here requires signed subtraction. The action assigned to a history is a single internal readout of that history; the order and relational structure remain in the history itself. The empty-history case is again predicate-like: \(\mathcal{S}_\Phi[\varepsilon]\) contributes no action increment, but it is not represented as a stored zero action.
+
+\Needspace{5\baselineskip}
+\subsection{The Resolution Unit}
+An action readout becomes distinguishability only after the theory fixes a resolution unit. That unit is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+u_\Phi\in\mathcal{D}^{+}_{\mathrm{act}},
+\qquad
+u_\Phi>0.
+$
+\end{adjustbox}
+\end{equation*}
+It is the internal action difference corresponding to one completed unit of distinguishability:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Delta(\mathcal{S}_\Phi/u_\Phi)=1
+\Longleftrightarrow
+\Delta I=1.
+$
+\end{adjustbox}
+\end{equation*}
+Thus \(u_\Phi\) is unit-relative. If the action readout and the internal resolution unit are rescaled together, the distinguishability count does not change. The invariant is the one-unit threshold, not the printed size of the unit. This is the same pattern already used in the runtime account: the account is measured by completed units, not by treating a reporting scale as an object of nature.
+
+\Needspace{5\baselineskip}
+\subsection{The Action Gap}
+For two histories \(\gamma_1,\gamma_2\), the action gap is not a signed subtraction. The theory compares their internal action readouts by the positive-gap order. If one action strictly exceeds the other, there is a unique strictly positive excess \(e\) satisfying
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\text{smaller}\oplus e=\text{larger}.
+$
+\end{adjustbox}
+\end{equation*}
+The gap is then recorded as a which-side tag together with a positive-excess readout:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+g_\Phi(\gamma_1,\gamma_2):=(\sigma, |g_\Phi|),
+\qquad
+|g_\Phi|:=\frac{e}{u_\Phi}.
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:ACTION_GAP_TAG_PARAGRAPH
+\Needspace{12\baselineskip}
+The tag \(\sigma\) records only which history carries the larger action. It is a history-side tag in this comparison, not a four-cell observer standpoint, not spatial direction, and not the later observer-readout structure. At this layer, two histories give only a comparative side and a positive excess. The readout \(|g_\Phi|\) is that positive excess in \(u_\Phi\) units, taken only at coefficient readout; it is not a standalone primitive quantity or measured size. If the two action readouts match, the result is a paired-balance predicate: no excess exists. The theory does not store a zero-valued gap.
+
+This is the aperture layer's basic comparison object. It is dimensionless, unit-relative, and internal. It is not a distance, not a coordinate, not a physical phase by itself, and not yet a comparison with experiment.
+
+\Needspace{5\baselineskip}
+\subsection{The Resolution Floor}
+The floor is the first theorem of the section. A sub-unit gap does not post a resolved distinction:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+|g_\Phi|<1
+\Longrightarrow
+\text{no resolved distinction is on record}.
+$
+\end{adjustbox}
+\end{equation*}
+That sentence should be read literally. Below the unit threshold there is an open account, not a zero count. Nothing has completed, so nothing posts. When the gap reaches one full unit, a unit of distinguishability has completed; by non-erasure it must be accounted, and the posting is forced:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Delta I=1.
+$
+\end{adjustbox}
+\end{equation*}
+The resulting count is the number of completed unit crossings. The reason is purely discrete: the gap \(|g_\Phi|\) is the positive excess read in \(u_\Phi\)-units; only whole unit crossings are completed distinguishability units; and any remaining fractional part is still an open account. The account can therefore record exactly the largest whole number of completed crossings not exceeding \(|g_\Phi|\):
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+I(\gamma_1,\gamma_2)=\big\lfloor |g_\Phi| \big\rfloor .
+$
+\end{adjustbox}
+\end{equation*}
+The floor symbol is an external completed-crossing readout. Internally, the object is the standing gap and the account discipline around it. At base saturation, \(|g_\Phi|=1\), the same structure re-earns the first count:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+I\big|_{|g_\Phi|=1}=1.
+$
+\end{adjustbox}
+\end{equation*}
+This does not ground the first count of Section 1. It reproduces it downstream at the aperture layer: one completed distinguishability unit reads as one.
+
+\Needspace{5\baselineskip}
+\subsection{Relative Phase}
+The gap also supplies a relative coherence-phase record. Because \(g_\Phi\) is the ordered pair \((\sigma,|g_\Phi|)\), rather than a signed scalar, the record preserves the orientation tag and the phase magnitude as separate typed components:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\left(
+\sigma,\;
+\left[2\pi|g_\Phi|\right]_{2\pi}
+\right).
+$
+\end{adjustbox}
+\end{equation*}
+The brackets denote the phase-magnitude class modulo \(2\pi\); they do not act on \(\sigma\).
+
+% LAYOUT_ONLY_GUARD:RELATIVE_PHASE_FIREWALL
+\Needspace{10\baselineskip}
+Only relative phase is contentful here. The phase is a reading of a gap between histories, so an absolute phase of a single isolated history is not an admitted object. A uniform offset changes no action gap and no completed-crossing count. At this generic layer \(\sigma\) remains a non-arithmetic orientation tag: it is carried beside the phase magnitude and is neither multiplied nor treated as a signed holding.
+
+The full turn \(2\pi\) is consumed from the earlier closure result. It is not re-derived in this section. Each completed \(2\pi\) closure corresponds to one completed distinguishability unit, so the closure count is again
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+I=\big\lfloor |g_\Phi|\big\rfloor .
+$
+\end{adjustbox}
+\end{equation*}
+This generic tag is distinct from the later lepton-specific orientation realization. In the promoted spectral theorem, orientation is explicitly realized as a numerical label \(\sigma\in\{+1,-1\}\); only there are expressions such as \(\exp(i\sigma\Phi_o)\) licensed. The later numerical realization does not retroactively turn the generic Section 6 tag into an arithmetic sign.
+
+\Needspace{5\baselineskip}
+\subsection{Boundary of the Section}
+Section 6 supplies the internal resolution layer: relational histories, internal action, the internal resolution unit, the oriented action-gap record, the resolution floor, the completed-crossing count, and the relative-phase reading. It introduces no measured units and no external calibration.
+
+The section can lose in concrete ways. Exhibit a persistent resolved distinction below the unit floor, and the floor fails. Exhibit a stored zero gap or zero count inside the resolution layer, and the no-zero discipline fails. Treat the generic orientation tag as an arithmetic sign, and the pair typing fails. Treat an absolute phase as contentful, and the relative-phase discipline fails.
+

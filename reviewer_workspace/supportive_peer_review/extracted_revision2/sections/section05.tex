@@ -1,0 +1,291 @@
+\Needspace{7\baselineskip}
+\section{Runtime Accounting: Tick, Escapement, and Residual Growth}
+\label{sec:05}
+Section 4 supplied the static cell: the FCC/RD presentation, the filled share \(D\), the residual share \(\Omega\), and the static referent \(\operatorname{REF}(\xi)\). Section 5 asks what happens when that residual share is allowed to run.
+
+The answer is not physical time yet. It is not a clock reading, not a rate in seconds, and not a dynamics in a background space. It is an internal accounting process: a residual register receives the same strictly positive share each cycle, carries the leftover forward, and posts a completed unit only when the account reaches one whole unit.
+
+% LAYOUT_ONLY_GUARD:RUNTIME_IRRATIONALITY_LEADIN
+\Needspace{14\baselineskip}
+The running of the account is not an added iteration rule. Admitted existence has no licensed terminal book, and its book of licensed entries has no last entry; while admitted content stands, there must be a next closure-attempt in the order. At the base runtime layer, before any scheduling, physical-time, or observer-readout structure has been introduced, that renewed attempt has exactly one licensed representation: the base tick. The attempts therefore recur. There is no last tick. This recurrence does not depend on the irrationality of \(\Omega\) and would still hold even if a discharge settled exactly. The irrationality of
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+1-\frac{\pi}{3\sqrt{2}}
+$
+\end{adjustbox}
+\end{equation*}
+sharpens the internal runtime for the exact residual value used here. Recurrence is already forced by the no-terminal/no-last account and the tick-uniqueness result; irrationality does not make ticks recur. What irrationality adds is stricter: the internal residual account never settles exactly, so each recurring tick is a re-attempt at the same standing account, and the present residual determines the ledger tick history, in principle from an exact residual reading, rather than storing an archive.
+
+That distinction matters. The paper now separates three things that ordinary language can easily blur:
+
+\begin{itemize}
+\item a \textbf{tick}, the base runtime event;
+\item an \textbf{escapement}, the threshold-crossing event caused by some ticks but not all ticks;
+\item a \textbf{cell}, the relational co-end created when an escapement posts a completed unit.
+\end{itemize}
+One cell is created per escapement, never per tick.
+
+\Needspace{5\baselineskip}
+\subsection{The Residual Register}
+The runtime layer needs a place where the uncompleted share can be held. That object is the residual register \(S_{\mathrm{res}}\). It is a partial holding: when present, it holds a strictly positive residual; when no residual remains, the register is absent from the book. It is never a register containing zero.
+
+The core runtime state is therefore minimal:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{State}_{\mathrm{rt}}(k)
+=
+\big(S_{\mathrm{res}}(k)\big).
+$
+\end{adjustbox}
+\end{equation*}
+Here \(k\) is the update index of the running account. It is not physical time. The event index and physical-time index are kept distinct from it. In this section, the runtime book is only an internal account whose state can change; the bridge to measured time belongs later.
+
+The residual is read against the unit account \(I=1\). If a current residual is present, its account ratio is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+R_{\mathrm{acc}}
+=
+\frac{S_{\mathrm{res}}}{I}
+=
+S_{\mathrm{res}}
+\qquad (I=1).
+$
+\end{adjustbox}
+\end{equation*}
+The equality on the right is numerical because the unit threshold is \(1\), but the meaning is not "a free decimal value." It is a unit-relative account standing: below one, exactly one, or above one. A sub-unit residual is not yet completed existence. A completed unit is the threshold at which the book must post.
+
+\Needspace{5\baselineskip}
+\subsection{The Cell Increment}
+The residual share from Section 4 becomes the per-tick runtime increment:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Omega_{\mathrm{cell}}^{\mathrm{slot}}
+=
+\omega_{\mathrm{cell}}
+=
+\Omega_{\mathrm{geom}}
+=
+\Omega_{\mathrm{pack}}
+=
+1-\frac{\pi}{3\sqrt{2}} .
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:RUNTIME_TYPED_ROLE_PARAGRAPH
+\Needspace{11\baselineskip}
+This equality carries one fixed value across two typed roles. The symbol \(\Omega_{\mathrm{geom}}\) names the normalized geometric residual share, while \(\omega_{\mathrm{cell}}\) names the equal feed supplied at each serviced tick. Neither symbol is the live state \(S_{\mathrm{res}}(K)\), which changes with \(K\). The identity is the licensed handoff from the static cell to the runtime register; it does not make \(\Omega\) a mass, a physical density, a measured unit, or an accumulated state.
+
+The feed into the runtime register is an admission, not a transfer from another register. The cell-side residual share and the register-side entry in \(S_{\mathrm{res}}\) are two readings of one admitted share. No source register exists and nothing moves, so the transfer-conservation law is not being bypassed. On the static cell side, \(\Omega\) names the share not occupied by the filled portion of the cell. On the runtime side, repeated feeds of that fixed share change the live register state \(S_{\mathrm{res}}(K)\) toward the unit threshold; \(\Omega\) itself does not accumulate or vary with \(K\). When an escapement occurs, the completed unit posts. If the crossing overshoots the unit, the runtime residual is the positive carry beyond that posted unit; if the crossing is exact, the residual register is absent.
+
+For a strictly positive cycle count \(x\), the accumulated input is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+u_{\mathrm{tick}}(x)=x\Omega .
+$
+\end{adjustbox}
+\end{equation*}
+The notation
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+N_{\mathrm{tick}}(x)=\lfloor x\Omega\rfloor
+$
+\end{adjustbox}
+\end{equation*}
+must be read with care. Despite the glyph, it counts completed unit-account crossings: escapements. It is not the number of base ticks. If no crossing has occurred, the report is the absence of a posted event, not a held zero count.
+
+\Needspace{5\baselineskip}
+\subsection{Tick and Escapement}
+A tick is the base runtime event. Each tick advances the residual account by \(\omega_{\mathrm{cell}}=\Omega\). Since \(0<\Omega<1\), one tick contributes less than the unit account \(I=1\) by itself. It completes a unit only when the standing residual already puts the updated account at or past the threshold.
+
+An escapement is different. It occurs exactly when the updated residual reaches the unit threshold:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+S_{\mathrm{res}}(k)\oplus\omega_{\mathrm{cell}}\succeq 1 .
+$
+\end{adjustbox}
+\end{equation*}
+The symbol \(\oplus\) here is the positive accumulation operation of the ledger, and \(\succeq\) is the positive-gap order against the unit account. The condition is a crossing condition, not a hidden equality-to-zero construction and not signed subtraction.
+
+When the crossing occurs, one unit of existence has completed. Non-erasure then leaves no option for that completed unit to disappear as a non-entry. The book must post it, and because exactly one whole unit has completed, the posting is exactly
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\Delta I=1 .
+$
+\end{adjustbox}
+\end{equation*}
+This value is not stipulated. It follows from account completion: one completed unit of existence posts one completed unit-token.
+
+\Needspace{5\baselineskip}
+\subsection{The Update Rule}
+Given the recurring attempts, each serviced update has the transfer-side accounting form
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+S_{\mathrm{res}}(k+1)
+=
+S_{\mathrm{res}}(k)\oplus\omega_{\mathrm{cell}}\ominus[\mathrm{posting}] .
+$
+\end{adjustbox}
+\end{equation*}
+The notation \(\ominus\) does not introduce signed subtraction. If no posting occurs, the residual simply grows by \(\omega_{\mathrm{cell}}\). If a posting occurs, one whole unit is posted from the residual account as the completed-unit event count. The next residual is the unique positive remainder whose sum with that posted unit restores the accumulated amount. In runtime language, residual means unposted accumulation before threshold and positive overrun carried forward after an escapement. If the crossing is exact, the residual register leaves the book.
+
+Thus every branch preserves the Section 2 discipline. The register either holds a strictly positive leftover below the unit or is absent. It never stores zero, and no negative residual is introduced.
+
+The real-arithmetic closed form of the accounting identity is
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+S_{\mathrm{res}}(0)+K\omega_{\mathrm{cell}}
+=
+S_{\mathrm{res}}(K)+T_{\mathrm{rt}}(K)\cdot 1 ,
+$
+\end{adjustbox}
+\end{equation*}
+where \(T_{\mathrm{rt}}(K)\) is the count of completed unit-accounts by cycle \(K\). Equivalently,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+T_{\mathrm{rt}}(K)
+=
+\left\lfloor S_{\mathrm{res}}(0)+K\omega_{\mathrm{cell}}\right\rfloor ,
+\qquad
+S_{\mathrm{res}}(K)
+=
+\operatorname{frac}\!\left(S_{\mathrm{res}}(0)+K\omega_{\mathrm{cell}}\right).
+$
+\end{adjustbox}
+\end{equation*}
+The floor counts completed units. The fractional part is the unitized residual ratio that remains, when a residual remains. The arithmetic is exact, but the ontology is still account completion, not free-floating real-number floor math.
+
+% LAYOUT_ONLY_GUARD:EMPTY_HISTORY_START
+\Needspace{7\baselineskip}
+At the empty-history start, this reduces to the inherited \(N_{\mathrm{tick}}\) form:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+T_{\mathrm{rt}}(K)=N_{\mathrm{tick}}(K),
+\qquad
+S_{\mathrm{res}}(K)=\operatorname{frac}(K\Omega).
+$
+\end{adjustbox}
+\end{equation*}
+\Needspace{5\baselineskip}
+\subsection{The Escapement Staircase}
+Because \(\Omega=1-\pi/(3\sqrt{2})\), the first few completions are not arbitrary. The exact inequalities give
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+N_{\mathrm{tick}}(3)\ \text{has no posted event},
+\qquad
+N_{\mathrm{tick}}(4)=1 .
+$
+\end{adjustbox}
+\end{equation*}
+Equivalently,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+4\Omega=1+\varepsilon_4 .
+$
+\end{adjustbox}
+\end{equation*}
+More generally, the gaps between successive single-cell completions are exactly a \(\{3,4\}\) staircase:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\text{gaps}\in\{3,4\}
+\Longleftrightarrow
+\frac14<\Omega<\frac13
+\Longleftrightarrow
+2\sqrt{2}<\pi<\frac{9\sqrt{2}}{4}.
+$
+\end{adjustbox}
+\end{equation*}
+This is a runtime count statement. It is not a physical clock, not seconds, not a frequency measurement, and not the slower four-cell pooled clock. The four-cell \(\{26,27\}\) reading is fenced as a separate object. The single-cell staircase is the exact escapement pattern of this runtime account.
+
+The long-run completion rate is also exact:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\lim_{x\to\infty}\frac{N_{\mathrm{tick}}(x)}{x}
+=
+\Omega ,
+\qquad
+\Omega-\frac1x
+<
+\frac{N_{\mathrm{tick}}(x)}{x}
+\le
+\Omega .
+$
+\end{adjustbox}
+\end{equation*}
+This is the only rate statement made here, and it remains an internal completion rate: completed unit-accounts per cycle. The limiting argument genuinely uses real analysis: the ratio is trapped between \(\Omega\) and \(\Omega-1/x\), and the width of that interval closes as \(x\) grows. It does not convert \(k\), \(x\), or \(K\) into physical time.
+
+\Needspace{5\baselineskip}
+\subsection{Cells Completed by Escapement}
+When an escapement posts \(\Delta I=1\), one cell is completed as the opposite-side reading of the same non-erased transfer. The source-side reading is the unit leaving the residual account; the co-end reading is the \(+1\) cell. These are not two detached creations. They are one paired relational event read from two sides.
+
+Therefore the cell count follows the escapement count:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\#\mathrm{cells}
+=
+\#\mathrm{escapements}
+=
+\lfloor x\Omega\rfloor
+<
+x .
+$
+\end{adjustbox}
+\end{equation*}
+This is the main distinction the section needs. The runtime does not generate one cell per base tick. It generates one cell per threshold crossing. Most ticks are only residual advances.
+
+Each cell may carry its own residual, and that does not create a second existence. The cells remain one existence because each child is relationally connected to its origin as the \(+1\) co-end of the transfer that produced it. An unconnected cell would be a second existence and is excluded. The binding here is relational connectedness, not gravity, not a background coordinate adjacency, and not a later observer frame.
+
+The cross-cell connective is also unpreferred at this layer. Every reading must be paired, so dangling half-links are forbidden. But no global orientation has yet been supplied that could privilege one cross-cell path over another. That global orientation belongs to the later observer construction. Section 5 only gives the dangling-free, unpreferred runtime connective.
+
+One exact first-jump consequence is available. Because the exact inequality \(\pi>15\sqrt{2}/7\) fixes the relevant second-gap branch, the origin's second escapement and the first child's first escapement land together at tick \(8\). The population therefore jumps
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+2\longrightarrow 4
+$
+\end{adjustbox}
+\end{equation*}
+and skips a stable \(3\) at the first jump. This is a first-jump result only. It does not claim a general growth law, does not decide whether the four-cell system later couples, and does not introduce readout, clockhood, mass, energy, or physical time.
+
+\Needspace{5\baselineskip}
+\subsection{Boundary of the Section}
+Section 5 has converted the static residual share \(\Omega\) into runtime accounting. It has supplied the residual register, the recurring-attempt theorem, the per-tick increment, the feed-admission articulation, the tick/escapement distinction, the forced unit posting, the update rule, the floor-sum account reading, the \(\{3,4\}\) staircase, the internal completion rate, and the first relational growth consequence.
+
+It has not built physical time. It has not built clockhood. It has not read \(\Omega\) as mass or energy. It has not used gravity as a binding mechanism. It has not installed a background lattice-growth process. It has not assigned observer orientation, measurement, aperture, SI units, or empirical comparison. Those are later questions, and they must preserve the runtime accounting established here.
+
+The section can fail in concrete ways. Exhibit a final licensed tick while admitted content still stands, and the recurrence theorem falls. Exhibit a runtime state that stores a zero residual, and the strict-positivity fence falls. Exhibit a lawful update in which the residual exceeds the unit without posting, and the bounded-residual theorem falls. Exhibit a crossing that does not force \(\Delta I=1\), and account completion fails. Exhibit a stable first population \(3\) under the exact \(\Omega\) arithmetic, and the first-jump result fails. Exhibit one cell per base tick rather than one per escapement, and the growth identity fails.
+

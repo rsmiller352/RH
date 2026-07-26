@@ -1,0 +1,326 @@
+\Needspace{7\baselineskip}
+\section{Relational Arithmetic: Formalizing the Relational Ledger}
+\label{sec:02}
+Section 2 takes the conceptual ideas introduced in Section 1 and begins expressing them in formal mathematics. It gives the arithmetic the theory is allowed to use once a distinction has been admitted, but before metric geometry, observer-local measurement, calibration, or empirical comparison are available. This arithmetic is not a copy of ordinary signed algebra. It is a bookkeeping language for relations.
+
+The central idea is that, at any formal state, the theory maintains a ledger recording which relationships currently contain admitted content. This ledger represents the current admitted state of existence within the relational system.
+
+\Needspace{5\baselineskip}
+\subsection{The Holding State}
+To formalize the ledger, let \(R\) be a finite set of relationship registers. A holdings state is a partial map
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+h:\operatorname{supp}(h)\to \mathcal{D}_+,\qquad
+\operatorname{supp}(h)\subseteq R ,
+$
+\end{adjustbox}
+\end{equation*}
+assigning to each held register a strictly positive quantity. The quantity domain \(\mathcal{D}_+\) is the positive domain of Section 1: it has no internal zero object, no subtraction operation, and no additive inverses, and adding something is never adding nothing:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\forall x,y\in\mathcal{D}_+,\qquad x+y\neq x .
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:ABSENCE_DEFINITION
+\Needspace{8\baselineskip}
+The important point is that this is more than simply saying that zero represents absence. The structure of the ledger itself distinguishes between a relationship that holds content and a relationship that is not part of the holding state at all. An empty register does not contain the value zero. It is absent from the current holding state altogether:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{absent}_h(r)\Longleftrightarrow r\notin\operatorname{supp}(h).
+$
+\end{adjustbox}
+\end{equation*}
+The distinction is structural, not numerical. No formula \(h(r)=0\) is even available inside the active quantity language. If absence were a held value, a non-event would have been admitted as a ledger object, exactly what Section 1 ruled out. After a transfer, a relationship that no longer contains admitted content is removed from the holding state rather than remaining in the ledger with a stored value of zero. The ledger records only active holdings.
+
+Within one kind of quantity, comparison is the positive-gap order of Section 1: \(a\succeq b\) exactly when \(a=b\) or some strictly positive gap \(d\) satisfies \(b+d=a\), and any two amounts of one kind are comparable. Section 1 proved that cancellation follows from these properties as a theorem. The same theorem gives one immediately needed fact: when a strict gap exists, it is unique,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\big(b+d=a\big)\wedge\big(b+d'=a\big)\Longrightarrow d=d' .
+$
+\end{adjustbox}
+\end{equation*}
+That uniqueness is what lets the next step, transfer, be a definition rather than an ambiguous operation.
+
+\Needspace{5\baselineskip}
+\subsection{Transfer as the Primitive Operation}
+In ordinary mathematics, change is often expressed through subtraction. In the relational mathematics developed here, subtraction is not fundamental. Transfer is the primitive operation.
+
+Within a transfer, nothing is destroyed and nothing is created. Admitted existence is redistributed between relationships.
+
+Consider Alice and Bob holding apples. If Alice transfers apples to Bob, Alice simply holds fewer apples and Bob holds more. At no point does Alice possess a negative number of apples. Suppose Charlie initially holds nothing. Charlie does not appear in the holding ledger, because no admitted content is associated with Charlie's relationship. If apples are transferred to Charlie, Charlie appears in the holding ledger. And if Alice transfers away every apple she possesses, Alice is not assigned the value zero. Her relationship is simply removed from the holding ledger, because it no longer contains admitted content.
+
+Formally, for distinct registers \(A,B\in R\) and a quantity \(q\in\mathcal{D}_+\), the transfer
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+T(A\to B;q)
+$
+\end{adjustbox}
+\end{equation*}
+is admissible at a holding state \(h\) exactly when the source is in the book and has enough:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+A\in\operatorname{supp}(h)\ \wedge\ h(A)\succeq q .
+$
+\end{adjustbox}
+\end{equation*}
+% LAYOUT_ONLY_GUARD:TRANSFER_TARGET_UPDATE
+\Needspace{13\baselineskip}
+If the transfer is admissible, the target joins the ledger or grows,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+B\notin\operatorname{supp}(h)\Longrightarrow h'(B)=q,
+\qquad
+B\in\operatorname{supp}(h)\Longrightarrow h'(B)=h(B)+q ,
+$
+\end{adjustbox}
+\end{equation*}
+and the source is handled by the two branches of the order: in the exact case \(h(A)=q\), the source leaves the holding state; in the strict case, the source remains with the unique positive remainder \(d\) satisfying \(d+q=h(A)\). Every bystander register is unchanged.
+
+Transfer also replaces the conventional ideas of overdrafts, debt, and negative balances. If a requested transfer exceeds the available admitted content, the transfer is simply inadmissible. Nothing changes. The ledger remains exactly as it was. There is no post-state.
+
+This has an important consequence. Every lawful transfer in this layer preserves a complete accounting of admitted existence. Whenever the ledger changes, it is always meaningful to ask:
+
+\begin{itemize}
+\item Where did this admitted content come from?
+\item Where did it go?
+\end{itemize}
+The answer is always another relationship within the ledger. Nothing appears from nowhere. Nothing disappears into nowhere. Everything moves through relationships.
+
+Section 1 argues that negative quantities are not fundamental. Section 2 demonstrates something stronger: negative quantities are unnecessary. Instead of saying
+
+\begin{quote}
+"Subtract two."
+\end{quote}
+the relational theory says
+
+\begin{quote}
+"Transfer two."
+\end{quote}
+When an externally described signed object does have to enter the internal language - a debit from ordinary bookkeeping, a signed component from ordinary algebra - its sign is never stored as a signed quantity. It is decomposed at the door into an orientation label and a strictly positive amount,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+x\mapsto (\sigma, |x|),\qquad
+\sigma\in\Sigma_{\mathrm{rel}},\quad |x|\in\mathcal{D}_+ ,
+$
+\end{adjustbox}
+\end{equation*}
+the same one-transfer-read-from-two-oriented-sides bookkeeping as the apples. Signed zero is outside the entry rule and books nothing. And the labels are labels only: the theory attaches no sign algebra to them, no internal multiplication, addition, or parity action on \(\sigma\).
+
+Change itself is fundamentally relational. The system is not performing arithmetic on isolated numbers. It redistributes admitted existence among relationships through lawful transfer. This becomes one of the conceptual pillars of the paper. Section 1 answers what is permitted to exist. This part of Section 2 answers how permitted existence is allowed to change.
+
+A further consequence, developed in later sections, is that a record can leave a later readout surface without being destroyed. Section 2 does not yet define observer readout or genealogical time. It only supplies the ledger discipline that later lets the paper distinguish not currently observable from erased.
+
+\Needspace{5\baselineskip}
+\subsection{Transfer Preserves Admitted Content}
+% LAYOUT_ONLY_GUARD:TRANSFER_CONSERVATION
+\Needspace{12\baselineskip}
+Moving admitted existence from one relationship to another must never change how much admitted existence there is. Every lawful transfer satisfies this property: the total admitted content before a transfer is exactly equal to the total admitted content afterward,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\sum_{r\in\operatorname{supp}(h')} h'(r)
+=
+\sum_{r\in\operatorname{supp}(h)} h(r),
+$
+\end{adjustbox}
+\end{equation*}
+and the same equality holds across any finite sequence of admissible transfers.
+
+The mathematics formalizes an intuitive statement: rearranging existence is not the same as creating or destroying existence.
+
+The relational ledger cannot leak. Nothing can accidentally disappear. Nothing can spontaneously appear. Whether a transfer involves one relationship or a finite chain of relationships, the bookkeeping remains exact. The system may rearrange itself completely, but it never loses track of what exists. In this specific ledger sense, existence is conserved under relational change.
+
+Relationships may change. Ownership may change. Location may change. Connections may change. Almost every structural aspect of the relational network may change. But admitted existence remains completely accounted for.
+
+This resembles familiar conservation laws such as energy or momentum, but those belong to later observer-scale physics involving clocks, units, and comparative measurements. Those are not fundamental here. The present statement is more primitive: it is honesty of the books, not yet a law of observer-scale physics. Before physics can be reported, the bookkeeping must already be internally honest. If existence is admitted, every lawful relational change must preserve total admitted existence.
+
+\Needspace{5\baselineskip}
+\subsection{The Law of Symmetry Conservation}
+Conservation is not assumed independently. It follows from a deeper structural requirement: relational symmetry. A preliminary statement of the law:
+
+\begin{quote}
+An admissible operation may transform a relational record only by preserving its paired balance structure. No admissible operation may erase one side of a recorded relation without simultaneously producing its complementary accounting relation.
+\end{quote}
+Every lawful transfer possesses two inseparable relational descriptions, and the ledger must record both. If Alice transfers two apples to Bob, there are two equally valid descriptions of the same event:
+
+\begin{itemize}
+\item Two apples left Alice.
+\item Two apples arrived at Bob.
+\end{itemize}
+Neither description is more fundamental. They are two relational readings of the same event. This is why the formal law is called the Law of Symmetry Conservation.
+
+Formally, the pairing is a declared involution, a map \(\iota\) with
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\iota(\iota(x))=x
+$
+\end{adjustbox}
+\end{equation*}
+whose relevant instance here swaps the two readings of one transfer event: the source-side reading and the target-side reading. A finite family of records is kept, as always, with absence meaning absence from support rather than zero copies. Balance means that partnered records are present together and in matched number:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+x\in\operatorname{supp}(X)
+\Longleftrightarrow
+\iota(x)\in\operatorname{supp}(X),
+\qquad
+\operatorname{mult}_X(x)=\operatorname{mult}_X(\iota(x)) .
+$
+\end{adjustbox}
+\end{equation*}
+If one side exists, the other must also exist. If one appears once, its partner appears once. If one appears five times, its partner appears five times. Their counts must remain equal. These record counts are bookkeeping counts of present records. They are not physical quantities, and they are not the observer-depth or occupancy index counts of later sections.
+
+This is stronger than conservation alone. Conservation guarantees only that the total amount remains unchanged. It does not guarantee that every individual transfer has been properly recorded. A ledger could conserve totals while still failing to account correctly for individual events. Symmetry conservation prevents this: balance is pairwise, not merely summed. Every lawful transfer is represented by a matched pair of inseparable records, one from the source and one from the destination, never by a single record. And because every removal is paired with a corresponding admission, conservation of totals follows automatically.
+
+Section 1 establishes that existence is relational. Section 2 now establishes that every lawful change is relational.
+
+\Needspace{5\baselineskip}
+\subsection{Reachability Implies Balance: The 2N Theorem}
+The next result establishes an important structural theorem: every ledger state that can be reached through lawful operations is automatically balanced. This is the role of the 2N Theorem.
+
+If a ledger state can actually be produced by admissible operations, then it necessarily satisfies the Law of Symmetry Conservation. No repair mechanism is required. No corrective process is required. The lawful operations themselves preserve relational symmetry: each executed transfer contributes exactly one record and its co-reading, while refused attempts contribute nothing. Every admissible operation preserves paired balance; therefore every sequence of admissible operations also preserves paired balance:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\operatorname{Adm}(X)\Longrightarrow
+X\text{ is }\iota_{\mathrm{or}}\text{-balanced},
+$
+\end{adjustbox}
+\end{equation*}
+and a lawful generation of length \(n\) has exact record count
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+|X_n|=2n
+$
+\end{adjustbox}
+\end{equation*}
+\begin{itemize}
+\item \(n\) transfers, \(2n\) records, whence the theorem's name. For the transfers-only operation set of this section, the converse also holds within the recorded scope: the balanced states are exactly the reachable ones.
+\end{itemize}
+Consequently,
+
+\begin{quote}
+\textbf{Every reachable ledger state is relationally balanced.}
+\end{quote}
+Symmetry conservation is therefore closed under lawful generation. If the ledger begins in a symmetric state and every subsequent operation is lawful, the system can never generate an unbalanced record state.
+
+This completes an important progression. Section 1 establishes: existence is fundamentally relational. Section 2 first establishes: every lawful change is fundamentally relational. The 2N Theorem completes the progression: every reachable ledger state is relationally balanced.
+
+Balance is never repaired. It is preserved continuously, because every lawful operation already respects the relational structure of the ledger. If a later construction ever appears to violate this law, the suspect is the operation or its missing accounting structure. The violation is never absorbed by quietly changing what balance means. Later sections distinguish this ledger balance from observer-induced readout asymmetry. The underlying relational system remains balanced throughout its lawful generation.
+
+\Needspace{5\baselineskip}
+\subsection{Persistent Closure: From Bookkeeping to Structure}
+This is the transition where the paper moves from bookkeeping to structure. Everything before this point establishes bookkeeping. Now the theory begins asking a different question:
+
+\begin{quote}
+\textbf{Which relational structures persist?}
+\end{quote}
+Persistence introduces a new criterion. A lawful process is not necessarily one that leaves behind a lasting relational object.
+
+Consider drawing a path from A to B and immediately retracing the same path back to A. The traversal has undone itself. No persistent relational structure remains. Now consider drawing a path from A to B to C and finally back to A. This does not merely retrace itself. It encloses a genuine relational cycle. The completed path leaves behind a distinguishable relational structure.
+
+The ledger fixes exactly one erasure rule to capture this, and it is deliberately narrow: a whole walk followed by its exact reversal is identified with the empty walk,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+w\cdot \overline{w}\equiv \varepsilon .
+$
+\end{adjustbox}
+\end{equation*}
+Only exact out-and-back retracings erase; the rule installs no free-group reduction, no context erasure, no topology, no dynamics. Under it, a closed walk \(u\) leaves a persistent ledger-closure record exactly when it is neither empty nor an exact retracing:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+u\text{ persists}
+\Longleftrightarrow
+u\neq \varepsilon
+\ \wedge\
+\neg\exists w\,\big(u=w\cdot\overline{w}\big).
+$
+\end{adjustbox}
+\end{equation*}
+The essential distinction is therefore: not every completed journey leaves behind a persistent relational object. Some closures disappear because they consist only of exact retracing. Others persist because they create genuine relational structure.
+
+This question is fundamentally different from relational symmetry. Relational symmetry asks: was the bookkeeping correct? Persistent closure asks: did the process leave behind something real? These are independent questions. A process may satisfy every bookkeeping requirement while still failing to generate persistent relational structure.
+
+This is the first place the paper transitions from bookkeeping toward geometry. The theory is no longer merely describing how admitted existence is counted and transferred. It is identifying which relational patterns become stable. Geometry is therefore not assumed as an independent background. Stable geometric structure emerges from the persistence properties of lawful relational closures.
+
+\Needspace{5\baselineskip}
+\subsection{The Three-Register Threshold}
+The next result establishes the minimum relational complexity required for persistence: persistent closure cannot occur with fewer than three relational registers.
+
+With one register, nothing happens: no relational change is possible. With two registers, every completed path is fundamentally reversible; every traversal simply retraces itself, and no distinguishable persistent relational structure can remain. Only when a third register is introduced does the system possess sufficient relational complexity for a closure that is not merely an exact retracing. At that point, persistent relational structures become possible:
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+\exists u\,(u\text{ persists})\Longleftrightarrow |R|\ge 3 .
+$
+\end{adjustbox}
+\end{equation*}
+Section 1 establishes what may exist. Section 2 establishes how admitted existence changes, how those changes remain balanced, and how persistent structures arise. The Three-Register Threshold answers the next question - what is the minimum relational complexity required for persistence? - and the answer is: three relational registers constitute the smallest system capable of supporting persistent closure.
+
+This theorem should not be interpreted as a statement about physical space. It does not claim that space is fundamentally three-dimensional. It is a ledger statement, not yet a spatial dimension, a cell count, or a physical channel claim. The theory assumes no pre-existing geometric background and no independent coordinate grid. Any geometry that eventually appears must emerge from the relational structure descending from the first admitted unit,
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+I = 1 ,
+$
+\end{adjustbox}
+\end{equation*}
+rather than being assumed from the beginning. The Three-Register Threshold identifies the minimum bookkeeping complexity required for persistence, while leaving the emergence of geometry to the later development of the theory.
+
+\Needspace{5\baselineskip}
+\subsection{The Persistence of the First Unit}
+The same ledger discipline now returns to the first admitted unit itself and asks what its persistence requires.
+
+For the unit \(I=1\) to persist as itself, it must be re-identified: recognized as the same unit across an interval. That re-identification is relational: it is a same-as relation across two ends, and the two-endedness of that relation is itself a second degree of freedom, in the Section 1 sense. This step does not divide the unit, and it imports no metric plane. It says that an indivisible unit cannot furnish a second degree of freedom individually; it does so only by relation.
+
+The companion statement is the non-erasure face of the same discipline. An admitted counted unit cannot pass from present to no-record except through a lawful relation. Positive face: it remains accountable until a lawful relation closes it. Negative face: it cannot silently vanish into no-entry. This is the ledger-level fact behind the earlier remark that a record may leave a later readout surface without being destroyed: the ledger has no operation by which admitted existence simply stops being accounted for.
+
+With persistence and non-erasure in place, one complete orientation-preserving closure of the persisting unit has a definite, dimensionless angular extent. At the value level, this reads
+
+\begin{equation*}
+\begin{adjustbox}{max width=\linewidth,center}
+$\displaystyle
+t_{\mathrm{base}}=2\pi .
+$
+\end{adjustbox}
+\end{equation*}
+The coefficient \(2\pi\) is the angular extent of a static closure, the total turning of one complete orientation-preserving cycle. It is not a circumference, not a choice of radius, not a temporal rotation, and not a metric length; no clock and no ruler exist yet at this layer. It is an exact downstream representation of already established closure, not a new primitive existent. The active support coefficient used by the later book and charged-lepton construction is introduced in its own typed setting.
+
+\Needspace{5\baselineskip}
+\subsection{Boundaries, and What Would Break This Section}
+Two boundary statements from Section 1 remain visible here, as fences for later sections rather than as machinery used now. Location, in the foundational sense, is relational: a thing's location is its distinguishing relations, not a coordinate in a background container. And a measurement report remains inadmissible unless it compares an admitted target against an admitted comparison standard, exactly as fixed by Section 1's admission rule. Nothing in this section licenses observer readout, SI calibration, or physical comparison; those enter only in the observer and bridge sections, and only by preserving the arithmetic built here.
+
+Section 2 has now supplied the internal arithmetic the rest of the paper may use: positive holdings with structural absence, transfer without subtraction, exact accounting under transfer, pairwise balance, reachability-implies-balance, persistent closure, the three-register threshold, and the base closure extents. Later sections may add richer geometry, observer-local readout, and empirical comparison only by preserving this arithmetic, never by reintroducing hidden zeroes, signed quantities, or background coordinates.
+
+This layer can also lose, and says how. Exhibit a single admissible transfer that changes the tag-wise total, and the conservation lemma falls. Exhibit a lawfully generated record state containing a record whose count differs from its partner's, and the symmetry law falls. Exhibit a persisting closure candidate over only two registers, or show the three-register cycle erasing to the empty walk, and the threshold falls. Exhibit a complete orientation-preserving closure whose angular extent is not \(2\pi\), or whose extent varies with an external reporting scale, and the base extent falls. Each is specific and checkable.
+

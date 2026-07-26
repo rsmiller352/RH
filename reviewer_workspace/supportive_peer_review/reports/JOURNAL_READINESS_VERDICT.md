@@ -1,6 +1,17 @@
 # Journal Readiness Verdict
 
-## Verdict: **READY_AFTER_TARGETED_REVISION**
+> **SUPERSEDED FOR REVISION 2 (2026-07-26, Overleaf source package):** the current verdict is
+> **READY_AFTER_MINOR_REVISION** — see `reports/REEVALUATION_ROUND_2_REPORT.md`.
+> Both Level 4 blockers below were resolved in substance (the middle-placement step is now argued
+> via the observer-rooted betweenness theorem of §13.5; the introduction, figures, author block,
+> declarations, key-equation numbering, and the muon consistency comparison were added; the
+> 1/√2 provenance, Π_sym renaming, θ_o unification, title assembly, codename removals, and the
+> full Koide-saturation disclosure all landed and verified). Remaining minor items: reference
+> list (largest residual desk risk), abstract refresh, tau comparison, constitutive-identification
+> sentence, four small placement residuals, γ_Ψ origin sentence, benchmark-status sentence,
+> residual codename sweep. The Round 1 verdict below is retained for the record.
+
+## Round 1 verdict (superseded): **READY_AFTER_TARGETED_REVISION**
 
 ## Grounds
 
