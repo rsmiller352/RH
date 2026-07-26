@@ -39,10 +39,16 @@ If a required source is not present inside this folder, it is reported as unavai
 | 5 | Dependency and claim-status mapping | Pending |
 | 6 | Symbol and terminology audit | Pending |
 | 7 | Section-by-section reader review | Pending |
-| 8 | Specialized audits (Koide, calibration, observer language, equations, EQ-card coherence, desk-rejection) | Pending |
+| 8 | Specialized audits (Koide, calibration, observer language, equations, EQ-card coherence, desk-rejection, internal-language leakage) | Pending |
 | 9 | Issue verification (full context protocol) | Pending |
 | 10 | Integrated review and prioritized revision plan | Pending |
 | 11 | Quarantine validation | Pending |
+
+## Scope amendments
+
+| # | Date | Amendment |
+|---|---|---|
+| 1 | 2026-07-26 | Author-approved addition: a dedicated **Internal-Language Leakage Audit** (`reports/INTERNAL_LANGUAGE_LEAKAGE_AUDIT.md`), produced during Phase 8. It systematically sweeps the manuscript and the public-facing EQ cards for internal workflow, tooling, repository, or process vocabulary — e.g. harness, validator, gate, audit-status fields, pipeline/agent references, internal file names or card IDs used as workflow artifacts, correction-history phrasing, or any AI/repository-workflow language. Each hit is classified on the standard severity scale (Level 1 polish through Level 4 submission risk) with the smallest sufficient repair. This extends the checks already mandated for EQ cards (Section 24) to the manuscript itself. |
 
 ## Governing standard
 
