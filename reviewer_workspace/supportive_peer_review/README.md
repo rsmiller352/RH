@@ -34,15 +34,20 @@ If a required source is not present inside this folder, it is reported as unavai
 |---|---|---|
 | 1 | Establish quarantine | **COMPLETE** |
 | 2 | Intake (manuscript + EQ-card ZIP, hash, inventory) | **COMPLETE** |
-| 3 | First uninterrupted manuscript reading | In progress |
-| 4 | EQ-card reading and indexing | Pending |
-| 5 | Dependency and claim-status mapping | Pending |
-| 6 | Symbol and terminology audit | Pending |
-| 7 | Section-by-section reader review | Pending |
-| 8 | Specialized audits (Koide, calibration, observer language, equations, EQ-card coherence, desk-rejection, internal-language leakage) | Pending |
-| 9 | Issue verification (full context protocol) | Pending |
-| 10 | Integrated review and prioritized revision plan | Pending |
-| 11 | Quarantine validation | Pending |
+| 3 | First uninterrupted manuscript reading | **COMPLETE** |
+| 4 | EQ-card reading and indexing | **COMPLETE** |
+| 5 | Dependency and claim-status mapping | **COMPLETE** |
+| 6 | Symbol and terminology audit | **COMPLETE** |
+| 7 | Section-by-section reader review | **COMPLETE** (15 reviews) |
+| 8 | Specialized audits (Koide, calibration, observer language, equations, EQ-card coherence, desk-rejection, internal-language leakage, self-containment) | **COMPLETE** (11 reports) |
+| 9 | Issue verification (full context protocol) | **COMPLETE** (20 candidates; 9 surviving records; zero Level 5) |
+| 10 | Integrated review and prioritized revision plan | **COMPLETE** |
+| 11 | Quarantine validation | **COMPLETE — PASSED** |
+
+## Review outcome
+
+**Final verdict: READY_AFTER_TARGETED_REVISION** (`reports/JOURNAL_READINESS_VERDICT.md`).
+Principal report: `reports/SUPPORTIVE_PEER_REVIEW_REPORT.md`. One-page author summary: `reports/EXECUTIVE_AUTHOR_BRIEF.md`. Revision plan: `reports/PRIORITIZED_REVISION_PLAN.md`. Self-containment certification: **SELF-CONTAINED AFTER MINOR REVISION**. No Level 5 scientific concern survived the context-completion protocol.
 
 ## Scope amendments
 

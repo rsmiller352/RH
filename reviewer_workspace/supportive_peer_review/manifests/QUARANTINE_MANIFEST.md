@@ -1,6 +1,6 @@
 # Quarantine Manifest
 
-**Status:** Quarantine established; intake complete (Phase 2). Review in progress.
+**Status:** REVIEW COMPLETE. Final quarantine validation (Phase 11) passed — see closing section.
 
 ## Absolute permitted root
 
@@ -44,6 +44,16 @@ A plain-text extraction of the manuscript (`working_notes/manuscript_fulltext.tx
 - [x] No file has been created outside the quarantine
 - [x] Supplied inputs received, placed in `intake/`, and hashed
 - [x] EQ cards extracted into `extracted_eq_cards/` and inventoried
-- [ ] Final quarantine validation (Phase 11) — *pending completion of review*
+- [x] Final quarantine validation (Phase 11) — **PASSED**
+
+## Phase 11 — Final quarantine validation (2026-07-26)
+
+- [x] **No file outside the quarantine was read.** All reviewer reads were confined to `intake/`, `extracted_eq_cards/`, and reviewer-created files within the quarantine root. (The repository outside the quarantine contained no other files at any point in the session; git metadata only was consulted for branch operations.)
+- [x] **No file outside the quarantine was written.** Repository status scan at Phase 11 shows every created file under the quarantine root; the OS temp/scratch area was used only for package installation side effects, never for review artifacts.
+- [x] **No manuscript or EQ card was edited.** Intake files re-hashed at Phase 11: `ObserverRootedAsymmetry.pdf` = `11f20aa4…` and `…referencedEQcards.zip` = `b528c51b…`, identical to intake values. Extracted card tree untouched after extraction (initial `sha256sum -c` against the package ledger: zero mismatches).
+- [x] **All deliverables are inside the quarantine** — 60 reviewer-created files inventoried in `manifests/FILES_CREATED_BY_REVIEWER.md`: 5 governance/manifests, 9 working notes, 6 symbol-audit files, 15 section reviews, 11 specialized reports (including both scope-amendment audits), 9 issue records, 5 final reports.
+- [x] **All generated files are listed in the final manifest.**
+
+**Review outcome:** principal report `reports/SUPPORTIVE_PEER_REVIEW_REPORT.md`; verdict **READY_AFTER_TARGETED_REVISION**; self-containment certification **SELF-CONTAINED AFTER MINOR REVISION**; zero Level 5 scientific concerns.
 
 This manifest will be updated at intake (Phase 2) and finalized at quarantine validation (Phase 11).
