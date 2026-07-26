@@ -1,0 +1,2913 @@
+                              Observer-Rooted Asymmetry
+  A Closure-First Derivation of Charged-Lepton Mass Ratios with Independent Koide Validation
+
+
+                                                       Abstract
+          This paper develops a relational foundation from one physical axiom: existence is relational distin-
+      guishability. The resulting strictly positive count-and-transfer arithmetic admits no internal object for
+      absence and requires every operation to preserve relational accountability. Persistence and conserving
+      closure then constrain a presentation by the face-centered-cubic lattice and its rhombic-dodecahedral
+      Voronoi cell. Geometry is not primitive background structure in the construction; it is a downstream
+      exact presentation of completed relational records.
+          A single designated cell supplies the observer/reference role. The observer does not add conscious-
+      ness, create orientation, or generate the registered structure. It reads distinctions already carried by the
+      relational record. The rooted two-active/one-idle projector on the three-state carrier has normalized
+      valuation 2∕3. Its completed action fixes the phase from which six 𝐷3 -related presentations descend to
+      one intrinsic unordered three-amplitude spectrum. The same rational value also occurs in a separately
+      derived four-cell flow count, but that numerical equality does not identify the two objects or their
+      derivations.
+          The counting adjoint and complete retained incidence book force a quadratic-support law with
+      the single coefficient 𝑚 = 1∕(2𝜋). Exact bounds place the intrinsic middle-to-minimum ratio strictly
+      between 206 and 207. A recoverable one-event/two-preserved-face record then supports two 206-
+      element sets with a common three-root carrier; their free pushout has 409 classes. The resulting
+      regular-screen factor acts once on the already formed middle quadratic support.
+          These steps determine two exact charged-lepton mass ratios before any muon or tau measurement is
+      admitted. One recorded electron mass-energy equivalent supplies the sole conventional scale, producing
+      a complete relative three-entry report. The result is not an absolute prediction of the electron mass, and
+      the middle construction is not presented as a blind held-out prediction because it was developed after
+      exposure to muon data.
+          Only after the mass-ratio derivation closes is the scale-free Koide functional evaluated. The derived
+      three-entry shape lies approximately 1.35 parts per million from the conventional 2∕3 benchmark.
+      Koide is therefore used here as an independent downstream consistency check, not as an input, fitting
+      condition, or claimed exact identity.
+          Keywords: relational foundations; discrete geometry; observer asymmetry; charged leptons; mass
+      ratios; Koide relation
+
+
+1 Relational Existence: The Foundational Axiom
+Section 1 begins with the simplest possible starting point:
+
+      There is something rather than nothing.
+
+At first glance, this appears almost trivial. The central claim of this paper is that this starting point, once
+stated in its precise relational form, is strong enough to force a large amount of structure. The paper does
+not begin by assuming a manifold, a metric, a field, a background clock, or an external observer. It begins
+by asking what must be true before any of those notions can even be discussed.
+   The purpose of this section is therefore not to introduce physics directly. It establishes the admission
+rules that any later physics must satisfy. At the most fundamental level, no later observer is allowed to
+stand outside the relational system with access to arbitrary abstractions. Any later observer must be treated
+as part of the relational system it reads. Before continuous measurement, coordinate systems, or calibrated
+units, the primitive operation available at this layer is distinguishability: to separate one admitted content
+from what it is not, and to count what has been admitted.
+
+                                                           1
+1.1 The Existence Axiom
+The most basic question is simply:
+
+      Is there something, or is there nothing?
+
+If there is truly nothing, then there is nothing to describe, no distinction to make, no theory to construct,
+and no standpoint from which even the denial could be stated. A physical theory can only concern what
+exists. This leaves a boundary and an entry:
+   • 0: nothing exists. This is the boundary case. It admits no description and no theory.
+   • 1: something exists. At least one distinction can be made.
+Only the second case can carry a theory. But "something exists" already contains a distinction. To say that
+something exists is to distinguish it: from nothing, and from what it is not. Existence never arrives as a
+bare object to which distinguishability is later added. It arrives, if it arrives at all, as distinguishability
+within a relation. The paper therefore takes as its single physical axiom:
+
+      Axiom 1 (relational existence). Existence is relational distinguishability.
+
+The first number of the theory is not a second assumption. One primitive act of distinguishability is one
+binary cut, and only the admitted side of that cut enters the theory. The first admitted content is therefore
+exactly one distinction, with count
+
+
+                                                     𝐼 = 1.
+
+Here 𝐼 denotes the first existence count. This is not yet a statement about particles, space, time, fields,
+or geometry. It is the minimal assertion that there is something rather than nothing, made precise as
+distinguishability. That precision is what gives the rest of the theory something to build from.
+
+
+1.2 Consequences of the Existence Axiom
+Once the first count 𝐼 = 1 is admitted, the unit itself has a special status. It is not composed of smaller units
+of the same kind inside the theory, because then those smaller units would be the true primitives. The first
+unit of existence is therefore indivisible within this admission layer, and 1 is the natural primitive count.
+    Larger internal quantities arise only by counting further admitted units:
+
+
+                                                  1, 2, 3, …
+
+This is an ontological statement before it is a statement about numerical technique. The theory begins
+with admitted positive counts. Fractions, decimals, limits, and other numerical representations are not
+introduced here as new primitive existents. They may enter later as comparison reports, scale choices,
+limiting descriptions, or licensed mathematical language, but they are not the starting ontology of the
+theory.
+   This restriction concerns primitive admission, not the symbols available after a quantity has been derived.
+For an already established quantity, number class alone neither grants nor denies admissibility. An exact
+rational, irrational, algebraic, or transcendental expression remains a downstream representation of its
+typed object; it does not add another primitive relation-token. Its scientific warrant comes from the owning
+derivation, domain, and guards, not from the notation by itself.
+
+                                                       2
+   Zero has a different status. It does not represent an existing object or quantity. It marks absence.
+Since the theory begins from the admitted case that there is something rather than nothing, zero is never
+treated as a primitive element of the ontology. It may be useful as an external boundary label or inside
+a controlled formal statement, but it is not an admitted object, primitive internal value, or held quantity.
+The bookkeeping keeps this distinction sharp: if no transfer occurred, the theory records that no transfer
+occurred, not a transfer of size zero; if a register is absent, it records absence, not a hidden holding of
+zero. A detector that did not fire and a detector that fired and read zero are different physical situations.
+Internally, presence is positive by type:
+
+
+                                                  𝑞 ∈ 𝒟+ .
+
+The same discipline applies to negative quantities. A negative sign is not interpreted as the existence
+of negative objects. It is a relational or oriented bookkeeping descriptor applied to positive content. If
+Alice has three apples and Bob receives two of them, nothing negative has been created. The relationship
+has changed: Alice now has one apple, Bob has two, and the transfer has an orientation. The internal
+formalism represents such orientation without turning negative objects into ontology.
+   A natural worry is that forbidding primitive negative quantities cripples the algebra physicists rely on,
+especially cancellation. It does not. Within a fixed kind of quantity, cancellation is not assumed as an
+additional physical axiom; it is a theorem:
+
+
+                                         𝑎 + 𝑞 = 𝑏 + 𝑞 ⇐⇒ 𝑎 = 𝑏.
+
+The reason is simple. In the positive domain, adding something is never adding nothing. The order says that
+one quantity exceeds another when it differs by a strictly positive gap, and like quantities are comparable.
+If 𝑎 + 𝑞 = 𝑏 + 𝑞 but 𝑎 ≠ 𝑏, one side must exceed the other by a positive gap. Adding the same 𝑞 to both
+would then make a sum strictly exceed itself, which positivity forbids. The gap, when it exists, is unique.
+The theory therefore has the restricted subtraction it needs: not by introducing inverse elements or signed
+completion, but by reading subtraction as the unique positive gap exhibited by the order.
+    The result is a root discipline: the theory owns positive admitted content. Zero is absence, and negative
+signs are relational descriptors rather than primitive objects.
+
+
+1.3 No External Background
+An important consequence of the existence axiom is that there can be no independently existing background
+against which reality is measured.
+  If the primitive content of the theory is a single admitted distinction, the first count
+
+
+                                                   𝐼 = 1,
+
+then that admitted distinction is all that is available at the fundamental level. Nothing external to it can
+be assumed. An independently existing coordinate grid, background space, or absolute reference frame
+cannot be introduced as an additional primitive, because doing so would add structure beyond the original
+axiom.
+   Consequently, geometry, measurement, distance, orientation, and reference may enter only as later
+relational constructions that preserve the primitive admission discipline. Nothing may be borrowed from
+an external framework.
+
+                                                     3
+   This is stronger than saying that the theory merely chooses not to assume a background coordinate
+system. Within this framework, such a background cannot be introduced as a theory-native primitive: any
+coordinate system or measurement convention must be introduced as an admitted relational construction
+from the primitive admission of 𝐼 = 1.
+   In other words, if one distinction is all that fundamentally exists, then later mathematical and physical
+structures must earn their place through that relational foundation. Nothing can be assumed to exist
+outside it.
+
+
+1.4 Measurement as Relational Comparison
+The same relational discipline applies to measurement.
+   The numerical values that appear in physics - integers, decimals, coefficients, and constants - are often
+treated as intrinsic properties of physical systems. In this framework they are read differently. A measured
+value is a relational readout: a comparison between admitted content and an admitted reference standard.
+   A unit of measurement is therefore not fundamental. It is a convention that selects a comparison
+standard. A gram, for example, is not a primitive physical object. When a report says that an object has
+a mass of ten grams, the report is comparing that object to a chosen standard about ten times over. The
+reference standard serves as the counting unit within that measurement convention.
+   The theory states this before any observer or apparatus has been constructed inside it. Which relation
+functions as the observer, readout locus, registration relation, or clockhood standard is built later, especially
+in Section 8. Section 1 fixes only the prior admissibility condition any later measurement report must
+satisfy. Let Adm(𝑥) mean that 𝑥 is admitted as a distinguishable relation, let 𝐿 denote a future readout
+context, let 𝑠 denote the comparison standard, and let Cmp𝐿 (𝑥, 𝑠) denote the licensed comparison relation.
+Then a measurement report is well defined exactly when its full comparison structure is present:
+
+
+                             Meas𝐿 (𝑥; 𝑠) ↓⇐⇒ Adm(𝑥) ∧ Std𝐿 (𝑠) ∧ Cmp𝐿 (𝑥, 𝑠).
+
+The standard itself must be admitted:
+
+
+                                              Std𝐿 (𝑠) ⇐⇒ Adm(𝑠).
+
+The excluded alternative is the primitive scalar: a measured value of a thing alone, belonging to no
+comparison.
+
+
+                                 ¬∃𝑞 (PrimitiveScalar(𝑞) ∧ 𝑞 = Meas𝐿 (𝑥)) .
+
+A reading taken against no standard is not an imprecise measurement. It is not a measurement at all. A
+unit is a selected admitted standard,
+
+
+                                       Unit𝐿 (𝑠) ∶= Adm(𝑠) ∧ Std𝐿 (𝑠),
+
+and a reported value has the form
+
+
+                                            Report𝐿 (𝑥; 𝑠) = 𝑞𝑠 (𝑥),
+
+                                                       4
+defined only when the object, the unit role, and the comparison relation are all present. This separates
+fundamental existence from measurement conventions. SI units and other human-scale units can commu-
+nicate observer-scale reports consistently, but they are not fundamental ingredients of the internal theory.
+They enter only when the theory is translated into observer-scale quantities for comparison, especially in
+Sections 8 and 14.
+
+
+1.5 Why Geometry
+The relational foundation also motivates the mathematical language used later.
+   Geometry is natural for a relational theory because geometry is about relations: position, orientation,
+adjacency, separation, order, and comparison. A point alone says almost nothing. It becomes meaningful
+only inside a structure that gives it relations. Geometry is therefore licensed here as relational mathematics,
+not as primitive ontology. The paper may use geometric language when that language preserves the
+admitted relations it claims to represent.
+   This distinction matters. The license does not say that a geometric object is primitive reality, and it does
+not introduce a lattice, continuum, coordinate system, metric, or physical realization at Section 1. It says
+that when later sections use geometry, they must use it as a faithful relational presentation rather than as
+an external background imposed on the theory.
+   The bookkeeping analogy is useful but only as an analogy. In double-entry accounting, no entry is
+meaningful in isolation; each posting exists through its relationship to the rest of the books. The present
+theory has a similar discipline, but it does not import signed ledger arithmetic. Its internal form is strictly
+positive transfer read through oriented sides. Relationship is the constraint; isolated quantity is not the
+primitive.
+   Maintaining that discipline keeps later mathematics from smoothing away the discrete counting basis
+from which the theory begins. A formalism can be internally consistent and still fail to represent the
+physical structure if it imports a background or treats a reporting convention as primitive content.
+
+
+1.6 The Overall Program
+The program of this paper is to begin with the minimal existence axiom and develop, through forced
+relational constructions, the geometry later read by an embedded observer.
+   Many mathematical objects used in physics - negative values, fractional values, irrational quantities,
+imaginary quantities, and other abstractions - are not taken here as primitive features of the ontology. They
+may enter as mathematical language, relational structure, comparison structure, or observer-scale report,
+but not as starting assumptions. The starting operation is simpler:
+   The starting operation is to count admitted distinctions.
+   Every later scientific object must be constructed from or typed against that relational ground. This
+requirement does not force every exact downstream representation to be an integer.
+   As the theory develops, ledger closure becomes a persistence condition, and later forced relational
+geometry selects a definite FCC/RD realization. Observer readout and bridge comparison enter only after
+their own obligations have been stated and checked. The closing sections compare the count structure
+those later constructions force against measured physics under explicit comparison criteria.
+   Because the paper ends at such comparisons, its construction discipline is part of its physical content.
+Nothing in what follows is derived from structure introduced later than it. A numerical success found
+downstream is never cited as the reason an earlier rule holds. Junction, readout, bridge, and prediction
+
+
+
+                                                      5
+constructions enter only when their obligations have been stated and checked. Naming an obligation is
+not discharging it.
+   This foundation can also lose, and it says how. Exhibit an admitted existent with no relational distin-
+guishability - a primitive bare existence apart from any distinction - and Axiom 1 falls. Exhibit a physical
+measurement that is genuinely a primitive scalar, reducible to no comparison against an admitted standard,
+and the measurement rule falls. Exhibit a quantity domain with the stated positive-domain properties
+in which cancellation fails on a concrete triple, and the cancellation theorem fails. Each failure mode is
+specific and checkable.
+   The purpose of Section 1 is simply to establish this foundational ontology and mathematical discipline.
+Everything derived in the remainder of the paper stands on it.
+
+
+
+
+2 Relational Arithmetic: Formalizing the Relational Ledger
+Section 2 takes the conceptual ideas introduced in Section 1 and begins expressing them in formal mathe-
+matics. It gives the arithmetic the theory is allowed to use once a distinction has been admitted, but before
+metric geometry, observer-local measurement, calibration, or empirical comparison are available. This
+arithmetic is not a copy of ordinary signed algebra. It is a bookkeeping language for relations.
+   The central idea is that, at any formal state, the theory maintains a ledger recording which relationships
+currently contain admitted content. This ledger represents the current admitted state of existence within
+the relational system.
+
+
+2.1 The Holding State
+To formalize the ledger, let 𝑅 be a finite set of relationship registers. A holdings state is a partial map
+
+
+                                   ℎ ∶ supp(ℎ) → 𝒟+ ,         supp(ℎ) ⊆ 𝑅,
+
+assigning to each held register a strictly positive quantity. The quantity domain 𝒟+ is the positive domain
+of Section 1: it has no internal zero object, no subtraction operation, and no additive inverses, and adding
+something is never adding nothing:
+
+
+                                         ∀𝑥, 𝑦 ∈ 𝒟+ ,       𝑥 + 𝑦 ≠ 𝑥.
+
+The important point is that this is more than simply saying that zero represents absence. The structure of
+the ledger itself distinguishes between a relationship that holds content and a relationship that is not part
+of the holding state at all. An empty register does not contain the value zero. It is absent from the current
+holding state altogether:
+
+
+                                        absentℎ (𝑟) ⇐⇒ 𝑟 ∉ supp(ℎ).
+
+The distinction is structural, not numerical. No formula ℎ(𝑟) = 0 is even available inside the active quantity
+language. If absence were a held value, a non-event would have been admitted as a ledger object, exactly
+what Section 1 ruled out. After a transfer, a relationship that no longer contains admitted content is
+
+                                                        6
+removed from the holding state rather than remaining in the ledger with a stored value of zero. The ledger
+records only active holdings.
+   Within one kind of quantity, comparison is the positive-gap order of Section 1: 𝑎 ⪰ 𝑏 exactly when
+𝑎 = 𝑏 or some strictly positive gap 𝑑 satisfies 𝑏 + 𝑑 = 𝑎, and any two amounts of one kind are comparable.
+Section 1 proved that cancellation follows from these properties as a theorem. The same theorem gives one
+immediately needed fact: when a strict gap exists, it is unique,
+
+                                   (            ) (          )
+                                       𝑏 + 𝑑 = 𝑎 ∧ 𝑏 + 𝑑′ = 𝑎 ⇐⇒ 𝑑 = 𝑑′ .
+
+That uniqueness is what lets the next step, transfer, be a definition rather than an ambiguous operation.
+
+
+2.2 Transfer as the Primitive Operation
+In ordinary mathematics, change is often expressed through subtraction. In the relational mathematics
+developed here, subtraction is not fundamental. Transfer is the primitive operation.
+    Within a transfer, nothing is destroyed and nothing is created. Admitted existence is redistributed
+between relationships.
+    Consider Alice and Bob holding apples. If Alice transfers apples to Bob, Alice simply holds fewer apples
+and Bob holds more. At no point does Alice possess a negative number of apples. Suppose Charlie initially
+holds nothing. Charlie does not appear in the holding ledger, because no admitted content is associated
+with Charlie’s relationship. If apples are transferred to Charlie, Charlie appears in the holding ledger. And
+if Alice transfers away every apple she possesses, Alice is not assigned the value zero. Her relationship is
+simply removed from the holding ledger, because it no longer contains admitted content.
+    Formally, for distinct registers 𝐴, 𝐵 ∈ 𝑅 and a quantity 𝑞 ∈ 𝒟+ , the transfer
+
+
+                                                 𝑇(𝐴 → 𝐵; 𝑞)
+
+is admissible at a holding state ℎ exactly when the source is in the book and has enough:
+
+
+                                           𝐴 ∈ supp(ℎ) ∧ ℎ(𝐴) ⪰ 𝑞.
+
+If the transfer is admissible, the target joins the ledger or grows,
+
+
+                    𝐵 ∉ supp(ℎ) ⇐⇒ ℎ′ (𝐵) = 𝑞,        𝐵 ∈ supp(ℎ) ⇐⇒ ℎ′ (𝐵) = ℎ(𝐵) + 𝑞,
+
+and the source is handled by the two branches of the order: in the exact case ℎ(𝐴) = 𝑞, the source leaves
+the holding state; in the strict case, the source remains with the unique positive remainder 𝑑 satisfying
+𝑑 + 𝑞 = ℎ(𝐴). Every bystander register is unchanged.
+   Transfer also replaces the conventional ideas of overdrafts, debt, and negative balances. If a requested
+transfer exceeds the available admitted content, the transfer is simply inadmissible. Nothing changes. The
+ledger remains exactly as it was. There is no post-state.
+   This has an important consequence. Every lawful transfer in this layer preserves a complete accounting
+of admitted existence. Whenever the ledger changes, it is always meaningful to ask:
+   • Where did this admitted content come from?
+
+                                                       7
+   • Where did it go?
+The answer is always another relationship within the ledger. Nothing appears from nowhere. Nothing
+disappears into nowhere. Everything moves through relationships.
+   Section 1 argues that negative quantities are not fundamental. Section 2 demonstrates something
+stronger: negative quantities are unnecessary. Instead of saying
+
+      "Subtract two."
+
+the relational theory says
+
+      "Transfer two."
+
+When an externally described signed object does have to enter the internal language - a debit from ordinary
+bookkeeping, a signed component from ordinary algebra - its sign is never stored as a signed quantity. It is
+decomposed at the door into an orientation label and a strictly positive amount,
+
+
+                                  𝑥 ↦→ (𝜎, |𝑥|),          𝜎 ∈ Σrel ,        |𝑥| ∈ 𝒟+ ,
+
+the same one-transfer-read-from-two-oriented-sides bookkeeping as the apples. Signed zero is outside the
+entry rule and books nothing. And the labels are labels only: the theory attaches no sign algebra to them,
+no internal multiplication, addition, or parity action on 𝜎.
+    Change itself is fundamentally relational. The system is not performing arithmetic on isolated numbers.
+It redistributes admitted existence among relationships through lawful transfer. This becomes one of the
+conceptual pillars of the paper. Section 1 answers what is permitted to exist. This part of Section 2 answers
+how permitted existence is allowed to change.
+    A further consequence, developed in later sections, is that a record can leave a later readout surface
+without being destroyed. Section 2 does not yet define observer readout or genealogical time. It only
+supplies the ledger discipline that later lets the paper distinguish not currently observable from erased.
+
+
+2.3 Transfer Preserves Admitted Content
+Moving admitted existence from one relationship to another must never change how much admitted
+existence there is. Every lawful transfer satisfies this property: the total admitted content before a transfer
+is exactly equal to the total admitted content afterward,
+
+                                          ∑                       ∑
+                                                     ℎ′ (𝑟) =               ℎ(𝑟),
+                                       𝑟∈supp(ℎ′ )              𝑟∈supp(ℎ)
+
+and the same equality holds across any finite sequence of admissible transfers.
+   The mathematics formalizes an intuitive statement: rearranging existence is not the same as creating or
+destroying existence.
+   The relational ledger cannot leak. Nothing can accidentally disappear. Nothing can spontaneously
+appear. Whether a transfer involves one relationship or a finite chain of relationships, the bookkeeping
+remains exact. The system may rearrange itself completely, but it never loses track of what exists. In this
+specific ledger sense, existence is conserved under relational change.
+
+
+                                                           8
+  Relationships may change. Ownership may change. Location may change. Connections may change.
+Almost every structural aspect of the relational network may change. But admitted existence remains
+completely accounted for.
+  This resembles familiar conservation laws such as energy or momentum, but those belong to later
+observer-scale physics involving clocks, units, and comparative measurements. Those are not fundamental
+here. The present statement is more primitive: it is honesty of the books, not yet a law of observer-scale
+physics. Before physics can be reported, the bookkeeping must already be internally honest. If existence is
+admitted, every lawful relational change must preserve total admitted existence.
+
+2.4 The Law of Symmetry Conservation
+Conservation is not assumed independently. It follows from a deeper structural requirement: relational
+symmetry. A preliminary statement of the law:
+
+      An admissible operation may transform a relational record only by preserving its paired bal-
+      ance structure. No admissible operation may erase one side of a recorded relation without
+      simultaneously producing its complementary accounting relation.
+
+Every lawful transfer possesses two inseparable relational descriptions, and the ledger must record both. If
+Alice transfers two apples to Bob, there are two equally valid descriptions of the same event:
+  • Two apples left Alice.
+  • Two apples arrived at Bob.
+Neither description is more fundamental. They are two relational readings of the same event. This is why
+the formal law is called the Law of Symmetry Conservation.
+   Formally, the pairing is a declared involution, a map 𝜄 with
+
+
+                                                  𝜄(𝜄(𝑥)) = 𝑥
+whose relevant instance here swaps the two readings of one transfer event: the source-side reading and
+the target-side reading. A finite family of records is kept, as always, with absence meaning absence from
+support rather than zero copies. Balance means that partnered records are present together and in matched
+number:
+
+
+                      𝑥 ∈ supp(𝑋) ⇐⇒ 𝜄(𝑥) ∈ supp(𝑋),            mult𝑋 (𝑥) = mult𝑋 (𝜄(𝑥)).
+If one side exists, the other must also exist. If one appears once, its partner appears once. If one appears five
+times, its partner appears five times. Their counts must remain equal. These record counts are bookkeeping
+counts of present records. They are not physical quantities, and they are not the observer-depth or occupancy
+index counts of later sections.
+    This is stronger than conservation alone. Conservation guarantees only that the total amount remains
+unchanged. It does not guarantee that every individual transfer has been properly recorded. A ledger
+could conserve totals while still failing to account correctly for individual events. Symmetry conservation
+prevents this: balance is pairwise, not merely summed. Every lawful transfer is represented by a matched
+pair of inseparable records, one from the source and one from the destination, never by a single record.
+And because every removal is paired with a corresponding admission, conservation of totals follows
+automatically.
+    Section 1 establishes that existence is relational. Section 2 now establishes that every lawful change is
+relational.
+
+                                                       9
+2.5 Reachability Implies Balance: The 2N Theorem
+The next result establishes an important structural theorem: every ledger state that can be reached through
+lawful operations is automatically balanced. This is the role of the 2N Theorem.
+   If a ledger state can actually be produced by admissible operations, then it necessarily satisfies the Law
+of Symmetry Conservation. No repair mechanism is required. No corrective process is required. The lawful
+operations themselves preserve relational symmetry: each executed transfer contributes exactly one record
+and its co-reading, while refused attempts contribute nothing. Every admissible operation preserves paired
+balance; therefore every sequence of admissible operations also preserves paired balance:
+
+
+                                        Adm(𝑋) ⇐⇒ 𝑋 is 𝜄or -balanced,
+
+and a lawful generation of length 𝑛 has exact record count
+
+
+                                                  |𝑋𝑛 | = 2𝑛
+
+  • 𝑛 transfers, 2𝑛 records, whence the theorem’s name. For the transfers-only operation set of this section,
+    the converse also holds within the recorded scope: the balanced states are exactly the reachable ones.
+Consequently,
+
+      Every reachable ledger state is relationally balanced.
+
+Symmetry conservation is therefore closed under lawful generation. If the ledger begins in a symmetric
+state and every subsequent operation is lawful, the system can never generate an unbalanced record state.
+   This completes an important progression. Section 1 establishes: existence is fundamentally relational.
+Section 2 first establishes: every lawful change is fundamentally relational. The 2N Theorem completes
+the progression: every reachable ledger state is relationally balanced.
+   Balance is never repaired. It is preserved continuously, because every lawful operation already respects
+the relational structure of the ledger. If a later construction ever appears to violate this law, the suspect is
+the operation or its missing accounting structure. The violation is never absorbed by quietly changing what
+balance means. Later sections distinguish this ledger balance from observer-induced readout asymmetry.
+The underlying relational system remains balanced throughout its lawful generation.
+
+
+2.6 Persistent Closure: From Bookkeeping to Structure
+This is the transition where the paper moves from bookkeeping to structure. Everything before this point
+establishes bookkeeping. Now the theory begins asking a different question:
+
+      Which relational structures persist?
+
+Persistence introduces a new criterion. A lawful process is not necessarily one that leaves behind a lasting
+relational object.
+   Consider drawing a path from A to B and immediately retracing the same path back to A. The traversal
+has undone itself. No persistent relational structure remains. Now consider drawing a path from A to B
+to C and finally back to A. This does not merely retrace itself. It encloses a genuine relational cycle. The
+completed path leaves behind a distinguishable relational structure.
+
+                                                      10
+   The ledger fixes exactly one erasure rule to capture this, and it is deliberately narrow: a whole walk
+followed by its exact reversal is identified with the empty walk,
+
+
+                                                  𝑤 ⋅ 𝑤 ≡ 𝜀.
+Only exact out-and-back retracings erase; the rule installs no free-group reduction, no context erasure, no
+topology, no dynamics. Under it, a closed walk 𝑢 leaves a persistent ledger-closure record exactly when it is
+neither empty nor an exact retracing:
+
+                                                          (         )
+                                 𝑢 persists ⇐⇒ 𝑢 ≠ 𝜀 ∧ ¬∃𝑤 𝑢 = 𝑤 ⋅ 𝑤 .
+The essential distinction is therefore: not every completed journey leaves behind a persistent relational
+object. Some closures disappear because they consist only of exact retracing. Others persist because they
+create genuine relational structure.
+   This question is fundamentally different from relational symmetry. Relational symmetry asks: was the
+bookkeeping correct? Persistent closure asks: did the process leave behind something real? These are
+independent questions. A process may satisfy every bookkeeping requirement while still failing to generate
+persistent relational structure.
+   This is the first place the paper transitions from bookkeeping toward geometry. The theory is no
+longer merely describing how admitted existence is counted and transferred. It is identifying which
+relational patterns become stable. Geometry is therefore not assumed as an independent background.
+Stable geometric structure emerges from the persistence properties of lawful relational closures.
+
+
+2.7 The Three-Register Threshold
+The next result establishes the minimum relational complexity required for persistence: persistent closure
+cannot occur with fewer than three relational registers.
+   With one register, nothing happens: no relational change is possible. With two registers, every completed
+path is fundamentally reversible; every traversal simply retraces itself, and no distinguishable persistent
+relational structure can remain. Only when a third register is introduced does the system possess sufficient
+relational complexity for a closure that is not merely an exact retracing. At that point, persistent relational
+structures become possible:
+
+
+                                         ∃𝑢 (𝑢 persists) ⇐⇒ |𝑅| ≥ 3.
+Section 1 establishes what may exist. Section 2 establishes how admitted existence changes, how those
+changes remain balanced, and how persistent structures arise. The Three-Register Threshold answers the
+next question - what is the minimum relational complexity required for persistence? - and the answer is:
+three relational registers constitute the smallest system capable of supporting persistent closure.
+   This theorem should not be interpreted as a statement about physical space. It does not claim that
+space is fundamentally three-dimensional. It is a ledger statement, not yet a spatial dimension, a cell
+count, or a physical channel claim. The theory assumes no pre-existing geometric background and no
+independent coordinate grid. Any geometry that eventually appears must emerge from the relational
+structure descending from the first admitted unit,
+
+
+                                                    𝐼 = 1,
+
+                                                      11
+rather than being assumed from the beginning. The Three-Register Threshold identifies the minimum
+bookkeeping complexity required for persistence, while leaving the emergence of geometry to the later
+development of the theory.
+
+
+2.8 The Persistence of the First Unit
+The same ledger discipline now returns to the first admitted unit itself and asks what its persistence
+requires.
+   For the unit 𝐼 = 1 to persist as itself, it must be re-identified: recognized as the same unit across an
+interval. That re-identification is relational: it is a same-as relation across two ends, and the two-endedness
+of that relation is itself a second degree of freedom, in the Section 1 sense. This step does not divide the
+unit, and it imports no metric plane. It says that an indivisible unit cannot furnish a second degree of
+freedom individually; it does so only by relation.
+   The companion statement is the non-erasure face of the same discipline. An admitted counted unit
+cannot pass from present to no-record except through a lawful relation. Positive face: it remains accountable
+until a lawful relation closes it. Negative face: it cannot silently vanish into no-entry. This is the ledger-level
+fact behind the earlier remark that a record may leave a later readout surface without being destroyed: the
+ledger has no operation by which admitted existence simply stops being accounted for.
+   With persistence and non-erasure in place, one complete orientation-preserving closure of the persisting
+unit has a definite, dimensionless angular extent. At the value level, this reads
+
+
+                                                    𝑡base = 2𝜋.
+
+The coefficient 2𝜋 is the angular extent of a static closure, the total turning of one complete orientation-
+preserving cycle. It is not a circumference, not a choice of radius, not a temporal rotation, and not a metric
+length; no clock and no ruler exist yet at this layer. The conjugate support that services one unit over one
+such closure is
+
+
+                                                   1
+                                        𝑚base =      ,        𝑚base 𝑡base = 𝐼.
+                                                  2𝜋
+These are base slots of the relational arithmetic: the first appearance of the quantities that later sections
+will develop toward time and mass. They are not seconds, not kilograms, and not calibrated observer-scale
+units of any kind.
+   The exact forms 2𝜋 and 1∕(2𝜋) therefore describe already established closure and support quantities.
+Neither expression is admitted as a new primitive existent. Their accountability is role-specific: the owning
+closure result fixes the extent, while 𝑚base 𝑡base = 𝐼 verifies the exact support accounting.
+
+
+2.9 Boundaries, and What Would Break This Section
+Two boundary statements from Section 1 remain visible here, as fences for later sections rather than as
+machinery used now. Location, in the foundational sense, is relational: a thing’s location is its distinguishing
+relations, not a coordinate in a background container. And a measurement report remains inadmissible
+unless it compares an admitted target against an admitted comparison standard, exactly as fixed by Section
+1’s admission rule. Nothing in this section licenses observer readout, SI calibration, or physical comparison;
+those enter only in the observer and bridge sections, and only by preserving the arithmetic built here.
+
+
+                                                         12
+   Section 2 has now supplied the internal arithmetic the rest of the paper may use: positive holdings
+with structural absence, transfer without subtraction, exact accounting under transfer, pairwise balance,
+reachability-implies-balance, persistent closure, the three-register threshold, and the base closure ex-
+tents. Later sections may add richer geometry, observer-local readout, and empirical comparison only
+by preserving this arithmetic, never by reintroducing hidden zeroes, signed quantities, or background
+coordinates.
+   This layer can also lose, and says how. Exhibit a single admissible transfer that changes the tag-wise
+total, and the conservation lemma falls. Exhibit a lawfully generated record state containing a record
+whose count differs from its partner’s, and the symmetry law falls. Exhibit a persisting closure candidate
+over only two registers, or show the three-register cycle erasing to the empty walk, and the threshold falls.
+Exhibit a complete orientation-preserving closure whose angular extent is not 2𝜋, or whose extent varies
+with an external reporting scale, and the base extent falls. Each is specific and checkable.
+
+
+
+
+3 The Base Book and Base Matrix
+Section 2 supplied the internal ledger arithmetic: structural absence rather than held zero, transfer without
+subtraction, exact accounting under transfer, pairwise balance under the Law of Symmetry Conservation,
+and the three-register threshold for persistent closure. Section 3 now asks what has to be booked once
+persistent closure is available. The answer is not yet a metric space and not yet an observer-scale measure-
+ment table. It is a source-local book: a small exact ledger whose entries record unit distinction, closure
+traversal, closure service, the connectivity-channel count, channel distribution, and closure bookkeeping.
+   The first bookkeeping object is the existence column. One completed closure traversal carries the forced
+closure extent
+
+
+                                                    𝜏 = 2𝜋.
+
+Here 𝜏 is the base-book label for a full closure traversal and its cycle-quantity class. It is not measured time,
+not a clock reading, and not a temporal coordinate. Section 1 has already fixed the unit distinction as 𝐼 = 1,
+so the corresponding service entry 𝑚 is fixed by the requirement that one traversal services that unit:
+
+
+                                                                   𝐼    1
+                                    𝑚𝜏 = 𝐼,       𝐼 = 1,      𝑚=     =    .
+                                                                   𝜏   2𝜋
+This is the first place where the paper uses a mass-like symbol, but the status is deliberately pre-calibration.
+In this section 𝑚 is the book’s closure-service support for the unit over one closure traversal. Later sections
+may ask how such support is rendered by an observer as mass; Section 3 only fixes the exact source-local
+entry and the identity it satisfies.
+   The symbols 2𝜋 and 1∕(2𝜋) here are exact representations of these already established active quantities.
+They remain downstream typed values, not additional primitive relation-tokens. Their warrant comes
+from the closure derivation and the identity 𝑚𝜏 = 𝐼, not from their number-theoretic class or their later
+placement in a display.
+   The existence column is therefore
+
+
+
+
+                                                       13
+                                             ⎛𝐼⎞ ⎛ 1 ⎞
+                                    𝑀exist = ⎜ 𝜏 ⎟ = ⎜ 2𝜋 ⎟ ,       𝑚𝜏 = 𝐼.
+                                             ⎜ ⎟ ⎜ 1 ⎟
+                                              𝑚
+                                             ⎝ ⎠ ⎝ 2𝜋 ⎠
+The next datum is 𝑐, the connectivity-channel count. This is where the Section 2 threshold is used, but
+the two readings must not be collapsed. Section 2 gives the minimal register-position count required for a
+persisting closure. The directed connections witness that closure; they are not the primitive being counted.
+At the base-book layer, that minimal register-position count is read as the number of connectivity channels:
+
+
+                                                    𝑐 = 3.
+
+The theorem-level content gives 𝑐 no speed semantics and does not make space already three-dimensional.
+It says that the minimal register-position count admitting a non-vacuous persisting closure is three: no
+persisting closure exists for |𝑅| ≤ 2, while the three-cycle persists. Read at the S02 book layer, those three
+required positions are the three connectivity channels. The symmetric channel realization is fair because
+the relabeling-and-orientation group acts transitively on the channel set:
+
+
+                                  𝐺3 ≅ 𝑆3 ⋉ (ℤ2 )3 ,        |𝐺3 | = 3! 23 = 48.
+
+Any book-layer rule whose channel dependence is only through the channel count 𝑐 and symmetric
+distribution across the whole channel set cannot distinguish one channel label from another. That is the
+fairness result. It is not a metric-axis result, and it is not a count of arrows or connections.
+   Once 𝑐 has this channel role, the base book’s channel capacity is forced as the minimal fair closure
+account. The register-walk formalism already admits rooted closure records and licenses no cyclic-rotation
+or unrooted-triangle quotient; fairness forbids choosing one root as canonical, and non-erasure forbids
+collapsing the admitted rooted records after the fact. The capacity is therefore the rooted-position incidence
+count: the value of that incidence account, not an independent product posited as input.
+
+
+                                 Cap = #{(root, position)} = 𝑐 𝑐 = 3 ⋅ 3 = 9.
+
+The distribution entry is then
+
+
+                                                                      9
+                                       𝐸 ∶= 𝑚 Cap = 3 ⋅ 3 𝑚 =           .
+                                                                     2𝜋
+This is the book-level channel-distribution total: the support 𝑚 distributed across the 3-by-3 channel
+capacity. It is the object that later readout language may compare with energy, but Section 3 does not
+identify it with SI energy, a laboratory measured quantity, or the familiar mass-energy formula.
+   The only remaining base-book entry is the closure-bookkeeping role 𝐺.
+   Let 𝐶 denote the three retained register positions in the capacity account and let 𝐽 = 𝐶 × 𝐶, so |𝐽| =
+Cap = 9. The established 𝐸 = Cap 𝑚 account contains exactly one 𝑚-side posting for each 𝑗 ∈ 𝐽. Its total
+retains the independently established scalar accounting identity:
+
+
+                                                 𝐸𝜏 = Cap .
+
+                                                       14
+The promoted pointwise co-reading acts on 𝐽 × {𝑚-side, 𝜏-side}. For every 𝑗, it preserves 𝑗 and exchanges
+the two typed sides with multiplicity one. The complete matched 𝜏-side family is the unique closure-side
+completion, and the already-defined value-free closure office identifies that family as 𝐺. No row, column,
+adjacency, target value, or division by 𝑚 supplies this identification. Its exact scalar consequence is
+
+
+                                               𝐺𝑚 = Cap = 9.
+
+There is one closure account. The nine members of 𝐽 are retained bookkeeping data inside it, not nine
+closure events, executed transfers, or runtime ticks. The construction establishes 𝐺 = Cap 𝜏. Using 𝑚𝜏 = 𝐼,
+the following equality chain remains exact; its quotient term is only a later algebraic rearrangement and
+neither defines 𝐺 nor selects its partner:
+
+
+                                           Cap
+                                     𝐺=        = Cap 𝜏 = 9 ⋅ 2𝜋 = 18𝜋.
+                                            𝑚
+With every entry fixed, Section 3’s base matrix is
+
+
+                                                        ⎛ 1          3 ⎞
+                                              ⎛𝐼 𝑐⎞
+                                                        ⎜            9 ⎟
+                                      𝑀base = ⎜ 𝜏 𝐸 ⎟ = ⎜ 2𝜋        2𝜋 ⎟ .
+                                              ⎜     ⎟
+                                               𝑚 𝐺      ⎜ 1        18𝜋⎟
+                                              ⎝     ⎠
+                                                        ⎝ 2𝜋           ⎠
+For readability, the display groups 𝐼 and 𝑐 above the active quantities and uses the familiar invariant, service,
+and support headings. That rectangular placement is organizational. It neither establishes a scientific role
+nor licenses matrix algebra. Any scientific role or relation used by the argument must stand on independent
+authority; placement supplies none. The display makes the account legible without serving as a proof
+premise.
+   The value 𝐺 = 18𝜋 is the source-local gravity-role value in the paper’s accounting sense: the count-
+indexed 𝜏-side aggregate of the retained capacity account. It is not Newton’s constant, not SI gravity, not
+an empirical coupling, and not an input from a later geometric or observer-scale bridge. Its ground is the
+promoted pointwise pairing construction and the pre-existing value-free closure office, not its displayed
+position.
+   This layer can also lose, and says how. Exhibit a completed closure traversal whose forced extent is
+not 2𝜋, and the 𝜏 entry falls. Exhibit a persisting closure candidate over one or two registers, or show the
+three-register cycle erasing, and the 𝑐 = 3 count falls. Exhibit a licensed cyclic-rotation or unrooted-triangle
+quotient that collapses the rooted closure records, and Cap = 9 falls. For the paired completion, exhibit a
+retained 𝑗 with unequal 𝑚- and 𝜏-side multiplicities; a co-reading that changes 𝑗, has a fixed point, or fails to
+exchange the two sides; or a complete matched 𝜏-family that is not the established 𝐺 closure office. If a row,
+column, adjacency, division, or target value is needed as a proof premise, the presentation-independence
+fence fails. If a member of 𝐽 is retyped as another event, transfer, or tick, the single-account interpretation
+fails. Each failure mode is specific and checkable.
+
+
+
+
+                                                       15
+4 Relational Geometry: The FCC/RD Cell
+Section 3 closed the base book. It fixed the unit, the closure traversal, the closure-service support, the
+connectivity-channel count, the channel distribution, and the closure-bookkeeping value. Section 4 asks
+how that closed book can be represented geometrically without importing a background space as an
+additional primitive.
+   The answer is a specific relational geometry: the face-centered-cubic lattice and its rhombic-
+dodecahedral cell. The claim is not that physical space has been assumed to be a lattice. The claim is that,
+once the relational bookkeeping has three connectivity channels and a two-channel transfer edge, the
+allowed two-active, one-idle orbit determines a twelve-edge relational shell. The integer lattice generated
+by that shell is the FCC presentation, and its Voronoi cell is the rhombic dodecahedron.
+
+
+4.1 Presentation, Not Background
+The coordinate triples used in this section are a presentation layer. They let the paper compute exactly,
+but they are not an observer-independent stage on which existence is placed. The three coordinate slots
+are tied to the three connectivity channels by the seam theorem: the channel-coupling action and the
+FCC-shell action are the same transitive relational action. The coordinate picture is therefore a drawing of
+the relational structure, not an added physical grid.
+   This matters because the same numeral can appear for different reasons. The symbol 𝑐 denotes the
+connectivity-channel count, 𝑐 = 3. It is not silently identified with spatial dimension. When a three-
+coordinate model appears here, it appears under the geometry presentation license, and every norm, radius,
+volume, and cell construction remains internal to the presentation until a later bridge gives it physical-unit
+interpretation.
+   A coordinate component written 0 in this section is not a zero quantity and is not a held value. It marks
+channel absence in the presentation tuple: the signed-entry rule is applied only to nonzero components,
+so no (𝜎, 0) pair and no zero magnitude is admitted. Thus tuples such as (±1, ±1, 0), (0, 1, 1), and labels
+such as Vor(0) use 0 only as presentation notation or a reference label, never as an object in the positive
+quantity domain.
+   In this section, "forced" has a precise local meaning: determined up to channel relabeling, sign conven-
+tion, and uniform normalization by the allowed two-active, one-idle transfer orbit. The chain is:
+
+
+                           three channels → two-active/one-idle transfer edge
+                                            → closure under relabeling/sign
+                                            → unique twelve-vector orbit
+                                            → lattice generated by that orbit
+                                            → even-sum integer lattice
+                                            → FCC presentation
+                                            → RD Voronoi cell.
+
+The FCC lattice is therefore not chosen as a background lattice. It is the forced integer lattice generated by
+the required twelve-edge orbit.
+   The seam result also fixes what an edge is in this geometry. A transfer requires two distinct registers: a
+source and a target. With three channels available, an edge couples two channels while the third is idle.
+The unique size-twelve orbit of the model relabeling group is exactly the two-active, one-idle pattern. In
+
+
+                                                     16
+coordinates this is the (±1, ±1, 0)-type orbit, but that coordinate form is the presentation of the relational
+fact: an edge is the minimal two-channel coupling.
+   The three-active (𝑎, 𝑎, 𝑎)-type orbit is therefore not an edge candidate: it is the closure/cycle object, so
+the eight-direction BCC shell is excluded on transfer-typing grounds, not by a norm choice.
+
+
+4.2 The FCC Lattice and Its Minimal Shell
+The integer lattice generated by that required twelve-edge orbit is
+
+
+             ΛFCC ∶= spanℤ {(0, 1, 1), (1, 0, 1), (1, 1, 0)} = {(𝑥, 𝑦, 𝑧) ∈ ℤ3 ∶ 𝑥 + 𝑦 + 𝑧 is even}.
+
+The two descriptions agree exactly. Each generator has even coordinate sum, and every even-sum integer
+triple can be written in the generator basis by
+
+                              −𝑥 + 𝑦 + 𝑧                𝑥−𝑦+𝑧                     𝑥+𝑦−𝑧
+                       𝑛1 =              ,       𝑛2 =         ,            𝑛3 =         .
+                                  2                       2                         2
+Thus
+
+
+                               (𝑥, 𝑦, 𝑧) = 𝑛1 (0, 1, 1) + 𝑛2 (1, 0, 1) + 𝑛3 (1, 1, 0).
+
+The generator determinant has absolute value 2, so this is a rank-three sublattice of index 2 and covolume
+2. This display identifies the generated presentation object exactly; it does not turn the lattice into a
+background space.
+   Descriptively, once the two-active orbit has already forced the shell, that same shell is the minimal shell
+of the FCC lattice. The native geometry top-invariant theorem identifies 𝜂 as the geometry column’s top
+invariant. Every nonzero vector in ΛFCC has squared norm at least 2, and equality occurs exactly for the
+twelve vectors with two coordinates ±1 and one coordinate 0:
+
+
+       𝑆12 = {𝑣 ∈ ΛFCC ∶ ‖𝑣‖2 = 2} = {permutations and sign patterns of (1, 1, 0)},           |𝑆12 | = 12.
+
+The nearest-neighbor edge invariant is
+
+                                                          √
+                                                     𝜂=       2.
+
+Thus 𝜂 plays in the geometry column the role that 𝐼 and 𝑐 play in the first two columns: by the Section 3
+invariant theorem, 𝐼 and 𝑐 are the booked-to top entries of 𝑀base ; by the geometry top-invariant theorem, 𝜂
+is the geometry column’s top invariant. It singles out no channel and no absolute scale, with the lower
+entries carrying it through the cell-volume trace.
+    This value is not assigned. It is
+                                   √ the minimal nonzero norm of the required twelve-edge orbit in the
+identified FCC presentation. The 2 that later appears in the cell volume, filled share, and residual share
+is this same edge invariant carried through the geometry, not a new constant and not a power law.
+    This is the same primitive-versus-representation
+                             √                       distinction already met by the closure quantities. The
+exact forms 2𝜋, 1∕(2𝜋), and 2 belong to established closure, support, and norm objects. Their appearance
+in the displayed arrays does not enlarge the primitive ontology, and it does not license arbitrary exact
+expressions without their own derivation and typing.
+
+                                                         17
+4.3 The Rhombic-Dodecahedral Cell
+The cell is built from the twelve minimal shell directions. For a normalization parameter 𝑢 > 0, define
+
+               ⋂
+        𝐶𝑢 =           {𝑝 ∈ ℝ3 ∶ 𝑛 ⋅ 𝑝 ≤ 2𝑢} = {(𝑥, 𝑦, 𝑧) ∶ |𝑥 ± 𝑦| ≤ 2𝑢, |𝑥 ± 𝑧| ≤ 2𝑢, |𝑦 ± 𝑧| ≤ 2𝑢}.
+               𝑛∈𝑆12
+
+Volume enters here only after the relational shell has forced a coordinate presentation. All volumes in this
+section are presentation volumes induced by the licensed coordinate model. They compare derived objects
+inside the same relational presentation: the FCC/RD cell, the lattice covolume, and the inradius ball. They
+are not physical volumes and carry no physical-unit interpretation.
+   Solving this finite half-space system gives the complete cell census. The cell has exactly twelve congruent
+rhombic facets, one for each shell direction; fourteen vertices, split as
+
+
+                       𝑉3 = {(±𝑢, ±𝑢, ±𝑢)},      𝑉4 = {(±2𝑢, 0, 0), (0, ±2𝑢, 0), (0, 0, ±2𝑢)};
+six antipodal facet pairs; and exact model-internal volume
+
+
+                                                 Vol(𝐶𝑢 ) = 16𝑢3 .
+This polytope is the rhombic dodecahedron. The name is conventional; the proof does not rely on the
+name. The shape is obtained by enumerating the constraints and vertices directly.
+  The same cell is also the Voronoi cell of ΛFCC . Farther lattice vectors do not cut the cell: vectors of
+squared norm 4 only touch at the axis vertices, and all larger shells are slack. Consequently
+
+
+                                               VorΛFCC (0) = 𝐶1∕2 ,
+and the translates 𝜉 + 𝐶1∕2 , 𝜉 ∈ ΛFCC , tile the presentation space with disjoint interiors. For 𝐶1∕2 , the
+Voronoi cell volume is the lattice covolume, 2. In inradius form, with 𝑟 the model-internal distance from
+the cell center to a facet,
+
+                                                              √
+                                              Vol(Cell(𝑟)) = 4 2 𝑟3 .
+The proof uses two agreeing routes: the lattice covolume route and the direct 16𝑢3 route. Both are exact
+and symbolic.
+
+4.4 Filled Share and Residual Share
+Place the inradius ball 𝐵(𝑟) inside each cell. It touches all twelve facet planes, and neighboring inradius
+balls are tangent along the face-neighbor directions. The filled share of the cell is then the ball volume
+divided by the cell volume:
+
+                                                             4   3
+                                           Vol(𝐵(𝑟))      𝜋𝑟    𝜋
+                                                        3
+                                       𝐷=             = √     = √ .
+                                          Vol(Cell(𝑟)) 4 2 𝑟3  3 2
+The normalization cancels. No global packing theorem is used or needed. The value is the filled share of
+this cell configuration, not a claim about optimal sphere arrangements and not a physical matter-density
+claim.
+
+                                                        18
+4.5 Unique Centered Inball and Dual Geometric Share
+The centered inradius ball is not selected from arbitrary subregions. For a cell written as the intersection of
+antipodal supporting half-spaces
+
+
+                                          𝑛 ⋅ 𝑝 ≤ 𝑟,        −𝑛 ⋅ 𝑝 ≤ 𝑟,
+
+let a candidate inscribed ball have center 𝑧 and radius 𝑅. The two inequalities imply
+
+
+                                     𝑛 ⋅ 𝑧 + 𝑅 ≤ 𝑟,         −𝑛 ⋅ 𝑧 + 𝑅 ≤ 𝑟.
+
+Adding them gives 𝑅 ≤ 𝑟. Equality forces 𝑛 ⋅ 𝑧 = 0 for every facet normal, and those normals span the
+presentation space, so 𝑧 = 0. Thus the centered ball 𝐵(𝑟) is the unique maximal inscribed ball.
+   Its boundary area and the cell boundary area are
+
+                                                                           √
+                           Area(𝜕𝐵(𝑟)) = 4𝜋𝑟2 ,        Area(𝜕 Cell(𝑟)) = 12 2 𝑟2 .
+
+Consequently the volume and boundary-area ratios agree exactly:
+
+
+                                 Vol(𝐵(𝑟))    Area(𝜕𝐵(𝑟))     𝜋
+                                            =               = √ = 𝐷.
+                                Vol(Cell(𝑟)) Area(𝜕 Cell(𝑟)) 3 2
+
+The equality follows from the common tangential-polytope identity 𝑉 = 𝑟𝐴∕3. It makes 𝐷 a scale-free
+geometric invariant of the centered-inball/full-cell relation. It does not make the inball boundary a subset
+of the cell boundary, and the complementary scalar Ω = 𝐼 − 𝐷 is not a boundary patch or substance.
+   The complementary cell share is recorded in transfer form:
+
+                                                     𝜋
+                               𝐷 + Ω = 𝐼,       Ω=1− √ ,              0 < Ω < 1.
+                                                    3 2
+The residual is a positive booked share of the same cell unit. It is not dark matter, not mass, and not
+a measured physical density. If a later section assigns additional physical meaning to Ω, it must do so
+through its own bridge or identity claim. Section 4 only supplies the exact geometry and the exact residual
+bookkeeping.
+
+
+4.6 The Cell Matrix
+For a compact presentation, Section 4 appends one column to the base display of Section 3. The grouped
+geometry entries are
+
+                                                      √
+                                                    ⎛   2 ⎞
+                                             ⎛𝜂⎞ ⎜    𝜋   ⎟
+                                             ⎜𝐷 ⎟ = ⎜ √ ⎟ .
+                                             ⎜ ⎟ ⎜ 3 2𝜋 ⎟
+                                              Ω
+                                             ⎝ ⎠ ⎜1 − √ ⎟
+                                                    ⎝  3 2⎠
+
+                                                       19
+The top entry 𝜂 is the edge invariant, just as 𝑐 is the fair connectivity-channel invariant in the second
+column. The entries 𝐷 and Ω carry that same edge through the cell-volume trace. This is an identification
+by provenance, not a functional law 𝐷 = 𝑓(𝜂). The geometry has one forced edge invariant and two exact
+shares carrying it.
+   Thus the cell matrix is
+
+                                                                        √
+                                                   ⎛ 1          3     2 ⎞
+                                       ⎛ 𝐼 𝑐 𝜂⎞ ⎜               9    𝜋   ⎟
+                                                     2𝜋              √ ⎟
+                               𝑀cell = ⎜ 𝜏 𝐸 𝐷 ⎟ = ⎜           2𝜋   3 2 ⎟.
+                                       ⎜       ⎟ ⎜ 1                   𝜋
+                                        𝑚 𝐺 Ω
+                                       ⎝       ⎠ ⎜ 2𝜋         18𝜋 1 − √ ⎟
+                                                   ⎝                 3 2⎠
+
+The display appends this third column while preserving every base entry. The arrangement records their
+independently established provenance; it does not derive the values or license matrix algebra.
+
+
+4.7 Static Cell Referent
+The tiling also gives a static referent for later use. Each lattice site 𝜉 determines exactly one cell, and the
+cell determines its site:
+
+
+                                          REF(𝜉) ∶= (𝜉, 𝜉 + 𝐶1∕2 ).
+
+This is only a site-cell referent supplied by the geometry. Runtime questions about posting, ordering, and
+rates belong to the later growth construction.
+    Section 4 therefore completes the displayed geometry group without crossing the bridge to physical
+units. It gives the FCC/RD relational realization, the exact cell, the exact filled and residual shares, and the
+cell matrix.
+    It has licensed only the static site-cell referent and the geometry results collected in 𝑀cell . Thus 𝑀cell
+closes only the static relational geometry: the FCC/RD presentation, the cell, the edge invariant, and the
+filled/residual shares. It does not install a background grid, does not make cells into observer systems, and
+does not introduce observer orientation, observer distinguishability, posting order, or runtime growth. At
+this stage no cell has been typed as an observer system, no observer-orientation or observer-distinguishability
+structure has been introduced, and no posting dynamics have begun. Those are later constructions, not
+hidden assumptions inside 𝑀cell . It does not promote FCC/RD to ontology, does not treat model-internal
+distances as measured lengths, does not derive SI units, does not read Ω as mass, and does not turn geometry
+counts into earlier bookkeeping reasons.
+    This layer can also lose, and says how. Exhibit an admissible two-active, one-idle transfer orbit that
+does not force the twelve-member (𝑎, 𝑎, 0) shell, and the forced FCC/RD route falls. Exhibit a vector in
+that shell with odd coordinate sum, or an even-sum FCC generator not reached by the shell, and the
+lattice identification falls. Exhibit a lattice vector outside the minimal shell that cuts VorΛFCC (0), and the
+rhombic-dodecahedral cell claim falls. Exhibit a dependence of 𝐷 or Ω on the normalization 𝑟, and the
+filled/residual share bookkeeping falls. Exhibit a coordinate 0 that enters as a zero quantity rather than
+channel absence in the presentation tuple, and the presentation discipline falls. Each failure mode is
+specific and checkable.
+
+
+
+
+                                                      20
+5 Runtime Accounting: Tick, Escapement, and Residual Growth
+Section 4 supplied the static cell: the FCC/RD presentation, the filled share 𝐷, the residual share Ω, and
+the static referent REF(𝜉). Section 5 asks what happens when that residual share is allowed to run.
+   The answer is not physical time yet. It is not a clock reading, not a rate in seconds, and not a dynamics
+in a background space. It is an internal accounting process: a residual register receives the same strictly
+positive share each cycle, carries the leftover forward, and posts a completed unit only when the account
+reaches one whole unit.
+   The running of the account is not an added iteration rule. Admitted existence has no licensed terminal
+book, and its book of licensed entries has no last entry; while admitted content stands, there must be a next
+closure-attempt in the order. At the base runtime layer, before any scheduling, physical-time, or observer-
+readout structure has been introduced, that renewed attempt has exactly one licensed representation: the
+base tick. The attempts therefore recur. There is no last tick. This recurrence does not depend on the
+irrationality of Ω and would still hold even if a discharge settled exactly. The irrationality of
+
+
+                                                      𝜋
+                                                   1− √
+                                                     3 2
+
+sharpens the internal runtime for the exact residual value used here. Recurrence is already forced by the
+no-terminal/no-last account and the tick-uniqueness result; irrationality does not make ticks recur. What
+irrationality adds is stricter: the internal residual account never settles exactly, so each recurring tick is a
+re-attempt at the same standing account, and the present residual determines the ledger tick history, in
+principle from an exact residual reading, rather than storing an archive.
+   That distinction matters. The paper now separates three things that ordinary language can easily blur:
+   • a tick, the base runtime event;
+   • an escapement, the threshold-crossing event caused by some ticks but not all ticks;
+   • a cell, the relational co-end created when an escapement posts a completed unit.
+One cell is created per escapement, never per tick.
+
+
+5.1 The Residual Register
+The runtime layer needs a place where the uncompleted share can be held. That object is the residual
+register 𝑆res . It is a partial holding: when present, it holds a strictly positive residual; when no residual
+remains, the register is absent from the book. It is never a register containing zero.
+   The core runtime state is therefore minimal:
+
+                                                         (        )
+                                            Statert (𝑘) = 𝑆res (𝑘) .
+
+Here 𝑘 is the update index of the running account. It is not physical time. The event index and physical-time
+index are kept distinct from it. In this section, the runtime book is only an internal account whose state
+can change; the bridge to measured time belongs later.
+   The residual is read against the unit account 𝐼 = 1. If a current residual is present, its account ratio is
+
+
+                                                𝑆res
+                                       𝑅acc =        = 𝑆res     (𝐼 = 1).
+                                                 𝐼
+
+
+                                                      21
+The equality on the right is numerical because the unit threshold is 1, but the meaning is not "a free decimal
+value." It is a unit-relative account standing: below one, exactly one, or above one. A sub-unit residual is
+not yet completed existence. A completed unit is the threshold at which the book must post.
+
+5.2 The Cell Increment
+The residual share from Section 4 becomes the per-tick runtime increment:
+
+                                                                     𝜋
+                                 Ωslot
+                                  cell
+                                       = 𝜔cell = Ωgeom = Ωpack = 1 − √ .
+                                                                    3 2
+This equality carries one fixed value across two typed roles. The symbol Ωgeom names the normalized
+geometric residual share, while 𝜔cell names the equal feed supplied at each serviced tick. Neither symbol is
+the live state 𝑆res (𝐾), which changes with 𝐾. The identity is the licensed handoff from the static cell to the
+runtime register; it does not make Ω a mass, a physical density, a measured unit, or an accumulated state.
+    The feed into the runtime register is an admission, not a transfer from another register. The cell-side
+residual share and the register-side entry in 𝑆res are two readings of one admitted share. No source register
+exists and nothing moves, so the transfer-conservation law is not being bypassed. On the static cell side, Ω
+names the share not occupied by the filled portion of the cell. On the runtime side, repeated feeds of that
+fixed share change the live register state 𝑆res (𝐾) toward the unit threshold; Ω itself does not accumulate or
+vary with 𝐾. When an escapement occurs, the completed unit posts. If the crossing overshoots the unit, the
+runtime residual is the positive carry beyond that posted unit; if the crossing is exact, the residual register
+is absent.
+    For a strictly positive cycle count 𝑥, the accumulated input is
+
+
+                                               𝑢tick (𝑥) = 𝑥Ω.
+The notation
+
+
+                                              𝑁tick (𝑥) = ⌊𝑥Ω⌋
+must be read with care. Despite the glyph, it counts completed unit-account crossings: escapements. It is
+not the number of base ticks. If no crossing has occurred, the report is the absence of a posted event, not a
+held zero count.
+
+5.3 Tick and Escapement
+A tick is the base runtime event. Each tick advances the residual account by 𝜔cell = Ω. Since 0 < Ω < 1,
+one tick contributes less than the unit account 𝐼 = 1 by itself. It completes a unit only when the standing
+residual already puts the updated account at or past the threshold.
+   An escapement is different. It occurs exactly when the updated residual reaches the unit threshold:
+
+
+                                             𝑆res (𝑘) ⊕ 𝜔cell ⪰ 1.
+The symbol ⊕ here is the positive accumulation operation of the ledger, and ⪰ is the positive-gap order
+against the unit account. The condition is a crossing condition, not a hidden equality-to-zero construction
+and not signed subtraction.
+
+                                                      22
+   When the crossing occurs, one unit of existence has completed. Non-erasure then leaves no option for
+that completed unit to disappear as a non-entry. The book must post it, and because exactly one whole
+unit has completed, the posting is exactly
+
+
+                                                        ∆𝐼 = 1.
+
+This value is not stipulated. It follows from account completion: one completed unit of existence posts one
+completed unit-token.
+
+
+5.4 The Update Rule
+Given the recurring attempts, each serviced update has the transfer-side accounting form
+
+
+                                   𝑆res (𝑘 + 1) = 𝑆res (𝑘) ⊕ 𝜔cell ⊖ [posting].
+
+The notation ⊖ does not introduce signed subtraction. If no posting occurs, the residual simply grows by
+𝜔cell . If a posting occurs, one whole unit is posted from the residual account as the completed-unit event
+count. The next residual is the unique positive remainder whose sum with that posted unit restores the
+accumulated amount. In runtime language, residual means unposted accumulation before threshold and
+positive overrun carried forward after an escapement. If the crossing is exact, the residual register leaves
+the book.
+   Thus every branch preserves the Section 2 discipline. The register either holds a strictly positive leftover
+below the unit or is absent. It never stores zero, and no negative residual is introduced.
+   The real-arithmetic closed form of the accounting identity is
+
+
+                                    𝑆res (0) + 𝐾𝜔cell = 𝑆res (𝐾) + 𝑇rt (𝐾) ⋅ 1,
+
+where 𝑇rt (𝐾) is the count of completed unit-accounts by cycle 𝐾. Equivalently,
+
+
+                     𝑇rt (𝐾) = ⌊𝑆res (0) + 𝐾𝜔cell ⌋ ,      𝑆res (𝐾) = f rac(𝑆res (0) + 𝐾𝜔cell ) .
+
+The floor counts completed units. The fractional part is the unitized residual ratio that remains, when a
+residual remains. The arithmetic is exact, but the ontology is still account completion, not free-floating
+real-number floor math.
+   At the empty-history start, this reduces to the inherited 𝑁tick form:
+
+
+                                 𝑇rt (𝐾) = 𝑁tick (𝐾),          𝑆res (𝐾) = f rac(𝐾Ω).
+
+
+5.5 The Escapement Staircase
+                    √
+Because Ω = 1 − 𝜋∕(3 2), the first few completions are not arbitrary. The exact inequalities give
+
+
+                               𝑁tick (3) has no posted event,           𝑁tick (4) = 1.
+
+                                                          23
+Equivalently,
+
+
+                                                4Ω = 1 + 𝜀4 .
+More generally, the gaps between successive single-cell completions are exactly a {3, 4} staircase:
+
+                                                                √
+                                           1     1    √        9 2
+                           gaps ∈ {3, 4} ⇐⇒ < Ω < ⇐⇒ 2 2 < 𝜋 <     .
+                                           4     3              4
+This is a runtime count statement. It is not a physical clock, not seconds, not a frequency measurement,
+and not the slower four-cell pooled clock. The four-cell {26, 27} reading is fenced as a separate object. The
+single-cell staircase is the exact escapement pattern of this runtime account.
+   The long-run completion rate is also exact:
+
+
+                                  𝑁tick (𝑥)                 1   𝑁tick (𝑥)
+                              lim           = Ω,      Ω−      <           ≤ Ω.
+                              𝑥→∞    𝑥                      𝑥      𝑥
+This is the only rate statement made here, and it remains an internal completion rate: completed unit-
+accounts per cycle. The limiting argument genuinely uses real analysis: the ratio is trapped between Ω and
+Ω − 1∕𝑥, and the width of that interval closes as 𝑥 grows. It does not convert 𝑘, 𝑥, or 𝐾 into physical time.
+
+
+5.6 Cells Completed by Escapement
+When an escapement posts ∆𝐼 = 1, one cell is completed as the opposite-side reading of the same non-
+erased transfer. The source-side reading is the unit leaving the residual account; the co-end reading is the
++1 cell. These are not two detached creations. They are one paired relational event read from two sides.
+   Therefore the cell count follows the escapement count:
+
+
+                                    #cells = #escapements = ⌊𝑥Ω⌋ < 𝑥.
+This is the main distinction the section needs. The runtime does not generate one cell per base tick. It
+generates one cell per threshold crossing. Most ticks are only residual advances.
+    Each cell may carry its own residual, and that does not create a second existence. The cells remain
+one existence because each child is relationally connected to its origin as the +1 co-end of the transfer
+that produced it. An unconnected cell would be a second existence and is excluded. The binding here
+is relational connectedness, not gravity, not a background coordinate adjacency, and not a later observer
+frame.
+    The cross-cell connective is also unpreferred at this layer. Every reading must be paired, so dangling
+half-links are forbidden. But no global orientation has yet been supplied that could privilege one cross-cell
+path over another. That global orientation belongs to the later observer construction. Section 5 only gives
+the dangling-free, unpreferred runtime connective.
+                                                                                             √
+    One exact first-jump consequence is available. Because the exact inequality 𝜋 > 15 2∕7 fixes the
+relevant second-gap branch, the origin’s second escapement and the first child’s first escapement land
+together at tick 8. The population therefore jumps
+
+
+                                                   2 ,→ 4
+
+                                                     24
+and skips a stable 3 at the first jump. This is a first-jump result only. It does not claim a general growth law,
+does not decide whether the four-cell system later couples, and does not introduce readout, clockhood,
+mass, energy, or physical time.
+
+
+5.7 Boundary of the Section
+Section 5 has converted the static residual share Ω into runtime accounting. It has supplied the residual
+register, the recurring-attempt theorem, the per-tick increment, the feed-admission articulation, the
+tick/escapement distinction, the forced unit posting, the update rule, the floor-sum account reading, the
+{3, 4} staircase, the internal completion rate, and the first relational growth consequence.
+    It has not built physical time. It has not built clockhood. It has not read Ω as mass or energy. It has not
+used gravity as a binding mechanism. It has not installed a background lattice-growth process. It has not
+assigned observer orientation, measurement, aperture, SI units, or empirical comparison. Those are later
+questions, and they must preserve the runtime accounting established here.
+    The section can fail in concrete ways. Exhibit a final licensed tick while admitted content still stands,
+and the recurrence theorem falls. Exhibit a runtime state that stores a zero residual, and the strict-positivity
+fence falls. Exhibit a lawful update in which the residual exceeds the unit without posting, and the bounded-
+residual theorem falls. Exhibit a crossing that does not force ∆𝐼 = 1, and account completion fails. Exhibit
+a stable first population 3 under the exact Ω arithmetic, and the first-jump result fails. Exhibit one cell per
+base tick rather than one per escapement, and the growth identity fails.
+
+
+
+
+6 Aperture and Resolution
+Section 5 showed that the runtime account does not stop: the residual account is repeatedly serviced, ticks
+recur, and escapements post completed units when the standing account crosses the unit threshold. Section
+6 asks a different question. Given two relational histories, when is their difference large enough to be read
+as a resolved distinction, and when does a bridge-side reading wash the contribution out?
+   The answer has two parts. Inside the theory, the issue is a floor: an action gap smaller than one resolution
+unit posts no resolved distinction. At and above one unit, completed units can be counted. On the bridge
+side, the issue is an upper suppression boundary: when the bridge action-to-phase translation is applied, a
+far-supra-unit nonstationary gap contributes incoherently and is suppressed. Between those two edges lies
+the coherence aperture: the regime in which a difference is resolved without yet being bridge-suppressed.
+   This section still does not introduce calibrated physical units. The internal unit is 𝑢Φ , not physical ℏ.
+The bridge layer compares 𝑢Φ -based action gaps with the ordinary ∆𝑆∕ℏ language, but that comparison is
+explicitly typed as bridge-side. The internal count remains a count of completed distinguishability units.
+
+
+6.1 Relational Histories
+The objects compared by the aperture layer are histories. A history is not a path through a pre-existing
+space. It is an admissible relational walk from one distinguishability event to another:
+
+
+                    ℋ(𝐴, 𝐵) ∶= { 𝑤 ∶ 𝑤 is an admissible relational walk from 𝐴 to 𝐵 }.
+
+If 𝛾1 ∈ ℋ(𝐴, 𝐵) and 𝛾2 ∈ ℋ(𝐵, 𝐶), the two histories may be chained,
+
+                                                       25
+                                               𝛾1 ◦𝛾2 ∈ ℋ(𝐴, 𝐶).
+
+The empty history is the empty walk 𝜀. It is a walk identity for concatenation, not a zero object. That
+distinction matters because the aperture layer continues the same no-zero discipline used in Sections 1
+and 2: absence, no increment, no difference, and no resolved distinction are typed predicates, never stored
+zero quantities.
+
+
+6.2 Internal Action
+Over these histories the theory defines an internal action functional:
+
+
+                                            𝒮Φ ∶ ℋ(𝐴, 𝐵) ,→ 𝒟+
+                                                             act .
+
+For a non-empty history, 𝒮Φ [𝛾] is a strictly positive action holding. It is internal action, not the bridge-side
+classical action 𝑆, and it is not built from physical ℏ. Its defining structural property is concatenation
+additivity:
+
+
+                                        𝒮Φ [𝛾1 ◦𝛾2 ] = 𝒮Φ [𝛾1 ] ⊕ 𝒮Φ [𝛾2 ].
+
+The operation ⊕ is the positive composition already licensed for the quantity domain. Nothing here
+requires signed subtraction. The action assigned to a history is a single internal readout of that history; the
+order and relational structure remain in the history itself. The empty-history case is again predicate-like:
+𝒮Φ [𝜀] contributes no action increment, but it is not represented as a stored zero action.
+
+
+6.3 The Resolution Unit
+An action readout becomes distinguishability only after the theory fixes a resolution unit. That unit is
+
+
+                                            𝑢Φ ∈ 𝒟+
+                                                  act ,       𝑢Φ > 0.
+
+Its role is not to import physical ℏ. It is the internal action difference corresponding to one completed unit
+of distinguishability:
+
+
+                                          ∆(𝒮Φ ∕𝑢Φ ) = 1 ⇐⇒ ∆𝐼 = 1.
+
+Thus 𝑢Φ is unit-relative. If the action readout and the internal resolution unit are rescaled together, the
+distinguishability count does not change. The invariant is the one-unit threshold, not the printed size
+of the unit. This is the same pattern already used in the runtime account: the account is measured by
+completed units, not by treating a reporting scale as an object of nature.
+
+
+
+
+                                                        26
+6.4 The Action Gap
+For two histories 𝛾1 , 𝛾2 , the action gap is not a signed subtraction. The theory compares their internal
+action readouts by the positive-gap order. If one action strictly exceeds the other, there is a unique strictly
+positive excess 𝑒 satisfying
+
+
+                                             smaller ⊕ 𝑒 = larger.
+The gap is then recorded as a which-side tag together with a positive-excess readout:
+
+                                                                                     𝑒
+                                  𝑔Φ (𝛾1 , 𝛾2 ) ∶= (𝜎, |𝑔Φ |),           |𝑔Φ | ∶=      .
+                                                                                    𝑢Φ
+The tag 𝜎 records only which history carries the larger action. It is a history-side tag in this comparison,
+not a four-cell observer standpoint, not spatial direction, and not the later observer-readout structure. At
+this layer, two histories give only a comparative side and a positive excess. The readout |𝑔Φ | is that positive
+excess in 𝑢Φ units, taken only at coefficient readout; it is not a standalone primitive quantity or measured
+size. If the two action readouts match, the result is a paired-balance predicate: no excess exists. The theory
+does not store a zero-valued gap.
+   This is the aperture layer’s basic comparison object. It is dimensionless, unit-relative, and internal. It is
+not a distance, not a coordinate, not a physical phase by itself, and not yet a comparison with experiment.
+
+6.5 The Resolution Floor
+The floor is the first theorem of the section. A sub-unit gap does not post a resolved distinction:
+
+
+                              |𝑔Φ | < 1 ⇐⇒ no resolved distinction is on record.
+That sentence should be read literally. Below the unit threshold there is an open account, not a zero count.
+Nothing has completed, so nothing posts. When the gap reaches one full unit, a unit of distinguishability
+has completed; by non-erasure it must be accounted, and the posting is forced:
+
+
+                                                           ∆𝐼 = 1.
+The resulting count is the number of completed unit crossings. The reason is purely discrete: the gap |𝑔Φ |
+is the positive excess read in 𝑢Φ -units; only whole unit crossings are completed distinguishability units;
+and any remaining fractional part is still an open account. The account can therefore record exactly the
+largest whole number of completed crossings not exceeding |𝑔Φ |:
+
+                                                            ⌊     ⌋
+                                               𝐼(𝛾1 , 𝛾2 ) = |𝑔Φ | .
+The floor symbol is an external completed-crossing readout. Internally, the object is the standing gap and
+the account discipline around it. At base saturation, |𝑔Φ | = 1, the same structure re-earns the first count:
+
+                                                       |
+                                                   𝐼 |||          = 1.
+                                                       |𝑔Φ |=1
+
+This does not ground the first count of Section 1. It reproduces it downstream at the aperture layer: one
+completed distinguishability unit reads as one.
+
+                                                             27
+6.6 Relative Phase
+The gap also supplies the continuous coherence-phase reading:
+
+
+                                        𝜑rel ∶= 2𝜋 ⋅ 𝑔Φ     (mod 2𝜋).
+
+Only relative phase is contentful here. The phase is a reading of a gap between histories, so an absolute
+phase of a single isolated history is not an admitted object. A uniform offset changes no action gap and no
+completed-crossing count.
+  The full turn 2𝜋 is consumed from the earlier closure result. It is not re-derived in this section. Each
+completed 2𝜋 closure corresponds to one completed distinguishability unit, so the closure count is again
+
+                                                    ⌊     ⌋
+                                                 𝐼 = |𝑔Φ | .
+
+This is the continuous phase side only. The relation, if any, between this continuous phase reading and the
+later discrete ±1 parity/side role belongs to the next seam layer, not to Section 6.
+
+
+6.7 The Coherence Aperture
+The coherence aperture 𝐴Φ is the typed window bounded below by the internal resolution floor and above
+by a bridge-conditional suppression boundary.
+   Its internal face is the floor just established:
+
+                                                                           ⌊     ⌋
+                        |𝑔Φ | < 1 ⇐⇒ record absent,        |𝑔Φ | ≥ 1 ⇐⇒ 𝐼 = |𝑔Φ | ≥ 1.
+
+This is entirely internal. It uses 𝑔Φ , 𝑢Φ , and the count 𝐼, not physical ℏ.
+   Its upper face is different in kind. It is inherited from the bridge-side suppression result: when the
+bridge 𝑢Φ ↔ ℏ translation is applied together with the imported nonstationary oscillatory estimate, a
+far-supra-unit action gap lies outside the coherent contribution regime. That upper boundary is not folded
+into the internal core. It stays a bridge clause.
+   The middle is deliberately left open. The section does not invent a sharp number where coherence
+ends. It only identifies a resolved window between the internal floor and the bridge-side far-supra-unit
+suppression regime.
+
+
+6.8 The Three Regimes
+The aperture is well formed because its regimes do not overlap. The regimes are:
+
+
+                              𝑅1 ∶ |𝑔Φ | < 1 (sub-unit floor, record absent),
+
+                         𝑅2 ∶ |𝑔Φ | ≥ 1 and not in 𝑅3      (resolved middle window),
+         𝑅3 ∶ |𝑔Φ | ≫ 1 (far-supra-unit bridge-side suppression, under the bridge hypotheses).
+The lower split is sharp and internal: below one unit nothing is resolved; at or above one unit the completed-
+crossing count is at least one. The upper split is by typed set difference, not by an extra physical cutoff.
+
+                                                      28
+𝑅2 is the resolved domain with the far-supra-unit bridge-suppression regime removed, while 𝑅3 is that
+bridge-suppression regime itself. Thus 𝑅2 and 𝑅3 are disjoint by definition. 𝑅1 is also disjoint from them
+because it is strictly sub-unit, while both resolved regimes require |𝑔Φ | ≥ 1. Therefore the regimes are
+pairwise disjoint:
+
+
+                             𝑅1 ∩ 𝑅2 = ∅,       𝑅1 ∩ 𝑅3 = ∅,       𝑅2 ∩ 𝑅3 = ∅.
+
+The symbol ∅ here is set notation for no shared member. It is not a zero quantity, not a stored value, and
+not a floor count. Likewise, the no-difference and sub-unit cases remain typed predicates. This keeps the
+zero discipline of the earlier sections intact while still allowing ordinary set notation in the metatheory.
+
+
+6.9 Bridge Boundary: Suppression
+This boundary is bridge language, not internal dynamics and not a physical-unit derivation. It asks how the
+already-defined internal gap is reported under the ordinary action-phase comparison. Under that bridge
+translation,
+
+
+                                             |𝑔Φ | ←→ |∆𝑆|∕ℏ.
+
+If the bridge image is far supra-unit and the phase is nonstationary, then the usual oscillatory integral
+estimate suppresses the coherent contribution:
+
+
+   |𝑔Φ | ≫ 1,     |∆𝑆|∕ℏ ≫ 1,        nonstationary phase ⇐⇒ outside the coherent contribution regime.
+
+The nonstationary condition is load-bearing. A stationary or slowly varying phase is not suppressed by this
+argument; it is precisely the exception. Therefore a large bridge-side action gap is not enough by itself. The
+licensed statement is narrower: after the bridge translation, far-supra-unit nonstationary differences are
+suppressed in that bridge reading.
+   Internally, no cancellation has occurred. A large action gap is still just a large completed-crossing count.
+The symbol ℏ appears here only because the bridge comparison uses ordinary action-phase notation; it is
+not an internal unit, not an SI calibration, and not an identification 𝑢Φ = ℏ.
+
+
+6.10 Bridge Focusing Readout
+The section also records the bridge-side focusing readout that belongs to this aperture construction. This is
+not observer-system measurement and not internal aperture dynamics. The coherence aperture 𝐴Φ is the
+primary object. The focusing parameter 𝐴# is secondary: it describes how a bridge readout changes its
+resolution through the aperture. It is constrained by
+
+
+                                                0 < 𝐴# ≤ 1.
+
+In that bridge notation, focusing replaces the bridge action quantum by an effective bridge quantum,
+
+
+                                                            ℏ
+                                                 ℏef f =      ,
+                                                           𝐴#
+
+                                                      29
+with the action difference ∆𝑆 held invariant. This formula belongs entirely to the bridge readout: it does
+not define 𝑢Φ , does not calibrate 𝑢Φ against SI units, and does not make ℏ theory-native. The no-shift claim
+is the important part. Focusing changes resolution; it does not move event or action locations. With
+
+
+                                          𝐼bulk = ∆(𝑆∕ℏ) = ∆𝑆∕ℏ,
+
+the bridge screen readout label 𝐼screen factors as
+
+
+                      𝐼screen = ∆(𝑆∕ℏef f ) = ∆(𝐴# ⋅ 𝑆∕ℏ) = 𝐴# ⋅ ∆(𝑆∕ℏ) = 𝐴# ⋅ 𝐼bulk .
+
+Since 0 < 𝐴# ≤ 1, this is compression:
+
+
+                                                𝐼screen ≤ 𝐼bulk .
+
+The word screen here is a bridge-side readout label. It does not introduce an observer apparatus, a measured
+SI report, or the later observer-system construction. Focusing creates no additional action, no additional
+events, and no additional internal distinguishability. It rescales only the bridge readout. The internal count
+remains 𝐼 = ⌊|𝑔Φ |⌋, independent of the bridge focusing parameter.
+
+
+6.11 Boundary of the Section
+Section 6 supplies the aperture layer: relational histories, internal action, the internal resolution unit,
+the action gap, the resolution floor, the coherence aperture, the partition of the aperture, the bridge-only
+suppression boundary, and the bridge-only focusing readout. The last two items are the bridge faces of the
+aperture construction; they are not part of the internal core.
+   It does not derive calibrated ℏ, does not treat 𝑢Φ as physical ℏ, does not introduce measured units, and
+does not turn the bridge maps into internal theorems. It also does not treat 𝐼screen as an observer-screen
+measurement; it is a bridge readout variable from the bridge focusing map. The section does not decide the
+discrete/continuous seam between the later ±1 parity/side role and the continuous phase reading used
+here. That seam belongs to the next section.
+   The section can lose in concrete ways. Exhibit a persistent resolved distinction below the unit floor, and
+the floor fails. Exhibit a stored zero gap or zero count inside the aperture layer, and the no-zero discipline
+fails. Exhibit overlap between the typed regimes, and the aperture partition fails. Exhibit nonstationary
+far-supra-unit bridge contributions that remain coherent, and the suppression boundary fails. Exhibit
+focusing that shifts event locations or creates additional action rather than compressing the bridge readout,
+and the focusing map fails.
+
+
+
+
+7 Closure and Junction Contracts
+Section 6 supplied the aperture layer: histories, internal action, the resolution unit, the action gap, the
+coherence aperture, and the bridge-only readout faces of that aperture. It ended at a seam. The gap has a
+discrete side, carried as a side or facing of a completed posting, and a continuous phase reading used only
+under the aperture’s readout discipline.
+
+                                                       30
+   Section 7 closes that seam at the internal level. The task is not yet physical time, physical energy, a
+calibrated observer report, or a prediction. The task is narrower: say how completed unit-accounts are
+counted, how completed closures are paired with those counts, how service cost is typed, and when the
+closure account is silent.
+
+
+7.1 The Internal Completion Rate
+The runtime account already has a completed-unit counter:
+
+
+                                                𝑁tick (𝑥) = ⌊𝑥Ω⌋.
+
+The name must be read with the Section 5 discipline intact. This is not the number of base ticks. It is the
+number of completed unit-account postings by cycle 𝑥, each posting being a completed unit 𝐼 = 1. For a
+window [𝑥1 , 𝑥2 ] of the discrete update index, with 𝑥1 < 𝑥2 , the internal completion-rate object is
+
+
+                                                        𝑁tick (𝑥2 ) ⊖ 𝑁tick (𝑥1 )
+                                    𝑟int (𝑥1 , 𝑥2 ) =                             .
+                                                                𝑥2 ⊖ 𝑥1
+
+The numerator is the completed-count increment in the window. It is not signed subtraction. It is the
+positive count of completed postings when completed postings are present, and the open-account predicate
+when no completed posting is present. The denominator is the positive cycle count of the window. Thus
+𝑟int is a discrete completion density per update cycle, not a derivative and not a rate in physical time.
+    The long-run readout of this object is inherited from the runtime account:
+
+
+                                                   𝑁tick (𝑥)
+                                               lim           = Ω.
+                                               𝑥→∞    𝑥
+
+This limit is not re-proved here, and it is not used as a bridge calibration. It says only that the internal
+completed-unit density has the already established bounded long-run value Ω. Since each completed
+unit-account is also one completed 2𝜋 closure, the same count can be read from the closure side. That still
+does not identify the internal count density with a physical phase rate.
+
+
+7.2 The Junction Contract
+Before an identity can be claimed, the section has to separate the obligations. There are four internal
+obligations and one bridge boundary.
+   First, each forced completed-unit posting must correspond to the 2𝜋 closure of that same completion.
+Second, the tick-side and closure-side counts must agree over the same window. Third, the completed
+closure must carry one service burden, not two. Fourth, the orientation carried by the gap must be the
+orientation carried by the posting; it cannot be recovered afterward from a continuous phase reading.
+   The bridge boundary is different. It concerns physical time, physical energy, calibration, prediction, and
+the later readout layer. None of those are built by the internal junction. The internal section may prove a
+count identity and a completion identity. It may not turn those into a physical-time law.
+
+
+
+
+                                                           31
+7.3 Orientation Before Continuous Readout
+The posting order is discrete. The internal structure first has oriented closures, then completed postings,
+and then the count or rate read from those postings. A continuous phase representation may later read
+that structure, but it is not an input to the posting order.
+   The orientation label 𝜎 therefore has a fixed role. It tells which side or facing of the paired posting is
+being read. It is not a signed internal quantity, not a negative amount, and not a scalar recovered from cost
+or phase. Two completions with the same magnitude but opposite facing can have the same continuous
+phase reading; the phase reading alone therefore cannot recover 𝜎.
+   This is why the bridge-facing phase account is constrained before it is used. Any later continuous
+representation must consume the discrete postings, counts, and carried orientation. It cannot replace
+them.
+
+
+7.4 Ticks and Closures
+The first internal obligation is the tick-closure correspondence. A completed unit-account produces a
+forced posting; that same completed unit is read as a completed 2𝜋 closure. The map is one-to-one because
+it is indexed by the same completed unit. A tick-side completion without a closure, or a closure without
+the corresponding completion, would break the account.
+    The second obligation follows by restricting that correspondence to a window. Over [𝑥1 , 𝑥2 ],
+
+
+                                     ∆𝑁tick (𝑥1 , 𝑥2 ) = ∆𝐼closure (𝑥1 , 𝑥2 ).
+
+Dividing both sides by the same positive cycle-window count gives the internal equality
+
+
+                                        𝑟int (𝑥1 , 𝑥2 ) = 𝑟closure (𝑥1 , 𝑥2 ).
+
+The equality is exact at the internal count level. It is not obtained from the long-run value Ω, not from a
+physical-time calibration, and not from an external phase-rate law. The count equality comes first; any
+calibrated bridge reading must come later and preserve that dependency order.
+
+
+7.5 Service Cost
+The third obligation is service. A completed closure carries one service/completion burden. For a distinction
+𝛾,
+
+
+          cost[𝛾] ∈ 𝒟+ ,      cost[𝛾] = one per-unit service burden per completed closure of 𝛾.
+
+The cost is indexed by the completed closure count 𝐼(𝛾) and measured against the internal unit 𝑢Φ . It types
+the burden of completion. It is not merely the count itself, and it is not physical energy.
+   The cost is strictly positive when a completion has occurred. If no completion has occurred, no service
+has been posted; that is the open-account predicate, not a stored value 0. The carried orientation remains
+separate. The value of the service burden is blind to 𝜎, but 𝜎 is not erased and not recovered from the
+service value.
+
+
+
+                                                         32
+7.6 From Narrowing to Identity
+The forced posting and the 2𝜋 closure are already tied to the same completed unit. That establishes a
+narrowing: the completion is not two independently completing processes, and not two independently
+serviced processes. There is one forced completed unit, one count increment, one service burden, and the
+orientation is carried through both readings.
+   That narrowing is not yet the identity. It still permits a weaker rival description: two relations that
+always co-complete, always share one count, and always share one service. Section 7 has to rule out that
+rival description without assuming the answer.
+   The identity proof has two steps.
+   First, the completion has two statement positions. On the result side, the residual is resolved into
+the forced completed-unit output. On the state side, the accumulated completion state is updated. The
+tick-closure correspondence articulates these two positions: the forced result is carried into the closure-side
+state update. The result is singular, the state update is singular, and the service burden is singular. Therefore
+any account that tries to make a second process by adding a second result, a second state update, a second
+service burden, or a third statement position has no licensed role left to occupy.
+   Second, the only remaining rival is weaker still. It claims two relations while sharing all roles and
+registering no second result, no second state update, no second service, no different orientation facing,
+no different paired record, no different licensed operation, and no later formal consequence. In this
+framework, that is not a hidden second relation. Existence is admitted only as relational distinguishability.
+A second admitted token must have an admitted relational difference. If every admitted mark is the same,
+the supposed second token is duplicate naming of one relation.
+   Thus the update-side completion and the closure-side completion are one internal completion relation-
+token read two ways. The theorem proves only this internal, pre-readout identity. It does not prove physical
+time, physical energy, prediction, or any calibrated bridge claim.
+   The resulting status is correspondingly narrow. The internal identity is established; the bridge-facing
+layer remains deferred. Physical time, physical energy, calibration, prediction, and the later observer-system
+reading remain outside this section.
+
+
+7.7 The G-Operation and Complete Closure
+The section can now state the closure operation. The symbol 𝐺 is used here by role, not by value. It is the
+system-level bookkeeping operation that reconciles what remains unpaired in the system account. The
+residual is the typed 𝑇3 remainder slot of the system account, consumed here only as a category. The rule
+for its quantitative content is not derived here.
+   The 𝐺-operation pairs the unpaired records under the balance discipline. Complete system closure, or
+𝐺-silence, is the condition in which no unpaired system-level residue remains:
+
+
+                                               𝐺|self -coupled = 0.
+
+The displayed 0 is an absence marker: nothing is left for 𝐺 to book. It is not the value 𝐼 = 0, not a stored
+zero residual, and not annihilation. The existents persist paired and balanced. Complete closure removes
+the unpaired residue, not the admitted existents.
+   This definition also fences the section. It gives an operation and a closure condition. It assigns no value
+to 𝐺, derives no dynamics of reaching closure, defines no Ω, and makes no physical-gravity claim.
+
+
+
+                                                       33
+7.8 Driven Dynamics Do Not Reach Complete Closure
+The final result is a no-go theorem for the driven regime. When a residual register is present, it is a strictly
+positive typed holding. When a discharge empties the register, the register leaves the book; it is not cleared
+to a stored zero value. Under driven cycling, a strictly positive feed is produced each cycle. A completion
+can discharge the current register, but the next cycle re-populates it.
+   Therefore register-absence is at most transient under continued driving. Complete system closure
+requires sustained register-absence, so driven dynamics do not reach complete closure. Complete closure
+requires forcing-cessation: the strictly positive feed must cease. It is not achieved by reducing a residual to
+𝑆res = 0, since that zero state is not a licensed internal object.
+   The proof is not a geometry-value proof. The values 𝐷, Ω, and 𝜔cell belong to the transitive runtime
+foundation, but the no-go uses only the strict-positivity type and non-erasure. The driver is persistence of
+admitted existence, not a pressure variable and not a physical force. The theorem also does not supply the
+positive mechanism by which forcing ceases. It proves the no-go and the necessary condition only.
+
+7.9 Boundary of the Section
+Section 7 establishes the internal closure and junction account. It defines the internal completion-rate
+object, records the junction obligations, fixes orientation before continuous readout, proves the tick-closure
+and internal rate equalities, types service cost, proves the internal update-closure identity, defines the
+𝐺-operation and complete-closure condition, and proves that driven dynamics do not reach complete
+closure without forcing-cessation.
+   It does not build physical time, physical energy, calibrated mass, gravity, empirical prediction, or observer-
+system measurement. It also does not assign a value to 𝐺, derive the residual rule for the 𝑇3 slot, or derive
+the positive dynamics by which forcing ceases.
+   This section can lose in specific ways. Exhibit a stored zero rate, zero service, or zero residual inside the
+internal account, and the typing fails. Exhibit a tick-side completion without the corresponding closure, or
+a closure without the corresponding completed unit, and the tick-closure map fails. Exhibit an internal
+rate equality that depends on physical-time calibration rather than count equality, and the dependency
+order fails. Exhibit a service burden that is physical energy rather than pre-physical completion burden,
+and the cost typing fails. Exhibit a second admitted relational mark that survives the identity proof, and
+the internal identity fails. Exhibit complete closure by erasing existents or by setting a residual to zero,
+and the non-erasure discipline fails. Exhibit sustained complete closure under continued strictly positive
+driving, and the no-go theorem fails.
+
+
+
+
+8 Observer and Readout Architecture
+Section 7 closed the internal junction account. It proved the internal update-closure identity, fixed the
+closure-side status, and stopped before observer-system readout. Section 8 begins on the other side of that
+boundary. Its task is not to import measured physics. Its task is to define what a readout locus is, how
+completed internal records become available to that locus, how those registrations function as a clock, and
+how the time-support pair may be reported without changing the internal book.
+   The dependency direction is one-way. The readout layer consumes the completed internal record; it does
+not ground, reopen, or edit it. The word "observer" is therefore not a psychological word here. It names a
+relational role: the standpoint through which already resolved distinctions are available for reading.
+
+                                                       34
+8.1 The Readout Locus
+The first object is the readout locus 𝐿. A locus is a relational standpoint at an internal resolution scale. Its
+content is the set of already resolved completed updates distinguishable at that scale:
+
+
+                                           𝒟(𝐿) = {𝑢 ∶ reg(𝐿, 𝑢)}.
+The elements 𝑢 are completed internal updates. They are registrable only after the internal resolution
+condition has been met; below that floor there is no registered object, not a stored zero value. Each
+registered element still carries its orientation. The locus does not create those distinctions, does not resolve
+them, and does not duplicate the aperture that resolved them. It only makes already resolved content
+available on the readout side.
+   This first set has no order. It is a membership surface: what is available at 𝐿, not what came first, what
+follows, how much time has elapsed, or what physical rate is being measured. Those are later structures.
+
+8.2 Registration
+Registration is the relation that populates the readout set. For a locus 𝐿 and an already resolved update 𝑢,
+the statement
+
+
+                                                   reg(𝐿, 𝑢)
+means that 𝑢 is available at 𝐿. Equivalently, 𝑢 ∈ 𝒟(𝐿). This is a yes-or-no membership relation. It carries
+the orientation of 𝑢, but it does not impose a sequence, compare positions, assign a duration, create a
+history of registrations, or turn the set into an ordered measure.
+   The distinction matters because a registration relation can be mistaken for measurement. It is not
+measurement in the later physical sense. It is availability of already resolved relational content at a locus.
+The internal structure has already done the resolving; registration reads it.
+
+8.3 The Reference Role
+A distinguishable reading also needs a reference. For an existent or system 𝑋 at a level 𝓁, the ob-
+server/reference role may be written as
+
+
+                                                  Obs(𝑋, 𝓁).
+The role holds when 𝑋 occupies a readout standpoint, supplies the relational reference relative to which
+registered content is distinguishable, and thereby makes a distinguishable readout available at that level.
+The reference is not a background frame and not a privileged object. It is a relation. A registered state is
+distinguishable from the standpoint that reads it.
+    This is the sense in which observerhood induces readout asymmetry. The observer does not create
+distinguishability. The distinguishability is primitive and the relevant completion has already been resolved.
+By occupying the reference role, 𝑋 selects which oriented side is read as reference. The resulting asymmetry
+is an orientation selection, not a signed amount and not an act of creation.
+    The role is independent of a fixed cell count. One cell may occupy the standpoint. Without a second
+registered state there is no realized distinction to read against it; with more registered states there is more
+distinguishable content. The role supplies the reference condition, not a cell-number theorem.
+
+                                                      35
+8.4 Clockhood
+The unordered set 𝒟(𝐿) is still not a clock. Clockhood is a role in which registered content is read as an
+ordered measure. It requires three ingredients.
+   First, there must be a succession, inherited from the completed-closure count. Second, there must be a
+relational comparison standard against which that succession is read. Third, the locus reads the succession
+against the standard as a relative, pre-metric ordered measure.
+   The order therefore lives in the reading, not in the set. The set remains unordered; registration remains
+membership. A wristwatch, recurrence, heartbeat, or astronomical cycle is clock-like only when it occupies
+this role. Nothing is inherently a clock.
+   The comparison standard is relational. It is not a background grid, a privileged frame, a fixed external
+coordinate system, or an absolute clock. A recurrence may serve, but a second recurrence is not required;
+a single relational comparison baseline can supply the standard. Clockhood gives readable order. It still
+gives no physical unit, no calibrated time, no measured rate, and no prediction.
+
+8.5 The Time Readout
+Through clockhood, the locus reads the inherited succession of registered completions against its relational
+comparison standard. Clockhood creates neither the completions nor their geometry. The time readout
+adds the per-closure extent. Each completed closure carries the dimensionless base extent
+
+
+                                                 𝑡base = 2𝜋.
+Thus the time readout t(𝐿) is the locus reading its registered completed closures as carrying that per-closure
+extent. In closure units, it is the completed-closure count together with 2𝜋 of extent per closure:
+
+
+                                                t(𝐿) = 𝐼 𝑡base .
+This is why the time readout is not merely clockhood renamed. Clockhood supplies readable order; t(𝐿)
+binds the 2𝜋 extent to each completed closure. The result is dimensionless, metric-free, and not yet
+calibrated into seconds or any other observer-scale unit. The later calibration relation is only a pointer at
+this stage; it is not folded into the readout.
+
+8.6 The Support Readout
+The time readout takes the extent side of a closure. The support readout takes the conjugate side. For one
+closed unit, the per-closure support is
+
+                                                1
+                                      𝑚base =     ,     𝑚base 𝑡base = 𝐼.
+                                               2𝜋
+The support readout s(𝐿) reads each resolved completed closure as carrying this per-closure conjugate
+support. It is the opposite factor of the same closure identity that supplied 𝑡base . The time readout times;
+the support readout supports.
+   The support readout is per-closure, not an accumulated stock. It does not sum support over all completed
+closures, does not define a kilogram, does not define energy, and does not introduce gravity. It also keeps
+the active mass 𝑚 distinct from the base support 𝑚base . The active mass belongs to the S02 book and is
+used later in the energy correspondence; the base support here is the closure-readout partner of 𝑡base .
+
+                                                      36
+8.7 Observer-Scale Reporting
+The pair (t(𝐿), s(𝐿)) is still convention-free. To report it, the theory declares an observer-scale reporting
+map. The map sends the internal time readout to an observer-scale time report and the internal support
+readout to an observer-scale support report:
+
+
+                                     (t(𝐿), s(𝐿)) ↦,→ (tobs (𝐿), sobs (𝐿)).
+
+The map is coupled. Choosing the observer-scale time unit forces the reciprocal support unit, up to the
+unit 𝐼, so that
+
+
+                                               𝑚base 𝑡base = 𝐼
+
+is preserved under reporting. This is the calibration-through-clockhood relation: a relation through the
+clockhood role, not a standalone constant and not a new internal object.
+   SI reporting is only a special case of this observer-scale map. Seconds and mass-side reporting units
+belong to a human-instrument aperture scale. They are not fundamental targets of the internal construction,
+and this section does not identify the support readout with a measured kilogram. The internal pair exists
+before that reporting convention.
+
+
+8.8 Energy Correspondence
+After the reciprocal pair has an observer-scale reporting map, the energy correspondence can be stated
+without using the time side as the source of the support side. The support-side magnitude is the book
+energy
+
+
+                                                                           9
+                                 Cap = 𝑐⊗2 = 9,           𝐸 = 𝑚 ⋅ Cap =      .
+                                                                          2𝜋
+Here 𝑚 is the active mass from the S02 book, not 𝑚base . The expression is the channel-distribution image
+of active mass across the forced channel-route count. The symbol 𝑐 in Cap = 𝑐⊗2 is a channel-count factor,
+not the measured speed of light. The value 9 is the channel-route count, not a physical velocity squared.
+   The bridge-side correspondence relates the support-side energy report to the time/rate side by
+
+
+                                                         𝐸phys
+                                                  𝐼̇ =           .
+                                                          ℏ
+This is not an internal definition of 𝐼̇ from 𝐸, and ℏ is not an internal book constant. The support side
+supplies 𝐸 = 𝑚 ⋅ Cap; the time/rate side supplies the bridge rate; ℏ relates the two on the bridge side. The
+bridge consumes the calibrated reciprocal pair as a whole.
+   The non-circularity fence is load-bearing. Energy is not derived by replacing active 𝑚 with the base
+support written as the reciprocal of the time extent. That substitution would put the time extent back into
+the support source and collapse the required distinction between the temporal chart and the support chart.
+The energy correspondence therefore uses active 𝑚, preserves the base reciprocal identity through the
+calibrated pair, and does not turn the channel-count expression into a measured mass-energy law.
+
+
+
+                                                         37
+8.9 Structural Completion and Prediction Boundary
+At this point the observer/readout stack has a structural answer to the time-bridge checklist: source
+structure, target time variable, units, calibration relation, clock target, domain, relativistic status, failure
+condition, and dependency direction. The seventh item is the delicate one. Its answer is a status: self-
+contained, no external relativity imported, comparison deferred until it is derived internally.
+   That status completes the structural specification. It does not unlock measured relativity, Lorentz
+recovery, time dilation, measured rates, empirical prediction, gravity, or the lens-calibration identity.
+The section therefore certifies structural completeness in the readout architecture while refusing the
+measured-physics unlock.
+   The prediction layer is opened only procedurally. Later work must first derive the theory’s own
+comparison-law analogues and only then compare externally. A measured prediction remains inadmissible
+until the relevant comparison law and measured bridge conditions have been supplied. The internal
+update-closure identity from Section 7 is available as internal theorem ground, but it cannot be converted
+into physical readout, empirical comparison, or prediction by this section.
+
+
+8.10 Boundary of the Section
+Section 8 constructs the observer/readout architecture. It defines the readout locus, registration relation,
+observer/reference role, clockhood reading of inherited succession, closure-unit time readout, conjugate
+support readout, observer-scale reporting map, and energy correspondence bridge. It also records the
+structural completeness of the time-bridge specification and opens the prediction layer only as an ordered
+future obligation.
+   It does not import measured time, assign SI units as fundamental, identify the support readout with
+a kilogram, derive a measured mass-energy law, derive Lorentz recovery, derive gravity, prove the lens-
+calibration identity, make a P0 prediction, or claim empirical success.
+   This layer can also lose, and says how. Exhibit a readout locus that creates rather than consumes
+distinguishability, and the locus definition fails. Exhibit registration that orders the set, and the registration
+definition fails. Exhibit a clock without a relational comparison standard, and clockhood fails. Exhibit
+a time readout without 2𝜋 per closure, or a support readout that accumulates stock instead of reading
+per-closure support, and the reciprocal pair fails. Exhibit an energy correspondence derived by replacing
+active 𝑚 with the base support reciprocal, and the non-circularity fence fails. Exhibit a measured prediction
+before the internally derived comparison law and measured bridge conditions exist, and the prediction
+boundary fails.
+
+
+
+
+9 Recovery and Presentation Discipline
+Section 8 established the observer/reference role, clockhood, the closure-unit time and support readouts,
+and the boundary between theory-native structure and calibrated reports. Section 9 fixes the discipline
+that governs every later presentation. A derived expression may be displayed, rendered, or compared only
+without erasing the relational record from which it came.
+   The direction remains one-way:
+
+
+                 admitted relational ground ,→ typed readout ,→ rendered presentation.
+
+                                                       38
+A presentation may report an established object. It may not become the ground that establishes that object.
+
+
+9.1 Recorded Construction Before Rendering
+Let 𝑅 be an already-established observer-local readout and let
+
+
+                                                  Rec𝑂 (𝑅)
+
+be its governing construction record. The record identifies the upstream objects, counts, tags, and operations
+that make the readout what it is. A rendered presentation
+
+
+                                            𝑌 = Render𝑂 (𝑅; 𝒜)
+
+is therefore not admitted merely because 𝑌 is a well-formed scalar or exact symbolic expression. The
+originating record must remain available.
+    This condition preserves the distinction between exact representation and primitive admission. A
+downstream expression may be rational, irrational, transcendental, signed, continuous, or complex when
+its owning result licenses that domain. Its number class neither supplies nor defeats its scientific author-
+ity. What matters is the upstream derivation, the declared type, the domain guards, and the retained
+construction record.
+
+
+9.2 The Recoverable Count Index
+For a promoted readout 𝑅, let
+
+
+                                         Idx 𝑂 (𝑅) ∶= 𝜋idx (Rec𝑂 (𝑅))
+
+be the finite count-index data extracted from its construction record. The recoverable count-index package
+is
+
+
+                                     RCI𝑂 (𝑅) ∶= (Idx 𝑂 (𝑅), Rec𝑂 (𝑅)) .
+
+This package is not a scalar and not a physical magnitude. It carries both the count data and the construction
+that types those data.
+   A rendered presentation is count-index admissible only when
+
+
+                                    Recover𝑂 (𝑌, Rec𝑂 (𝑅)) = RCI𝑂 (𝑅).
+
+Equivalently, recovery must preserve both projections:
+
+
+                                   𝜋1 Recover𝑂 (𝑌, Rec𝑂 (𝑅)) = Idx 𝑂 (𝑅),
+
+                                   𝜋2 Recover𝑂 (𝑌, Rec𝑂 (𝑅)) = Rec𝑂 (𝑅).
+
+                                                     39
+Recovering a numeral from 𝑌 alone is insufficient. The scalar may be many-to-one, convention-dependent,
+or incapable of distinguishing the construction that produced it. The admissible witness is recorded-
+construction recovery, not bare scalar inversion.
+   This is a scoped rule for rendered observer-local readouts. It is not a new universal demand that every
+derived quantity possess one common inverse map. Definitions, exact identities, role witnesses, and
+representation witnesses retain the proof forms supplied by their owning results.
+
+
+9.3 Recovery Before Later Operations
+Suppose
+
+
+                                 𝑌𝑖 = Render𝑂 (𝑅𝑖 ; 𝒜𝑖 ),          𝑖 = 1, … , 𝑛,
+
+are rendered reports of promoted readouts. A later operation
+
+
+                                              𝑍 = Φ(𝑌1 , … , 𝑌𝑛 )
+
+may compare, ratio, normalize, rescale, or otherwise combine those reports only after each input has
+passed recovery.
+  The operation must carry its own record,
+
+
+                                         OpRec𝑂 (Φ; 𝑌1 , … , 𝑌𝑛 ) ,
+
+including the operation, the source readouts, their construction records, and any admitted reporting
+standards. Admissibility requires
+
+
+                                                        𝑛
+                                                        ⋀
+                              UseΦ
+                                 𝑂 (𝑌1 , … , 𝑌𝑛 ) ↓⇐⇒         RCIAdm𝑂 (𝑌𝑖 ; 𝑅𝑖 ) ↓,
+                                                        𝑖=1
+
+and an operation-level recovery map satisfying
+
+
+                            (                          )
+                   RecoverΦ
+                          𝑂 𝑍, OpRec𝑂 (Φ; 𝑌1 , … , 𝑌𝑛 ) = (RCI𝑂 (𝑅1 ), … , RCI𝑂 (𝑅𝑛 )) .
+
+
+If one source package is not recoverable, the later operation is blocked. Smooth algebra may not erase the
+discrete account that licensed its inputs.
+
+
+9.4 Reporting Standards Do Not Change Content
+A reporting standard is admitted separately from the object being reported. Under a common positive
+change of unit,
+
+
+                                   𝑢′ = 𝜅𝑢,        𝑞 ′ = 𝜅−1 𝑞,        𝜅 > 0,
+
+
+                                                        40
+so that
+
+
+                                                  𝑞′ 𝑢′ = 𝑞𝑢.
+The coefficient changes; the represented object and its recovery package do not. Unit choice is therefore
+presentation data, not ontological ground. A valid rescaling must preserve the source record and the
+comparison relation that licensed the report.
+
+9.5 Organizational Displays
+The same boundary governs the paper’s bookkeeping arrays. Their entries are independently established
+before being grouped for readability. A row, column, adjacency, or vacant display position supplies no
+scientific premise. In particular, the arrays used here license no matrix multiplication, row operation,
+column operation, determinant, inverse, eigenvalue, tensor operation, or linear-operator interpretation.
+   The logical direction is
+
+
+          independent scientific ground ,→ typed quantities and relations ,→ organized display,
+never the reverse. If a future result uses an algebraic matrix operation, the underlying algebraic object,
+domain, operation, and interpretation must first be established independently.
+   Section 9 establishes recorded-construction recovery, recovery before later operations, the conventional
+status of reporting units, and the non-inferential role of organizational displays. It does not render a new
+physical quantity, assign a matrix position, derive a calibration constant, perform a measured comparison,
+or authorize matrix algebra.
+
+
+
+
+10 Count Flow and the Scoped C4 Invariant
+Section 9 fixed the rule that presentation follows derivation. Section 10 applies that rule to the observer-
+side count. It derives the count first, records it separately from the core bookkeeping matrix, and then
+distinguishes it from a second occurrence of the same rational number in the intrinsic spectral construction.
+
+10.1 Fixed Increment and Live Residual History
+The geometric residual share is the fixed exact quantity
+
+                                                    𝜋
+                                               Ω=1− √ .
+                                                   3 2
+A cell’s live residual register is a different object. For a cell 𝑥 with its own completed-update count 𝐾𝑥 ,
+
+                                                        (                 )
+                                    𝑆res,𝑥 (𝐾𝑥 ) = f rac 𝑆res,𝑥 (0) + 𝐾𝑥 Ω .
+Every cell obeys the same increment rule, but the accumulated states need not be equal. Their birth and
+completion histories may differ, and the retained residual record preserves that distinction. A common
+increment is therefore not a common live state.
+
+                                                      41
+10.2 The Four-Cell Reference Frame
+At the first four-cell closure, one designated cell occupies the observer/reference role. The other cells are
+registered relational content; they do not thereby become additional observers. The reference orients the
+reading of distinctions already present in the construction. It does not create the cells, their histories, or
+their closure relations.
+    The frame contains three cells read relative to the designated reference. Exactly one is co-present with
+it and content-indistinguishable from it at that stage; the remaining 𝑐 − 1 cells are distinguished by the
+inherited completion order. Because the closure count is
+
+
+                                                     𝑐 = 3,
+the content-distinguishable fraction is
+
+                                       content-distinguishable read cells 𝑐 − 1
+                           𝑆f low ∶=                                     =      .
+                                                   read cells               𝑐
+Hence
+
+
+                                                         𝑐−1 2
+                                              𝑆f low =      = .
+                                                          𝑐  3
+This is a count result: two distinguishable cells out of three read cells. It is derived rather than assigned.
+Choosing the other member of the co-present pair as the designated reference leaves the same one co-
+present cell and the same two content-distinguishable cells, so the count is independent of that permitted
+reference choice.
+
+10.3 The Core Matrix and the Separate Invariant Record
+Section 4 already assembled
+
+
+                                                    ⎛ 𝐼 𝑐 𝜂⎞
+                                           𝑀cell = ⎜ 𝜏 𝐸 𝐷 ⎟ .
+                                                    ⎜         ⎟
+                                                     𝑚 𝐺 Ω
+                                                    ⎝         ⎠
+Every entry is established independently before placement. This 3×3 array remains the complete rectangular
+bookkeeping display used by this manuscript.
+  The observer-side count is recorded separately:
+
+
+                                                               2
+                                              𝐶4inv ∶= 𝑆f low = .
+                                                               3
+This equation is not drawn as an attached fourth column. It introduces no lower service or support boxes
+and supplies no unfilled matrix offices. The manuscript consumes only this C4 invariant. It neither displays
+nor uses lower C4 carrier assignments; their broader interpretation and publication treatment lie outside
+the present derivation.
+   The notation 𝐶4inv marks the provenance of the count. It does not turn the record into an algebraic
+matrix column, and no scientific inference follows from placing the equation before, after, above, or below
+the core matrix.
+
+                                                         42
+10.4 A Separate Projector/Action Value
+The intrinsic spectral construction contains another exact 2∕3. Let
+
+
+                                                  Π𝑜 = 𝐸0 + 𝐸1
+
+be the rooted two-active projector on the three-state carrier. Cyclic averaging gives
+
+
+                                              2
+                                           1∑ 𝑟            2
+                                                 𝑃 Π𝑜 𝑃−𝑟 = 𝟏𝑉 ,
+                                           3 𝑟=0           3
+
+and the normalized support valuation gives
+
+
+                                                           2
+                                                   𝜈(Π𝑜 ) = .
+                                                           3
+The associated one-pass action aperture and phase therefore satisfy
+
+
+                                                             2
+                                          𝜈(Π𝑜 ) = 𝐴𝑜# = Φ𝑜 = .
+                                                             3
+
+The flow count 𝑆f low and the projector/action value 𝜈(Π𝑜 ) have different inputs, types, and derivations.
+Their numerical equality does not identify the two typed objects. The charged-lepton spectral phase is
+supplied by the rooted projector/action construction, not by matrix placement, the C4 invariant, or the
+bookkeeping display.
+   Section 10 establishes the observer-side count, records it as a separate invariant, preserves the core
+3 × 3 matrix as an organizational display, and separates that count from the independently derived projec-
+tor/action value. It does not extend the matrix, assign lower C4 roles, perform matrix algebra, or derive the
+spectral phase from the observer-side count.
+
+
+
+
+11 One Event, Two Preserved Faces
+The next input is not a matrix entry and not a new numerical magnitude. It is a carried construction
+record for one event with two distinguishable faces. The record is needed later because the finite-screen
+construction uses one support attached to each face while preserving their common event identity.
+   The formal authority retains its internal identifier. The publication uses only the result required by the
+proof and refers to it descriptively as the one-event/two-preserved-face recovery record.
+
+
+11.1 One Event and Two Typed Counts
+The construction contains exactly one event. It has a posting face and a routing face, with the distinct
+counts
+
+
+                                                      43
+                                  𝑛post = 2,      𝑛route = 1,      𝑛post ≠ 𝑛route .
+
+The counts describe different roles within that same event. They are not identified, multiplied, added,
+averaged, or otherwise combined.
+
+
+11.2 Tagged Face Preservation
+Let the canonical tagged injections be
+
+
+                                𝜄post ∶ {posting face} ,→ {post} × {posting face},
+
+                              𝜄route ∶ {routing face} ,→ {route} × {routing face}.
+The tags force
+
+
+                                    𝜄post (posting face) ≠ 𝜄route (routing face).
+
+The carried record is
+
+                         (                                                                      )
+                 Rec2𝑓 ∶= one event, 𝜄post (posting face), 𝜄route (routing face), 𝑛post , 𝑛route .
+
+This notation abbreviates the already-promoted record for manuscript use. It does not rename the event,
+create a second event, or introduce a new scientific object.
+
+
+11.3 Exact Recovery
+The record has exact projections:
+
+                                                 (     )
+                                   Recoverevent Rec2𝑓 = one event,
+                                         (     )
+                            Recoverf aces Rec2𝑓 = (posting face, routing face) .
+For the displayed count pair,
+
+                                           (              )  ⟨              ⟩
+                                   Render2𝑓 𝑛post , 𝑛route ∶= 𝑛post , 𝑛route ,
+
+recorded-construction recovery gives
+
+                               (        (              )       ) (              )
+                  Recovercounts Render2𝑓 𝑛post , 𝑛route , Rec2𝑓 = 𝑛post , 𝑛route = (2, 1).
+
+These are tuple projections, not inversions of a bare scalar. The event identity, both face identities, and
+both typed counts remain present together.
+
+
+                                                         44
+11.4 The Independent Three-Root Carrier
+The later finite-screen construction uses a common three-root carrier
+
+
+                                      𝐶 = 𝐶root = {𝑟0 , 𝑟1 , 𝑟2 },      |𝐶| = 3.
+
+That cardinality comes from the rooted 𝐶3 structure. It does not come from the two face counts. The
+numerical statement 𝑛post + 𝑛route = 2 + 1 = 3 is not the derivation of |𝐶| = 3. The face counts identify two
+roles within one event; the root cardinality identifies the common subobject used by the later amalgamation.
+   After the intrinsic spectrum fixes the middle count at 206, the finite-screen construction uses two 206-
+element supports attached to the two preserved faces. Their overlap is the independently established carrier
+𝐶. Thus the posting and routing counts do not supply 206, do not supply the common-root subtraction
+term, and do not by themselves produce the finite screen.
+   Section 11 establishes one event, two tagged preserved faces, the distinct count pair (2, 1), and exact
+recovery of all five record fields. It also separates those face counts from the independently established
+three-root carrier used later. It assigns no carrier magnitude, matrix position, mass, or energy.
+
+
+
+
+12 The Intrinsic Three-Rank Spectrum
+The construction has now reached the point at which a presentation-independent three-rank spectrum
+can be formed. Nothing in this section is selected by a charged-lepton measurement. The starting data
+are the rooted one-cell record, its two-active/one-idle coupling, the cyclic three-channel action, and the
+already established support coefficient
+
+
+                                                           1
+                                                    𝑚=       > 0.
+                                                          2𝜋
+The lowercase symbol 𝜆 denotes the three intrinsic spectral amplitudes in this publication manuscript.
+Section 4 uses 𝜉 for a lattice-site label. The labels attached to a particular displayed sector are not intrin-
+sic; only the unordered spectrum and its minimum, middle, and maximum ranks survive a change of
+presentation.
+
+
+12.1 Rooted Action and the Spectral Phase
+Let
+
+
+                                                   𝑉 = ℂ[ℤ∕3ℤ]
+
+with orthonormal basis (𝑒0 , 𝑒1 , 𝑒2 ), and let 𝑃 be the cyclic shift
+
+
+                                𝑃𝑒𝑟 = 𝑒𝑟+1   (mod 3) ,      𝑃3 = 𝟏𝑉 ,       𝑃† = 𝑃−1 .
+
+The rooted two-active/one-idle projector is
+
+                                                          45
+                                                                ⎛1 0 0⎞
+                                         Π𝑜 = |0⟩⟨0| + |1⟩⟨1| = ⎜0 1 0⎟ .
+                                                                ⎝0 0 0⎠
+It satisfies
+
+
+                           Π†𝑜 = Π𝑜 ,       Π2𝑜 = Π𝑜 ,        rank Π𝑜 = 2,        Tr Π𝑜 = 2.
+
+Averaging its three cyclic presentations gives
+
+
+                                                    2
+                                                1∑ 𝑟            2
+                                                      𝑃 Π𝑜 𝑃−𝑟 = 𝟏𝑉 .
+                                                3 𝑟=0           3
+
+The normalized cyclic valuation independently gives
+
+
+                                                                 2
+                                                         𝜈(Π𝑜 ) = .
+                                                                 3
+Trace preservation fixes the one-pass action aperture, and the completed unit read fixes its phase:
+
+
+                                               2                             2
+                                          𝐴𝑜# = ,          Φ𝑜 = 𝐴𝑜# 𝐼bulk,𝑜 = .
+                                               3                             3
+As Section 10 established, this rooted projector/action derivation, not the separately displayed flow invariant,
+supplies the phase used below.
+   With the carried orientation 𝜎 ∈ {+1, −1}, the action character is
+
+
+                                                                2
+                                                  𝜌𝑜,𝜎 = exp (𝑖𝜎 ) .
+                                                                3
+Its three cube roots are
+
+
+                                                        2𝜎 2𝜋𝑗
+                                 𝜁𝑜,𝜎,𝑗 = exp [𝑖 (         +   )] ,      𝑗 ∈ ℤ∕3ℤ.
+                                                         9   3
+
+The factor 2∕9 is therefore not fitted. It is one third of the already derived action phase.
+
+
+12.2 Six Presentations of One Intrinsic Object
+For each orientation and cubic-root branch, define the Hermitian operator
+
+
+                                                     1            1
+                                        𝐴𝜎,𝑗 = 𝟏𝑉 + √ 𝜁𝑜,𝜎,𝑗 𝑃 + √ 𝜁𝑜,𝜎,𝑗 𝑃−1 .
+                                                      2            2
+
+
+                                                            46
+  Fourier diagonalization gives
+
+                                     √             2𝜎 2𝜋𝑗 2𝜋𝑘
+                         scr
+                        𝜆𝜎,𝑗;𝑘 =1+       2 cos (      +   +   ),                𝑘 ∈ ℤ∕3ℤ.
+                                                    9   3   3
+
+Changing (𝜎, 𝑗) permutes these three values. The six permitted frames form the six-element 𝐷3 action, so
+the displayed operators are unitarily conjugate presentations of one orbit. No labeled sector is intrinsic.
+   The presentation-independent amplitude object is
+
+                                                     √          2 2𝜋𝑘
+                       Specunord 𝔄int (𝑜) = {1 +         2 cos ( +    ) ∶ 𝑘 ∈ ℤ∕3ℤ} .
+                                                                9  3
+
+For the reference calculation set 𝛼 = 2∕9 and write
+
+                                                           √
+                                              𝜆0 = 1 + 2 cos 𝛼,
+                                                          √
+                                                 cos 𝛼      6
+                                         𝜆1 = 1 − √ −         sin 𝛼,
+                                                    2      2
+                                                          √
+                                                 cos 𝛼      6
+                                         𝜆2 = 1 − √ +         sin 𝛼.
+                                                    2      2
+
+Since 0 < 𝛼 < 𝜋∕12,
+
+                                                   √
+                                         𝜆2 − 𝜆1 = 6 sin 𝛼 > 0,
+                                            √
+                                               3 (√                )
+                                  𝜆0 − 𝜆2 =         3 cos 𝛼 − sin 𝛼 > 0.
+                                               2
+Moreover 2𝜋∕3 + 𝛼 < 3𝜋∕4 implies
+
+                                                      √           3𝜋
+                                           𝜆1 > 1 +       2 cos      = 0.
+                                                                   4
+The intrinsic rank values are consequently
+
+
+                                           0 < 𝜆min < 𝜆mid < 𝜆max ,
+
+with the reference-frame identification
+
+
+                                     (𝜆min , 𝜆mid , 𝜆max ) = (𝜆1 , 𝜆2 , 𝜆0 ).
+
+
+
+
+                                                          47
+12.3 The Quadratic-Support Law
+Let
+
+
+                                         𝐶 = {0, 1, 2},              𝐽 = 𝐶 × 𝐶,
+and let 𝐸𝑟𝑝 = |𝑟⟩⟨𝑝| be the canonical matrix units of the counting form. Their contraction law is
+
+                                                    †
+                                                   𝐸𝑟𝑝 𝐸𝑠𝑞 = 𝛿𝑟𝑠 𝐸𝑝𝑞 .
+          ∑
+For 𝐴 =    𝑟,𝑝∈𝐶
+                   𝐴𝑟𝑝 𝐸𝑟𝑝 , the construction-derived adjoint and same-root contraction give
+
+                                                     ∑ ∑
+                                         𝐴† 𝐴 =       ( 𝐴𝑟𝑝 𝐴𝑟𝑞 ) 𝐸𝑝𝑞 .
+                                                     𝑝,𝑞       𝑟
+
+The repeated root leg is evaluated while both position legs remain. A cross-root kernel would insert new
+structure, whereas tracing and redistributing would erase retained position information. The resulting
+map is
+
+
+                                                                               1
+                                      𝑀read (𝐴) = 𝑚𝐴† 𝐴,                 𝑚=      .
+                                                                              2𝜋
+The complete nine-incidence book fixes the response power. With
+
+                                             ∑
+                                    𝑈𝐽 =           𝐸𝑟𝑝 = 𝟏𝑉 + 𝑃 + 𝑃−1 = 3Π0 ,
+                                           𝑟,𝑝∈𝐶
+
+one has
+
+
+                                                    Tr(𝑈𝐽† 𝑈𝐽 ) = 9.
+Within the positive-real family ℱ𝑠 (𝐵) = 𝑚𝐵𝑠 , full-book closure requires
+
+
+                                                      𝑚9𝑠 = 9𝑚.
+Because 𝑚 > 0, 9 > 1, and 9𝑠 is strictly increasing, this forces 𝑠 = 1. No additional exponent is fitted.
+  Define the intrinsic quadratic supports
+
+                                     2                       2                        2
+                            𝑞min = 𝑚𝜆min ,          𝑞mid = 𝑚𝜆mid ,           𝑞max = 𝑚𝜆max .
+
+Positivity preserves their strict rank. The common coefficient cancels from the exact ratios:
+
+                                                      2                                    2
+                                int         𝜆mid                     int          𝜆max
+                               𝑅mid∕ min
+                                         =(      )         ,        𝑅max ∕ min
+                                                                               =(      )       .
+                                            𝜆min                                  𝜆min
+These are exact, presentation-independent, dimensionless results. No particle name, measured mass,
+reporting unit, or finite-screen factor has entered their derivation.
+
+
+
+                                                               48
+13 The Exact 206-to-409 Construction
+The intrinsic middle-to-minimum ratio is greater than 206 and less than 207. This section first proves
+that interval without measured input. It then uses the one-event/two-preserved-face recovery record
+to construct the finite count 409. The spectrum supplies 206; the recovery record supplies the two-face
+structure needed to combine two 206-element supports.
+
+
+13.1 Exact Determination of 206
+With 𝑥 = 2∕9,
+
+                                                     √
+                                               cos 𝑥   6
+                                     𝜆min = 1 − √ −      sin 𝑥,
+                                                  2   2
+                                                     √
+                                               cos 𝑥   6
+                                     𝜆mid = 1 − √ +      sin 𝑥.
+                                                  2   2
+Because 0 < 𝑥 < 1, the alternating Taylor theorem gives finite rational upper and lower bounds for sin 𝑥
+through degree nine and for cos 𝑥 through degree eight. The exact Pell certificates
+
+
+                   2(470832)2 − (665857)2 = −1,         2(1136689)2 − (1607521)2 = 1
+
+give
+
+
+                                       470832   1  1136689
+                                              <√ <         ,
+                                       665857    2 1607521
+while
+
+
+                  4(1046629)2 − 6(854569)2 = −2,        4(4656965)2 − 6(3802396)2 = 4
+
+give
+
+                                                √
+                                      1046629     6 4656965
+                                              <    <         .
+                                      854569     2   3802396
+Sign-aware rational interval propagation yields
+
+
+                                           2      2         2
+                                       206𝜆min < 𝜆mid < 207𝜆min .
+
+Since 𝜆min > 0,
+
+
+                                                             2
+                                          int           𝜆mid
+                                   206 < 𝑅mid∕ min
+                                                   =(        ) < 207.
+                                                        𝜆min
+
+                                                   49
+Consequently,
+
+                                               ⌊          ⌋
+                                                 int
+                                        𝑛mid ∶= 𝑅mid∕ min
+                                                            = 206,
+
+and 𝜌mid = 𝑅mid∕
+            int
+                 min
+                     − 206 ∈ (0, 1). No decimal and no measured muon value participates in this result.
+
+
+13.2 Two Supports Attached to the Preserved Faces
+The carried record supplies one event, its two preserved faces, and
+
+
+                                           (𝑛post , 𝑛route ) = (2, 1).
+Attach two 206-element supports to the two preserved faces. Let
+
+
+                                   𝐶 = 𝐶root = {𝑟0 , 𝑟1 , 𝑟2 },     |𝐶| = 3,
+be the common 𝐶3 root carrier. Let 𝑈dir and 𝑈route be disjoint 203-element sets, each disjoint from 𝐶, and
+define
+
+
+                                 Γdir = 𝐶 ⊔ 𝑈dir ,        Γroute = 𝐶 ⊔ 𝑈route .
+Then
+
+
+                         |Γdir | = |Γroute | = 3 + 203 = 206,         Γdir ∩ Γroute = 𝐶.
+In plain terms, two 206-element supports are attached to the two preserved faces. They are not 206 physical
+events.
+   The subtraction term has independent provenance: 3 = |𝐶| is the cardinality of the common 𝐶3 root
+carrier. It is not obtained from 𝑛post + 𝑛route = 2 + 1, despite the numerical equality. The face counts
+distinguish two aspects of one event; they do not supply the overlap removed in the amalgamation.
+
+13.3 The Free Pushout
+Form the free pushout
+
+
+                                            Γscr = Γdir ⨿𝐶 Γroute ,
+which identifies precisely the two copies of each element of 𝐶 and introduces no other relation. At least
+three reductions are required because duplicated common roots would double-count the same-event carrier.
+At most three are permitted because freeness introduces no relation among the 406 non-root elements and
+non-erasure forbids deleting them. Therefore
+
+
+                             |Γscr | = 206 + 206 − |𝐶| = 206 + 206 − 3 = 409.
+The alternative 412 double-counts the common roots. The alternative 406 requires additional identifications
+or erasures. Only 409 preserves same-event identity, freeness, and non-erasure.
+
+                                                       50
+13.4 The Finite-Screen Factor
+For a completed count 𝑁 ≥ 3, equal completed units and one-winding closure force the successor cycle to
+a regular 𝑁-gon on a unit-diameter circle, up to an overall rotation and carried orientation. Each side has
+length sin(𝜋∕𝑁), so
+
+
+                                                   𝜋                  𝑁 sin(𝜋∕𝑁)
+                                𝜋𝐿 (𝑁) = 𝑁 sin       ,         𝑠𝑁 =              .
+                                                   𝑁                       𝜋
+At 𝑁 = 409,
+
+
+                                          409 sin(𝜋∕409)
+                                 𝑠409 =                  ,            0 < 𝑠409 < 1.
+                                                 𝜋
+
+The factor acts once, after quadratic-support formation, and only on the middle rank:
+
+
+                               (𝑞min , 𝑞mid , 𝑞max ) ↦,→ (𝑞min , 𝑠409 𝑞mid , 𝑞max ).
+
+Thus
+
+
+                            scr              int                 scr          int
+                           𝑅mid∕ min
+                                     = 𝑠409 𝑅mid∕ min
+                                                      ,         𝑅max ∕ min
+                                                                           = 𝑅max ∕ min
+                                                                                        .
+
+Because 𝑠409 > 0, division by it recovers the intrinsic middle ratio. The construction has produced 206, 409,
+and 𝑠409 without using a measured muon or tau value.
+
+
+
+
+14 Charged-Lepton Mass Ratios and the Electron Standard
+The preceding sections produced a strictly ordered internal support triple and one finite correction on its
+middle member. This section attaches downstream charged-lepton reporting names and introduces one
+conventional scale. The mathematics fixes the ratios before the external electron record enters.
+
+
+14.1 Downstream Reporting Roles
+For reporting, define the bijective role map
+
+
+                              min ↦,→ 𝑒,          mid ↦,→ 𝜇,             max ↦,→ 𝜏.
+
+This is a downstream naming convention over already derived ranks. It does not claim that laboratory
+masses selected the ordering, and it does not make a displayed sector intrinsically electron, muon, or tau.
+  The screened support triple is
+
+
+                                𝑄scr = (𝑞𝑒 , 𝑞𝜇 , 𝑞𝜏 ) = (𝑞min , 𝑠409 𝑞mid , 𝑞max ) .
+
+                                                          51
+Its two ratios are already fixed:
+
+
+                                                        2                    2
+                                    𝑞𝜇          𝜆mid             𝑞𝜏    𝜆max
+                                       = 𝑠409 (      ) ,            =(      ) .
+                                    𝑞𝑒          𝜆min             𝑞𝑒    𝜆min
+
+No dimensional datum is needed for these results.
+
+
+14.2 One External Comparison Standard
+The recorded 2022 CODATA electron mass-energy equivalent [1] is
+
+
+                                     𝑀𝑒std 𝑐SI
+                                            2
+                                               = 0.51099895069(16) MeV.
+
+MeV is an energy unit used to report the mass-energy equivalent. It is not treated as a mass unit or as
+theory-native structure.
+   Let ℬ be a positive reporting map that preserves every support ratio and sends 𝑞𝑒 = 𝑞min to the admitted
+electron standard:
+
+
+                                                                 ℬ(𝑞)   𝑞
+                                         ℬ(𝑞𝑒 ) = 𝑀𝑒std ,              = .
+                                                                 ℬ(𝑞𝑒 ) 𝑞𝑒
+
+These requirements determine the map pointwise:
+
+
+                                                     𝑀𝑒std    𝑀𝑒std
+                                           ℬ(𝑞) =          𝑞=       𝑞.
+                                                      𝑞𝑒      𝑚𝜆2    min
+
+The one positive scale
+
+
+                                                             𝑀𝑒std
+                                                   𝒮𝑒 ∶=       2
+                                                             𝑚𝜆min
+
+gives ℬ(𝑞) = 𝒮𝑒 𝑞, and the internal support is recovered by
+
+
+                                                            ℬ(𝑞)
+                                                     𝑞=          .
+                                                             𝒮𝑒
+
+A change of reporting unit rescales the electron standard, 𝒮𝑒 , and all three dimensional outputs together. It
+leaves the dimensionless ratios, rank ordering, 206, 409, and 𝑠409 unchanged.
+
+
+14.3 Exact Relative Report
+The complete relative charged-lepton report is
+
+
+
+                                                            52
+                                                                              2            2
+                          (                   )                      𝜆mid             𝜆max
+                              𝑀𝑒 , 𝑀𝜇 , 𝑀𝜏 report = 𝑀𝑒std (1, 𝑠409 (      )       , (      ) ).
+                                                                     𝜆min             𝜆min
+
+Equivalently,
+
+
+                                                       report
+                                                     𝑀𝑒         = 𝑀𝑒std ,
+
+                                                                              √                2
+                                                 ⎛ 1 − cos(2∕9)
+                                                         √      +
+                                                                   6
+                                                                     sin(2∕9) ⎞
+                         out  std 409 sin(𝜋∕409) ⎜         2      2
+                                                                              ⎟ ,
+                        𝑀𝜇 = 𝑀𝑒                                   √
+                                         𝜋       ⎜     cos(2∕9)    6          ⎟
+                                                   1− √         −    sin(2∕9)
+                                                 ⎝         2      2           ⎠
+                                                                                      2
+                                             ⎛        √                  ⎞
+                                    out  std ⎜   1 +     2 cos(2∕9)      ⎟ .
+                                   𝑀𝜏 = 𝑀𝑒                   √
+                                             ⎜   cos(2∕9)     6          ⎟
+                                               1− √       −     sin(2∕9)
+                                             ⎝       2       2           ⎠
+These exact symbolic expressions are the primary result.
+  For numerical diagnosis,
+
+                                         2
+                                  𝜆mid
+                         𝑠409 (        ) = 206.768282732054172011291935636779 … ,
+                                  𝜆min
+                                     2
+                              𝜆max
+                          (        ) = 3477.472837104598532313001225522648 … .
+                              𝜆min
+Thus
+
+(            )
+ 𝑀𝑒 , 𝑀𝜇 , 𝑀𝜏 report = 𝑀𝑒std (1, 206.768282732054172011291935636779 … , 3477.472837104598532313001225522648 …) .
+
+Using the central electron standard gives the diagnostic mass-energy equivalents
+
+
+                                                 2
+                                             𝑀𝑒 𝑐SI = 0.51099895069(16) MeV,
+
+                        𝑀𝜇out 𝑐SI
+                               2
+                                  = 105.658375512052928326006945941653 … MeV,
+                        𝑀𝜏out 𝑐SI
+                               2
+                                  = 1776.984970813427147785657684886757 … MeV.
+Only the electron standard is an experimental derivation input. No measured muon or tau value determines
+the intrinsic spectrum, rank ordering, 206, 409, 𝑠409 , or either ratio.
+   The result is a relative three-entry report anchored by one admitted electron scale. It is not an absolute
+prediction of the electron mass. Because the 409 construction was developed after exposure to muon data,
+the middle output is not presented as a new blind held-out prediction. These limitations do not alter the
+exact derivation of the ratios.
+
+
+
+
+                                                            53
+15 Independent Koide Validation
+The charged-lepton report is complete before this section begins. Koide’s relation [2] did not determine
+the spectral phase, the three amplitudes, their rank, the quadratic-support law, 206, 409, the finite factor,
+or the electron reporting scale. It is an independent post-derivation validation and not an input to any
+preceding construction.
+
+
+15.1 The Scale-Free Shape
+For three positive same-kind reports, define
+
+
+                                                                𝑞1 + 𝑞2 + 𝑞3
+                                  𝒬𝐾 (𝑞1 , 𝑞2 , 𝑞3 ) = (√          √      √ )2 .
+                                                               𝑞1 + 𝑞2 + 𝑞3
+
+Under a common positive rescaling by 𝑎 > 0, the numerator and squared denominator both acquire the
+factor 𝑎. Hence
+
+
+                                    𝒬𝐾 (𝑎𝑞1 , 𝑎𝑞2 , 𝑎𝑞3 ) = 𝒬𝐾 (𝑞1 , 𝑞2 , 𝑞3 ).
+
+The electron comparison scale cancels. Define the already-derived dimensionless ratios
+
+
+                                                          2                               2
+                                                𝜆mid                           𝜆max
+                                  𝑟𝜇 = 𝑠409 (        ) ,            𝑟𝜏 = (          ) .
+                                                𝜆min                           𝜆min
+The output shape is
+
+
+                                                        1 + 𝑟 𝜇 + 𝑟𝜏
+                                         𝒬out
+                                          𝐾 = (                       .
+                                                          √      √ )2
+                                                      1 + 𝑟𝜇 + 𝑟𝜏
+
+Substituting the exact expressions gives
+
+
+                                                                           2                  2
+                                              409 sin(𝜋∕409)        𝜆              𝜆
+                                         1+                        ( mid ) + ( max )
+                                                      𝜋             𝜆min           𝜆min
+                                 𝒬out
+                                  𝐾 =             √                                           2
+                                                                                                  .
+                                                      409 sin(𝜋∕409) 𝜆mid          𝜆max
+                                           [1 +                                +          ]
+                                                               𝜋        𝜆min       𝜆min
+
+
+All amplitudes are positive, so the square roots use their positive branches.
+
+
+15.2 Comparison With the Koide Benchmark
+The benchmark is 2∕3. It is a post-derivation validation value: it does not supply the rooted action aperture
+and is not inferred from the separately displayed C4 invariant. Numerical equality among differently typed
+quantities does not identify their derivations.
+
+                                                              54
+   Controlled evaluation of the exact output gives
+
+
+                             𝒬out
+                              𝐾 = 0.666667566724259522274262656024415 … .
+
+With
+
+
+                                                          2
+                                               ∆𝐾 ∶= 𝒬out
+                                                      𝐾 − 3,
+
+one obtains
+
+
+                            ∆𝐾 = 9.00057592855607595989357748742 … × 10−7 ,
+
+and
+
+
+                            ∆𝐾
+                                = 1.35008638928341139398403662311 … × 10−6 .
+                            2∕3
+Thus the derived report lies approximately 1.35 parts per million from the Koide benchmark. This is a
+strong numerical consistency result, but it is not an exact identity. No earlier coefficient or count is adjusted,
+the electron scale cancels, and no measured muon or tau value is introduced.
+   The word independent refers to this logical ordering. It does not convert a post-data-exposure construc-
+tion into a blind prediction. The admissible conclusion is
+
+
+The independently derived charged-lepton report is Koide-consistent at approximately the 1.35-ppm level.
+
+The validation would fail if the Koide relation were used to select 2∕9, adjust 𝑠409 , choose 206 or 409, alter
+the rank assignment, or fit either mass ratio. It would also fail if the approximate agreement were reported
+as exact equality.
+
+
+
+
+Conclusion
+This paper began from relational distinguishability and followed the consequences of that admission
+through positive count, persistence, conserving closure, and the derived FCC/rhombic-dodecahedral
+presentation. The bookkeeping matrices used along the way organize independently established quantities;
+their rectangular arrangement does not generate scientific authority, and no matrix algebra is used to
+obtain the result.
+   The spectral construction begins from the rooted one-cell record. Its rank-two cyclic projector fixes
+the one-pass action aperture, whose phase generates six presentations of one 𝐷3 -orbit. Quotienting
+presentation choice leaves one intrinsic unordered three-amplitude spectrum. The counting adjoint and
+complete retained incidence book then force
+
+
+                                                             1 †
+                                             𝑀read (𝐴) =       𝐴 𝐴,
+                                                            2𝜋
+
+                                                       55
+and the exact intrinsic minimum, middle, and maximum support ratios.
+  The middle ratio satisfies
+
+                                                              2
+                                                        𝜆mid
+                                              206 < (        ) < 207,
+                                                        𝜆min
+so its integer part is 206. The one-event/two-preserved-face recovery record then supports two 206-element
+sets with one independently established common three-root carrier. Their free pushout forces
+
+
+                                              409 = 206 + 206 − 3.
+
+The regular-screen factor
+
+
+                                                      409 sin(𝜋∕409)
+                                             𝑠409 =
+                                                             𝜋
+acts once on the already formed middle quadratic support.
+   The exact relative charged-lepton report is
+
+
+                                                                          2          2
+                         (               )                          𝜆mid       𝜆max
+                             𝑀𝑒 , 𝑀𝜇 , 𝑀𝜏 report = 𝑀𝑒std (1, 𝑠409 (      ) , (      ) ).
+                                                                    𝜆min       𝜆min
+
+The electron record supplies the one conventional scale. It does not replace the internal coefficient, and
+no measured muon or tau value enters the derivation. The principal result is therefore the two exact
+dimensionless ratios together with their unique one-scale reporting conversion.
+   Only after that result is complete is the Koide functional evaluated. The common scale cancels, leaving
+a diagnostic value approximately 1.35 parts per million from the conventional 2∕3 benchmark. Koide is an
+independent downstream consistency validation, not a derivational input and not an exact identity claimed
+by this paper.
+   The scope remains controlled. The result is not an absolute derivation of the electron mass, not a blind
+held-out prediction, not a derivation of SI units, and not a general completion of particle physics. It is a
+closure-first derivation of a charged-lepton mass-ratio structure from a count-based relational construction,
+with every empirical input, presentation choice, recovery record, and validation step kept in its proper
+logical order.
+
+
+
+
+References
+ 1. P. J. Mohr, D. B. Newell, B. N. Taylor, and E. Tiesinga, "CODATA recommended values of the funda-
+    mental physical constants: 2022," Journal of Physical and Chemical Reference Data 54, 033105 (2025).
+    DOI: https://doi.org/10.1063/5.0279860. Official NIST table: https://physics.nist.gov/
+    cuu/pdf/JPCRD2022CODATA.pdf.
+ 2. Y. Koide, "New view of quark and lepton mass hierarchy," Physical Review D 28, 252-254 (1983). DOI:
+    https://doi.org/10.1103/PhysRevD.28.252.
+
+                                                         56
+

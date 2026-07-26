@@ -1,11 +1,165 @@
 # Extracted EQ-Card Manifest
 
-Inventory of every file extracted from the supplied public-facing EQ-card ZIP archive. Extraction target is exclusively `extracted_eq_cards/`; no file is extracted anywhere else.
+Inventory of every file extracted from the supplied public-facing EQ-card ZIP archive
+(`intake/ObserverRootedAsymmetryreferencedEQcards.zip`). Extraction target was exclusively
+`extracted_eq_cards/`; no file was extracted anywhere else.
 
-**Status:** Awaiting upload of the EQ-card ZIP archive.
+**Extraction date:** 2026-07-26
+**Total extracted files:** 152 (148 EQ cards + 4 package support files)
+**Integrity check:** all 152 files verified against the package's internal `FILE_HASHES.sha256`
+ledger with zero mismatches (`sha256sum -c` exit 0).
 
-| Extracted file | SHA-256 | Size (bytes) | Card ID / title (as read from card) |
-|---|---|---|---|
-| — | — | — | — |
-
-This manifest will be completed during intake (Phase 2) and cross-checked during EQ-card reading (Phase 4).
+| Extracted file (relative to `extracted_eq_cards/`) | SHA-256 | Size (bytes) |
+|---|---|---|
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/FILE_HASHES.sha256` | `30b66d2fd97a19f1c299cafd5e912f7f2ba8e29fc541b1d35ab528d685cb3b91` | 14261 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/MANUSCRIPT_CARD_REFERENCE_MAP.json` | `2a55019efe447aef278dcaee8dc93763c42449114aca02f3588f95238ddeb5aa` | 11019 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/PACKAGE_MANIFEST.json` | `733986f22566952938b6edb9c9e2f1fedffb1deac98db2659a7e80bf351573d1` | 114860 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/README.md` | `537167af783d9dff94e09a24755dbad4e22b68b4b9e1b5fb172b2e740d45116c` | 1112 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/AX_001_001.md` | `b2d1da3cf7708305ad24fddb9f51ef267c933de325604c3bbc167eb1ba8d0276` | 15456 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/AX_001_002.md` | `183ea96ba21c5533a477c722ef30ff5fa32a7ec438efae027d3f115e0b91ed29` | 6513 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/GATE_001_003.md` | `330769bb4c7714b34b5f715f6ea215da23c15886669b103f6efb0b7ec2e9fda1` | 10919 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/GATE_001_004.md` | `9a0d2aa073e731d772f72cd9d1ce11434367cc643e893b1cfe694ed33672ddfe` | 19963 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/GUARD_001_005.md` | `3334eb41010715ec7cc36edca1e3024956e39ecef211b09d06d85f2bad0ec05f` | 3297 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/GUARD_001_006.md` | `e505a5aa94f9570e97f784ffd8c9ded412463a69ef138c8b6ff3fd0a65a54069` | 2894 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/GUARD_001_008.md` | `c92d9480c158fe67d3f721290836a57ab79185b97291b90d4dd4e89b5bfd9958` | 18637 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC001/IMPORT_001_007.md` | `5c172190dd41b36aff294adcca4aa70d7b20757d9d2c711aa9e901c1b7532815` | 7086 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/DEF_002_001.md` | `e4a4d595e0ae429e352df3877b2a3fec0ebb74bcb68e761017da6c97e3016ebe` | 15069 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/DEF_002_002.md` | `f1beb3fe85f9784d8aa882d569cad28e384d142f3d09f998aa32de7f01a7f7ce` | 6569 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/DEF_002_004.md` | `5e60e570634e5faac6aa6d8924f415489c790bb2fb2b5e237fa370bc650d580e` | 12126 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/DEF_002_010.md` | `afa4c690b27197e917563440b14cdb57e04abf23540fcd6d34cdbc43c52b4507` | 24293 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/LEM_002_005.md` | `48f3203401281f70da1fd67e403a868279f358fcd07e24f6041d4a54a8b9c213` | 6346 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/LEM_002_006.md` | `5507c5106115d3c7b7fcdfa6ec28d556a6c56f9eb780acc9554cc0133903e3c6` | 14752 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/LEM_002_008.md` | `8fe9bca7b55a38b972dc36361b313184de27c7fdd96550292ac354f86052b223` | 45903 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/LEM_002_013.md` | `a946703ba9f043760bb36a62693d86214e928e8e1f50fd742303a2565129447c` | 28288 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/LEM_002_017.md` | `b29a22b23e4da20355bf2a8c5e9012005a7c4dc31a89f834f7ee606566a5ee9b` | 13353 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/LEM_002_018.md` | `aaff753e0c4b8f5c98f264c763a13f825f077efc3b0895d854687c50c004bba7` | 22215 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/THM_002_003.md` | `11ef19f2b6b635c86171be487c4faf9a5d13ee81bcb918e2e686ac2e9bf709e3` | 11439 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/THM_002_007.md` | `ecf36e3189caecf3e272388a77ed42d37363c0954ea78a56d75a2510c2361419` | 17793 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/THM_002_011.md` | `999484a3341723d28d7ab0845e27faf4de81641a13c798e667ba51a891047d0d` | 19516 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/THM_002_012.md` | `b2ee7ad159ce5f406b277cf9fa55208f60a050d923c5bf36428208229dc0b4cc` | 36689 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC002/THM_002_014.md` | `10c15a67d2cc7c8828281485bd18470282b42263cce9fad369af491ab95b624e` | 41934 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_001.md` | `4ce2af7fb4ad84283822665457956c9f701d6c46d8d58be54a9cea3a1ae000e5` | 8005 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_002.md` | `fc14f8d24f2f9ee03e9b990f04e56089ba45d16954678e2a79008790b509eb87` | 6077 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_003.md` | `2561fa57e458584f5f5e4e0abb2116e8b5458d9c8545b703cd7bcd967a839cfb` | 7288 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_004.md` | `abdb8d0fe4276388797db3387e74ef80fcae5bf62119444ba691a58b0b108f95` | 5502 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_005.md` | `93e8dadf7498d24785271c860bf5ccf140d685e4044b291d0dbaf13115b69b47` | 4953 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_014.md` | `2cee8bd9285eb566b08779af51302b2febc5017e26dd4977c9a7a2b16a2805cd` | 6013 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/DEF_003_015.md` | `59608d46b924ced35c90f73be662bed4275ef1710fc59a5f8bd294e6f88a7f21` | 7112 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/GUARD_003_006.md` | `e328af11e0721ad85b01c430d764fa916c7496e466137c196ad874739099b751` | 4693 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/GUARD_003_008.md` | `f947f6c38ca175ad57978df8005f416a40759bb73ea8dabeeb0f719b26192df9` | 2248 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/GUARD_003_009.md` | `e3fc9681a134462c22a966b244142c1e04aa47df412ee1743aad252330e1628f` | 3864 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/LEM_003_010.md` | `2ee003b79cd2081f652c7b754b03b9a69c790d5a72cb5c9566a9489ee0af18da` | 8332 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/ROLEDEF_003_011.md` | `b9e28ad7572c0c566cb9c148aaad58a5b7b1099ca21808711784abe9957a3337` | 6458 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/THM_003_012.md` | `733056d708c837daf27f7ada3ce4e334739fcac113d7388306a1b53563237378` | 29190 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/THM_003_013.md` | `dd9a11249a1c51d8796cd64759fe5685093e19e5c3fd9749004610aada7a258f` | 16455 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/THM_003_017.md` | `117e8bd51317f339d492601f4c3ecd4ba7cc05067085f13a7c84c5b9bca662e1` | 11080 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/THM_003_018.md` | `847ba2ae4f754b1fc44d249e00b48512ea9486b5b0697f51762ba4bb07ca5142` | 12628 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC003/THM_003_022.md` | `1db09983dbe10a8c82e9de104d077be11c53d3f327c851e3e4ab38d8712ee9ac` | 3120 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/DEF_004_001.md` | `ed99b43ffb0d38d63808cf7591428c2ec0116e5bd63b9b60f7947a922be598c8` | 14071 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/DEF_004_002.md` | `3f66e2548f5779dff4d78f830c9aaaa0f1d250e32aebff489b73bf0666787f5f` | 4849 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/DEF_004_003.md` | `f5e7ff0608674bb54bb553769222640a7d05700f617e4613ce3481db7eed144f` | 5677 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/DEF_004_012.md` | `8917362f5a8c5c9c388f58fe5d091d91266d2e7277e71c4e420f3f0eb9481d78` | 10326 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/DEF_004_020.md` | `3eba1b929d9db8fcbe4721b528af05c5ee809bec32ca126afc73545c1eeb2eed` | 12524 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/GATE_004_031.md` | `0bc063800ef3d7d8d0d3aefe5dd080b9b8e43fcb71ce0637168d62314aca030e` | 5173 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/GUARD_004_004.md` | `ddca9e91a6c46de70344c0749d78e896bac512f42dbe1f36e5cf40590067aec0` | 3208 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/GUARD_004_014.md` | `6c5c712d1ddf14a612db0f1ce9aeb8ad2361512d98b879b54052002f308fc2ac` | 3235 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/GUARD_004_030.md` | `392fd59de689d5d4eb546af47c074b52f1843cd0e924bbd6e74cb4ecb1d3fa4e` | 2558 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/LEM_004_006.md` | `099d84a8caf4908ed92ff68142b34eb69ddac9580fec9ba0fb3207b8ca912d00` | 5995 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/LEM_004_008.md` | `af528df11e047825f3b24658e78546516b8991df36de4233fb7e55a19fde7afc` | 8980 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/LEM_004_025.md` | `1e3a86680a8ea9f4cbc338c37e291a21ccac62d43dc7f86ca275ede40f1026e5` | 3545 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/LEM_004_032.md` | `776100254b3fbe0ac17cc6e6c6ac52c31d67a12cb1f7414f9d688d2ec461e86d` | 5118 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_007.md` | `fd988f684f6aab8a393a5c894764d9e39efd598da4ae2b3127b5b091c16266cf` | 11119 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_010.md` | `d93e8165c01b4fcbfc942ce6ad7b6b64ca832ec4f124a4a02a9cc10e5967ef2b` | 7949 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_011.md` | `22bc7a37bcd93f84a34c640b7be5f2b09bde2ded56c1c8336dd91c165543e4eb` | 6733 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_018.md` | `6b8e73d4d582fcade83fc1710606cb896d9d3239ebc8723baea818a3ba27fe50` | 7753 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_019.md` | `88cb976c847e6e46df69f6753ab697cf30d2f34fe386522dfe87088649697717` | 21583 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_021.md` | `2272b999da71919aad7c6c3682ece14fe159a0601cf99619ca171a11471ca55b` | 21059 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_022.md` | `7844da5dbef46f7d53924d6ec2c3c1e0fd8f5f719fa01154a4b83834a3ac6c4c` | 11406 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC004/THM_004_027.md` | `1c75a2b20080f411d3f39ff213ab0548e397d1ee7d6622e65b6445bd18c6931f` | 7457 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_003.md` | `2f62334dda08d2aecc7c912f34d635b8a672b0112b4287a89e7ac994f0dfcf88` | 8596 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_004.md` | `017cb9d83663b627ed2e10181d77a22bf545c785c3802d052a398be7b1ba6a99` | 11260 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_005.md` | `c7aefa6582e613f0db3442edcb16fe2ce90688c851161b636690ee5c7622c3d8` | 13929 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_006.md` | `11300c8c41e732899669127d37b7abde70b3e59f8ae382d1e140a3343d635529` | 11790 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_007.md` | `f17c36e3ef6e0701fe38c7b971a258c3f23671c7a3f8343db3ed150ef3522c93` | 8563 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_011.md` | `2bcbeecfa3aab38fcd0548d86762222d26c8bd3c6ad001cd000f08a44602cf07` | 10087 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_012.md` | `20d8b863696ae914be8322f36e6b8773404e4c4378650312fa90cb2a350ec4ee` | 11340 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/DEF_005_024.md` | `4a6773aa8252609e83bd532615a1f730bb168953ae6df556c7c1672378e3c9b9` | 22052 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/GUARD_005_001.md` | `1cccddbced907d122ea813b6b4ee45f00fc1a47a1cbd34ed8ef65437e10014f7` | 6208 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/GUARD_005_008.md` | `dd87be37c37194e60422ec0f0e4e465858c2d8b16bd48f9a2b3e650cf45924dc` | 5410 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/LEM_005_013.md` | `abc0c5fd79cb637dbff7c2f43216639276266b949670dfc81ff5f4dcaa5acc52` | 7740 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/LEM_005_025.md` | `a96ec94299a123b3d4c165958729fc9bd801b41bc0153694e4fccbfd9b493bf5` | 35108 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/LEM_005_028.md` | `8397182762491e6f51b77717bc7061ec6d3f9b1146151bb6f1e5779e825d904f` | 9887 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/LEM_005_029.md` | `1d4fc7d0ddb561e8a1c00d17b3bf7d46343e2ff42cc09f04f38b5a57cca4c030` | 4561 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/ROLEDEF_005_018.md` | `7e090fdc9323bf0273130a029f9e522ce9c9a048205cc00688f321bf703d7618` | 17635 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_002.md` | `81a6621ec50d0a73734b06fab8c21c490e7f58c9a5d891f2908dc6878622ef43` | 13153 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_009.md` | `bea3b081c43a9cda578725184456a6089919f642d0ae2da48d75b6f8cfbc961f` | 20158 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_010.md` | `5ea0542dfa7baee1248ca6f9702f046a440d6198841f7d0f6ce10112ce14898e` | 17210 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_014.md` | `1de59f0d40f21884811cd9d5c264d504e1c46cb39a510b32ca1bc7923e89d99f` | 9351 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_015.md` | `7032711ec77fb66529f461b1354dcfc5c44a4d8d069ab880ae9fa4e2c529e808` | 9805 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_016.md` | `0c8273020fd37a6131fa2fbba2a7e6b1764b1dbd4fb3530bea40e238f202d0ed` | 8116 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_017.md` | `f4df378028d3d753f5261a6474721148a7257b7848d0405ba78973b58e6e3fdd` | 11138 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_019.md` | `2e27f802e920c21c3a4d573107a0e2d0861eabd3f2352b04a4dea69d695e6996` | 9655 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_020.md` | `42758deb294d238645a5484bb9d480c6c815ae8f7ebf4fddc0dc07f01f2e4c84` | 23571 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_021.md` | `ea22410ae834ef09be4fbf27465e11dd272dce7356d7645b116c5acd231f6c0b` | 16676 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_022.md` | `210e0ba942c6abcdb0cdfb23dfb1f0ad41be51efd9f48722eceadb5374efca5a` | 17988 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_023.md` | `b576e45c15a36e1fd4b3174c0fdfcf75fdde1271efe7f00baba2e005e583237c` | 15184 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC005/THM_005_026.md` | `dcb7d0294923975b30c6a5c96cfd3207fafb351b5cc76bb71431d242a042fae3` | 5013 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/BRIDGE_006_009.md` | `ed46ee0478a91f06fa16983bb88e8b3e74154e7cd7bc3524e29a44a7eb3f6542` | 19405 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/BRIDGE_006_013.md` | `1887f1bc06b94e1519f3ba59202898b66fd6eee85753f7abc8bce553bc3956ae` | 21754 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/DEF_006_002.md` | `28b21224f1fbc1b3b41881a99bc0bb529d6016805f39fae27577ff3e8b62a00f` | 14462 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/DEF_006_003.md` | `603209c0c8540e4f7fe71823658cc5337c631d24f0c74842b5b0447ded7154e2` | 22008 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/DEF_006_004.md` | `81c3d2c468bffba242d209fa258a8c73237ccc46df1ea04ab642d91cdfdcfa76` | 16598 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/DEF_006_005.md` | `461420e03d1099d8d30b244367b5124c6abd17c71aa641dff0262cfc67113e3d` | 17150 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/DEF_006_010.md` | `2b356fb96450871f6d194f07eee33fda209c72548053d4be8efda672eb3bc023` | 23273 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/GUARD_006_001.md` | `1bffd72db1ddd5acb3244a2385b446157d5f4bc19b22c68f5698e962a0b815e0` | 6712 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/GUARD_006_006.md` | `c0383db73597417e1f1cd2f6ea8fec2c83d37463043a4c432814387adb20ea34` | 7044 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/ROLEDEF_006_008.md` | `7d2c19f68938a7fd0331c7e4d772d2a3781f537177100bbb28c913b43dd2f767` | 13973 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/THM_006_007.md` | `60450ab9d5450d060248a22afd709de3391357b433584a11a3168e836cda0af5` | 19537 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/THM_006_011.md` | `7735cc7fd21e7bf38d6708f473a5dc6850e7777e7fad629c6bc26bc43748f6a8` | 17737 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC006/THM_006_012.md` | `d1da8179b5b2374d8b4dab2e45b5f1fe99db08c66944a9ef7c402a86e41da076` | 23042 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/DEF_007_001.md` | `110a2ba28bd1ed8c6faf19d363978fe3cf565d5ccffe61d733a23c82da720fb6` | 21604 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/DEF_007_002.md` | `dd4e66b31d094ce9a1233ac73ffd84c7c18b4c3671959a82ce85fbcf033a82dd` | 24846 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/DEF_007_009.md` | `7771f7261dc592ef72aa913ecc4f6d53127f426c5fc3b71696b8881a4e46e3de` | 24216 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/GATE_007_004.md` | `7fb84bcd93c915087bf05fd75c654a933b38fe34038601800cc9291469fa4066` | 24536 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/GATE_007_006.md` | `b9cc9a164a971d2a9cbd631f6423351c0e45b8233f8c551f9cc6770bc8fefbc6` | 21315 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/GATE_007_010.md` | `d3b89e082f07994e308a94de135a2cf2df36428b909a23a84807280740915bbb` | 19814 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/GATE_007_013.md` | `f12b59efc110b3d1da792ba15c2b8bccd7a5c3d641bcfdb06b11489215854303` | 7499 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/LEM_007_011.md` | `1952444029d715ac56b8599eaf727ed06afc3a5d05f6777e19f55b0715497482` | 25840 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/THM_007_003.md` | `2d9bdc418704810584959df936514ae34e0e6159ac6745fa0ad9d9962093fd74` | 30747 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/THM_007_005.md` | `eb495c402400d5de55b4d29d83ae61c169bc9380c7d00a51d04137e951c5d501` | 22646 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/THM_007_007.md` | `cc4c45dc34dd414bd62b2b0980f4589cea70edf2e1916a15323aa588a3e24e6d` | 23236 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/THM_007_008.md` | `4d4f8205163bcfcb58f1725fee33b60e7e6bc41ed8ed2d144cfef2c268b2d263` | 24712 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/THM_007_012.md` | `b6cde773de56ada3fcdc59d3a816a532b7e844899c3c6d3209798f85a94c98fa` | 45773 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC007/THM_007_014.md` | `28db8c7976e920732f267fb8b9e946629742d510cc209db303ed6f7230bd7a30` | 27469 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/BRIDGE_008_009.md` | `0e85a1577a18fc2e0201e21305e8e7d6a812b9a100918ff8576665eeec29efb1` | 32644 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/BRIDGE_008_010.md` | `ddf34f2f5c8882f1c151cb949087eb1c507259ed378cdefc081758397da94795` | 42116 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/DEF_008_002.md` | `4790e0a1f9e3daf9d29be2c4daf009ab0b06cb6ee6e9ab611ad0399bc87c3220` | 25342 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/DEF_008_003.md` | `3384deae7a98b7f9478fa6fcb7d23d0ae6a9cd114551c8392f96a3e307bbec41` | 22858 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/DEF_008_006.md` | `b4d470b662e02ce898922b8121f769e19674bc0cc707447471c72ce56db6c9f0` | 25698 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/DEF_008_008.md` | `69e1ef33bfcd07b44d39fa97f17bebf6fbd5c40c7644fc6b58e57ab324c31bdf` | 33822 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/GATE_008_001.md` | `a67e69edcda0f4dbf3b243789163c7131278705fa9dee270596f333ff91a469b` | 23356 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/GATE_008_005.md` | `1fe2288abed55fa4c1ae4d2110942e2b391d2d2071704a89bc599d6a000f7dcd` | 23185 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/GATE_008_007.md` | `14324167734edc38cbdf85ee105b3fe09cf43f9aedfe0de2a304b1ae5757e086` | 35563 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/GATE_008_011.md` | `6f4d7b9e8c07afbf2dff095862adec6e35c483384138d9396d8917e412f5b504` | 29774 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/GATE_008_012.md` | `ab2f500eb5f1ea6c2e94ce4a9a93c1cec7f0e61c6d3c4c4d22762aba112e9339` | 6531 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/GATE_008_013.md` | `48915f3fd4eb7de24916e9bbc47ca0f88cce5c45d877374d31019b3a0a826264` | 6250 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/ROLEDEF_008_004.md` | `cdb4c499d9fde056d7ad8d1c97242921168f1e85854d3800edd0ef92d80b03d7` | 31704 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC008/ROLEDEF_008_014.md` | `35cb16ea3102453a52c3630eafd94d8601fd6524d658a5678de04404b04aa5f1` | 29138 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC009/DEF_009_002.md` | `8dfdfdd489a11beeed9e693bddfd10993788b2b87203aef9933d76e6d6e76239` | 8614 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC009/GATE_009_001.md` | `9fbe62ffbc3a74596cb37675b5f3b4395c9e6db1a39ab2d7e3fdf3ccf22e84ec` | 20874 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC009/GATE_009_003.md` | `ddabf47ecd3a8931b36f57dd395b8833fa6caf510f0bde797942791af65a1317` | 11694 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC009/LEM_009_005.md` | `522f48c1a331d7ef6d80887fe5824bb356c0b65fcee98d5625705050fd246062` | 7925 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC010/LEM_010_011.md` | `7791e113fb6122465472131f6b7a82d8bcb32a75d91058b2c589e22e73426d85` | 24915 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC010/THM_010_010.md` | `3e0bd16a5b3cd5b0584fa5eef77f3e0d11c11132c778162e94a8b73916a39a84` | 31529 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC010/THM_010_013.md` | `aed58f8cc613c55006caad61b2e945d090987835d7aac4b4ce4dc22ebc64088c` | 27073 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC011/DEF_011_001.md` | `11ed3be495dd522246b6afd7bfad7ba5431b7671b5789cbbe40d60a873ddec66` | 24229 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC011/LEM_011_003.md` | `7e0b5b8a669038dc7e070c209f978afe15376c0b8df3c51b2ce7187373ad059f` | 28171 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC013/THM_013_003.md` | `2716b399bfb66290b7d0c36a9b161af978f8e282a9ec27157452630024a5d247` | 18589 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC014/THM_014_004.md` | `a5afadc5866fe900bf49e89983e531e4e3e9a585a68d95b3755dd7b762370814` | 10236 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/BRIDGE_016_007.md` | `b786d14e597275e66675587a0bf88a24d5e25f7c64e108ef234d269f2955345e` | 13003 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/BRIDGE_016_008.md` | `68fed6fd1d6cef5485ba9a75ab7dc75d23dfd1d305cd70bd83e7a34127916c41` | 7261 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/LEM_016_006.md` | `3eac8f211ce5b7e809b8f5a993f73e961371e1fd0a50e6eb701e998c5462e57c` | 5623 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/ROLEDEF_016_004.md` | `f8fe2b38741033c7a604942bd5e7f88d295526c7aa3d41f0bf2e5b036724cb01` | 3974 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/THM_016_001.md` | `f88f52752e78c7ed41a00e8fa425a8e5ca1f90ab3738db17511f47de5da46923` | 18928 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/THM_016_003.md` | `e5a3643121ca6b55565da02ce5d00835bd165c9ee5b05c4d23db8d4501a3dfde` | 11312 |
+| `Observer-Rooted-Asymmetry-referenced-EQ-cards/cards/SEC016/THM_016_009.md` | `7e9567fa863515f1d99925c54b9ba85fc11b3aaf02a72a3d131d71c4f6350a0f` | 7051 |

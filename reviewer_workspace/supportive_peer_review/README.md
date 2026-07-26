@@ -33,8 +33,8 @@ If a required source is not present inside this folder, it is reported as unavai
 | Phase | Description | Status |
 |---|---|---|
 | 1 | Establish quarantine | **COMPLETE** |
-| 2 | Intake (manuscript + EQ-card ZIP, hash, inventory) | **AWAITING UPLOAD** |
-| 3 | First uninterrupted manuscript reading | Pending |
+| 2 | Intake (manuscript + EQ-card ZIP, hash, inventory) | **COMPLETE** |
+| 3 | First uninterrupted manuscript reading | In progress |
 | 4 | EQ-card reading and indexing | Pending |
 | 5 | Dependency and claim-status mapping | Pending |
 | 6 | Symbol and terminology audit | Pending |
