@@ -17,5 +17,6 @@ Running inventory of every file the reviewer creates. All paths are relative to 
 | File | Purpose | Amendment | Phase |
 |---|---|---|---|
 | `reports/INTERNAL_LANGUAGE_LEAKAGE_AUDIT.md` | Sweep of manuscript and public EQ cards for internal workflow, tooling, repository, or process vocabulary; hits classified Level 1–4 with smallest sufficient repairs | Scope amendment #1 (author-approved, 2026-07-26; see README) | Phase 8 |
+| `reports/PAPER_SELF_CONTAINMENT_AUDIT.md` | Per-reference audit of every manuscript→EQ-card reference under the reader-continuity test (cards assumed absent during first reading); each reference classified PASS / OPTIONAL IMPROVEMENT / REQUIRED MANUSCRIPT ADDITION; ends with a self-containment certification | Scope amendment #2 (author-directed, 2026-07-26; see README) | Phases 3, 7, 8 (reading discipline); report finalized Phase 8 |
 
 This inventory is updated every time a new file is created and finalized at quarantine validation (Phase 11).
